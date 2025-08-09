@@ -1,0 +1,14 @@
+{
+  "suit": "tgheroes:thing",
+  "requirements": [
+    "fiskheroes:tier6_7",
+	  "tgheroes:tgheroes",
+	  "tgheroes:cosmic_radiation",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged2",
+    "fiskheroes:traversal2"
+
+
+  ]
+}

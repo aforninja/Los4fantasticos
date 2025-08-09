@@ -1,0 +1,16 @@
+{
+  "suit": "tgheroes:apocalypse",
+  "requirements": [
+    "fiskheroes:tier8_9",
+    "fiskheroes:defense3",
+    "fiskheroes:melee3",
+    "fiskheroes:ranged3",
+	"tgheroes:tgheroes",
+    "fiskheroes:teleportation",
+	"fiskheroes:regeneration2",
+	"fiskheroes:object_manipulation",
+	"fiskheroes:flight",
+	"tgheroes:xgene",
+	"fiskheroes:size_manipulation"
+  ]
+}

@@ -1,0 +1,96 @@
+{no_more_mutants_time}={data}
+{no_more_mutants_0}=curve animate2({no_more_mutants_time},0.76,0,0.7058823529,0.0541176471)
+{no_more_mutants_1}=curve animate2({no_more_mutants_time},41.7941176471,0.7058823529411765,0.0541176471,41.74)
+{no_more_mutants_2}=curve animate2({no_more_mutants_time},42.5,0,0.2352941176,42.2647058824)
+{no_more_mutants_3}=curve animate2({no_more_mutants_time},0.6470588235,0,0.2352941176,0.4117647059)
+{no_more_mutants_4}=curve animate2({no_more_mutants_time},0.5058823529,0.23529411764705882,0.4117647059,0.0941176471)
+{no_more_mutants_5}=curve animate2({no_more_mutants_time},0.1176470588,0.6470588235294118,0.0941176471,0.0235294118)
+{no_more_mutants_6}=curve animate2({no_more_mutants_time},0.0847058824,0.7411764705882353,0.0235294118,0.0611764706)
+{no_more_mutants_7}=curve animate2({no_more_mutants_time},0.1764705882,0.7647058823529411,0.0611764706,0.1152941176)
+{no_more_mutants_8}=curve animate2({no_more_mutants_time},41.6741176471,0.8258823529411764,0.1152941176,41.5588235294)
+{no_more_mutants_9}=curve animate2({no_more_mutants_time},0.7623529412,0,0.2352941176,0.5270588235)
+{no_more_mutants_10}=curve animate2({no_more_mutants_time},0.5882352941,0.23529411764705882,0.5270588235,0.0611764706)
+{no_more_mutants_11}=curve animate2({no_more_mutants_time},0.2376470588,0.7623529411764707,0.0611764706,0.1764705882)
+{no_more_mutants_12}=curve animate2({no_more_mutants_time},42.3847058824,0.11529411764705882,0.12,42.2647058824)
+{no_more_mutants_13}=curve animate2({no_more_mutants_time},0.4705882353,0.23529411764705882,0.0588235294,0.4117647059)
+{no_more_mutants_14}=curve animate2({no_more_mutants_time},42.2058823529,0.29411764705882354,0.4117647059,41.7941176471)
+{no_more_mutants_15}=curve animate2({no_more_mutants_time},0.4423529412,0.29411764705882354,0.4117647059,0.0305882353)
+{no_more_mutants_16}=curve animate2({no_more_mutants_time},41.7635294118,0.7364705882352941,0.0235294118,41.74)
+
+{head_rotX}+=26'{no_more_mutants_0}
+{head_rotX}+=-6.75'{no_more_mutants_1}
+
+{rightArm_rotX}+=-34.4376369188'{no_more_mutants_2}
+{rightArm_rotY}+=39.0628194976'{no_more_mutants_2}
+{rightArm_rotZ}+=-10.5493246184'{no_more_mutants_2}
+
+{leftArm_rotX}+=-37.4524508698'{no_more_mutants_3}
+{leftArm_rotY}+=-40.9641291324'{no_more_mutants_3}
+{leftArm_rotZ}+=15.6213968899'{no_more_mutants_3}
+{leftArm_rotX}+=-37.4524508698'{no_more_mutants_4}
+{leftArm_rotY}+=-40.9641291324'{no_more_mutants_4}
+{leftArm_rotZ}+=15.6213968899'{no_more_mutants_4}
+{leftArm_rotX}+=-73.9708472902'{no_more_mutants_5}
+{leftArm_rotY}+=46.2461339148'{no_more_mutants_5}
+{leftArm_rotZ}+=1.1422689908'{no_more_mutants_5}
+{leftArm_rotX}+=-61.3729908479'{no_more_mutants_6}
+{leftArm_rotY}+=-66.5110138355'{no_more_mutants_6}
+{leftArm_rotZ}+=-37.1738471444'{no_more_mutants_6}
+{leftArm_rotX}+=-61.3729908479'{no_more_mutants_7}
+{leftArm_rotY}+=-66.5110138355'{no_more_mutants_7}
+{leftArm_rotZ}+=-37.1738471444'{no_more_mutants_7}
+{leftArm_rotX}+=-34.5464299244'{no_more_mutants_8}
+{leftArm_rotY}+=3.0834036695'{no_more_mutants_8}
+{leftArm_rotZ}+=-15.8207696088'{no_more_mutants_8}
+
+{rightLeg_rotX}+=-34.6070508694'{no_more_mutants_9}
+{rightLeg_rotY}+=-16.2224259481'{no_more_mutants_9}
+{rightLeg_rotZ}+=-77.6552678626'{no_more_mutants_9}
+
+{rightLeg_rotX}+=-34.6070508694'{no_more_mutants_10}
+{rightLeg_rotY}+=-16.2224259481'{no_more_mutants_10}
+{rightLeg_rotZ}+=-77.6552678626'{no_more_mutants_10}
+
+{rightLeg_rotX}+=-34.6070508694'{no_more_mutants_11}
+{rightLeg_rotY}+=-16.2224259481'{no_more_mutants_11}
+{rightLeg_rotZ}+=-77.6552678626'{no_more_mutants_11}
+
+
+
+{rightLeg_posX}+=-1.75{no_more_mutants_9}
+{rightLeg_posY}+=1.75{no_more_mutants_9}
+
+
+{rightLeg_posX}+=-1.75{no_more_mutants_10}
+{rightLeg_posY}+=1.75{no_more_mutants_10}
+
+{rightLeg_posX}+=-1.75{no_more_mutants_11}
+{rightLeg_posY}+=1.75{no_more_mutants_11}
+
+
+
+{leftLeg_rotX}+=-19.8456053722'{no_more_mutants_9}
+{leftLeg_rotY}+=15.5089571006'{no_more_mutants_9}
+{leftLeg_rotZ}+=68.3987092687'{no_more_mutants_9}
+
+{leftLeg_rotX}+=-19.8456053722'{no_more_mutants_10}
+{leftLeg_rotY}+=15.5089571006'{no_more_mutants_10}
+{leftLeg_rotZ}+=68.3987092687'{no_more_mutants_10}
+
+{leftLeg_rotX}+=-19.8456053722'{no_more_mutants_11}
+{leftLeg_rotY}+=15.5089571006'{no_more_mutants_11}
+{leftLeg_rotZ}+=68.3987092687'{no_more_mutants_11}
+
+
+
+{leftLeg_posX}+=2.25{no_more_mutants_9}
+{leftLeg_posZ}+=-1.75{no_more_mutants_9}
+
+{leftLeg_posX}+=2.25{no_more_mutants_10}
+{leftLeg_posZ}+=-1.75{no_more_mutants_10}
+
+{leftLeg_posX}+=2.25{no_more_mutants_11}
+{leftLeg_posZ}+=-1.75{no_more_mutants_11}
+
+
+

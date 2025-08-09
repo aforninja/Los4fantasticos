@@ -1,0 +1,13 @@
+{
+  "suit": "tgheroes:quicksilver",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"tgheroes:tgheroes",
+    "fiskheroes:traversal2",
+	"fiskheroes:defense",
+	"fiskheroes:regeneration2",
+
+    "fiskheroes:melee",
+	"tgheroes:xgene"
+  ]
+}

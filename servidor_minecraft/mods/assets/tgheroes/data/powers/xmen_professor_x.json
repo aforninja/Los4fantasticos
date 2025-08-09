@@ -1,0 +1,165 @@
+{
+  "name": "Professor X Powers",
+  "modifiers": {
+	"fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 3.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 80,
+                  "amplifier": 4,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:slowness",
+                  "duration": 80,
+                  "amplifier": 10,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:jump_boost",
+                  "duration": 80,
+                  "amplifier": -10,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 250,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:psionic_proj"
+      }
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 160,
+                  "amplifier": 3,
+                  "chance": 1
+                },
+                {
+                  "id": "minecraft:weakness",
+                  "duration": 200,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:blindness",
+                  "duration": 120,
+                  "amplifier": 1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 250,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:psionic_beam"
+      }
+    },
+    "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 1.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 160,
+                  "amplifier": 3,
+                  "chance": 1
+                },
+                {
+                  "id": "minecraft:weakness",
+                  "duration": 200,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:blindness",
+                  "duration": 120,
+                  "amplifier": 1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 160,
+      "soundEvents": {
+        "SHOOT": "tgheroes:psionic_blast"
+      }
+    },
+    "fiskheroes:shield": {
+      "shield": {
+        "health": 70.0,
+        "regeneration": 10.0,
+        "recoveryDelay": 100,
+        "cooldown": 300
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+    "fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": true,
+        "crushThrowables": true,
+        "squeezeChickens": true,
+        "explodeCreepers": true,
+        "destroyInanimates": true
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": true,
+        "inanimates": true
+      },
+      "range": 48.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:telekinesis_start", "fiskheroes:telekinesis_loop"]
+      }
+    }
+  },
+	"hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_emma.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

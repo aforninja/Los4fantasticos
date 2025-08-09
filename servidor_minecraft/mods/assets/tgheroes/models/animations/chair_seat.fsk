@@ -1,0 +1,15 @@
+
+{body_rotX} = 0
+{body_rotY} = 0
+{body_rotZ} = 0
+
+{leftLeg_rotX} = -1.25
+{leftLeg_rotY} = 0
+{leftLeg_rotZ} = 0
+
+
+{rightLeg_rotX} = -1.25
+{rightLeg_rotY} = 0
+{rightLeg_rotZ} = 0
+
+

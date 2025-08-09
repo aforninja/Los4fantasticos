@@ -1,0 +1,8 @@
+{
+  "name": "Shurayuki",
+  "permission": "MEELE_WEAPONS",
+  "holdingPose": "SINGLE",
+  "melee": {
+    "attackDamage": 7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Gambit's Staff",
+  "permission": "MEELE_WEAPONS",
+  "holdingPose": "SINGLE",
+  "melee": {
+    "attackDamage": 6
+  }
+}

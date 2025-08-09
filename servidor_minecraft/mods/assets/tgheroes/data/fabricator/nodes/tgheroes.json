@@ -1,0 +1,11 @@
+{
+  "display": {
+    "name": "TG Heroes Heropack",
+    "description": "Thank you for downloading TG Heroes Heropack!",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/tg_node.png"
+    }
+  },
+  "autoUnlock": true,
+  "requirements": [ ]
+}

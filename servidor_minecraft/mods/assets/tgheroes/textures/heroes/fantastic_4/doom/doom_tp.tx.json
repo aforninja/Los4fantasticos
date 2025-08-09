@@ -1,0 +1,22 @@
+{
+    "texture": {
+      "in": "tgheroes:fantastic_4/doom/doctor_doom",
+      "transform": [
+        {
+          "operation": "XOR",
+          "supply": "tgheroes:fantastic_4/doom/xor_tp/tp_<TIMER>"
+        }
+      ],
+      "out": "fiskheroes:generated/doctor_doom_<TIMER>"
+    },
+    "getters": {
+      "TIMER": {
+        "key": "Math.ceil(32 * entity.getInterpolatedData('tgheroes:dyn/teleport')) | 0",
+        "values": {
+          "min": 1,
+          "max": 32
+        }
+      }
+    },
+    "isDynamic": true
+  }

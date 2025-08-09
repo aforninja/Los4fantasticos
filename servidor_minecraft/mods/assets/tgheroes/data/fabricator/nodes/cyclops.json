@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:cyclops",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+    "fiskheroes:defense",
+    "fiskheroes:ranged3",
+	"fiskheroes:melee",
+	"tgheroes:xgene"
+  ]
+}

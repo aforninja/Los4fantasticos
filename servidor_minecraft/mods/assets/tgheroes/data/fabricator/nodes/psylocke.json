@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:psylocke",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+	"fiskheroes:defense2",
+	"fiskheroes:ranged",
+    "fiskheroes:melee2",
+    "fiskheroes:object_manipulation",
+	"tgheroes:xgene"
+  ]
+}

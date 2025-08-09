@@ -1,0 +1,9 @@
+{
+  "suit": "tgheroes:jugger",
+  "requirements": [
+    "fiskheroes:tier8_9",
+	"tgheroes:tgheroes",
+    "fiskheroes:melee3",
+	"fiskheroes:defense2"
+  ]
+}

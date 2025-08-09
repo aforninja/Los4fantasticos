@@ -1,0 +1,85 @@
+{
+  "name": "Weapon X",
+  "modifiers": {
+  "fiskheroes:transformation|wall": {
+      "key": "WALL",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/wall_climb",
+        "timerData": "tgheroes:dyn/wall_timer",
+        "time": 5
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/berserk_timer') > 0",
+        "cooldownData": "tgheroes:dyn/berserk_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:wolverine_berserk"
+      }
+    }, 
+	  "fiskheroes:slow_motion": {
+      "isToggle": true
+    },
+	  "fiskheroes:controlled_flight": {
+      "speed": 0.04,
+      "boostSpeed": 0.04,
+      "canBoost": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": false
+        }
+      },
+      "knockback": 0.0
+    },
+	  "fiskheroes:damage_resistance": {
+      "damageType": "TELEPATIC",
+	  "factor": 1.0
+    },
+	  "fiskheroes:healing_factor": {
+      "delay": 60,
+      "soundEvents": {
+        "HEAL": "fiskheroes:healing_factor"
+      }
+    },
+    "fiskheroes:blade": {
+      "soundEvents": {
+        "ENABLE": "fiskheroes:manta_blade_enable",
+        "DISABLE": "fiskheroes:manta_blade_disable"
+      }
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither", "minecraft:mining_fatigue", "minecraft:hunger"]
+    },
+    "fiskheroes:leaping": {
+      "leapAmount": [1.3, 0.1]
+    },
+    "fiskheroes:regeneration": {
+      "factor": 5
+    }
+  },
+  "hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/wall_clinb.png",
+      "data": "tgheroes:dyn/wall_timer"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/berserker_mode_full.png",
+      "data": "tgheroes:dyn/berserk_timer"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/berserker_mode.png",
+      "data": "tgheroes:dyn/berserk_cooldown"
+    }
+  ]
+}

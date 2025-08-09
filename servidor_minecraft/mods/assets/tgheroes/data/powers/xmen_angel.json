@@ -1,0 +1,74 @@
+{
+  "name": "Angel Powers",
+  "modifiers": {
+	   "fiskheroes:transformation": {
+      "key": "ARCHANGEL",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/archangel",
+        "timerData": "tgheroes:dyn/archangel_timer",
+        "time": 15
+      }
+    },
+	
+	"fiskheroes:repulsor_blast|ang_1": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "ENERGY": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:regeneration",
+                  "duration": 200,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:instant_health",
+                  "duration": 1,
+                  "amplifier": 1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	  
+	  
+	"fiskheroes:controlled_flight|ang_3": {
+      "speed": 0.1,
+      "boostSpeed": 0.15,
+      "canBoost": true,
+	  "barrelRoll": {
+        "duration": 14,
+        "speed": 0.12,
+        "drag": 0.03
+      },
+      "diveSpeedRetention": 0.5,
+      "collision": {
+        "blocks": {
+          "stopFlying": true,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop", "tgheroes:flap_wings"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    }
+  }
+}

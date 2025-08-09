@@ -1,0 +1,123 @@
+{attack_time}={data}
+{attack_0}=curve animate2({attack_time},0.3,0,0,0.3)
+{attack_1}=curve animate2({attack_time},0.5,0,0.3,0.2)
+{attack_2}=curve animate2({attack_time},0.7,0.3,0.2,0.5)
+{attack_3}=curve animate2({attack_time},0.46,0.3,0.2,0.26)
+{attack_4}=curve animate2({attack_time},0.5,0.5,0.26,0.24)
+
+{body_rotX} @ {data} -> 0
+{body_rotY} @ {data} -> 0
+{body_rotZ} @ {data} -> 0
+
+{rightArm_rotX} @ {data} -> 0
+{rightArm_rotY} @ {data} -> 0
+{rightArm_rotZ} @ {data} -> 0
+{leftArm_rotX} @ {data} -> 0
+{leftArm_rotY} @ {data} -> 0
+{leftArm_rotZ} @ {data} -> 0
+
+{rightLeg_rotX} @ {data} -> 0
+{rightLeg_rotY} @ {data} -> 0
+{rightLeg_rotZ} @ {data} -> 0
+{leftLeg_rotX} @ {data} -> 0
+{leftLeg_rotY} @ {data} -> 0
+{leftLeg_rotZ} @ {data} -> 0
+
+{head_rotX}+=17.75'{attack_0}
+{head_rotX}+=17.75'{attack_1}
+{head_rotX}+=17.75'{attack_2}
+{head_posY}+=3.05{attack_0}
+{head_posZ}+=-6.15{attack_0}
+{head_posY}+=3.05{attack_1}
+{head_posZ}+=-6.15{attack_1}
+{head_posY}+=3.05{attack_2}
+{head_posZ}+=-6.15{attack_2}
+
+{body_rotX}+=35.5'{attack_0}
+{body_rotX}+=35.5'{attack_1}
+{body_rotX}+=35.5'{attack_2}
+{body_posY}+=3.32{attack_0}
+{body_posZ}+=-5.75{attack_0}
+{body_posY}+=3.32{attack_1}
+{body_posZ}+=-5.75{attack_1}
+{body_posY}+=3.32{attack_2}
+{body_posZ}+=-5.75{attack_2}
+
+{rightArm_rotX}+=-73.7775537676'{attack_0}
+{rightArm_rotY}+=15.1902622786'{attack_0}
+{rightArm_rotZ}+=74.1484484824'{attack_0}
+{rightArm_rotX}+=-4.97873617'{attack_1}
+{rightArm_rotY}+=55.7460040839'{attack_1}
+{rightArm_rotZ}+=97.1337169073'{attack_1}
+{rightArm_rotX}+=-52.4264496343'{attack_3}
+{rightArm_rotY}+=-46.4735558348'{attack_3}
+{rightArm_rotZ}+=-28.8395274371'{attack_3}
+{rightArm_rotX}+=-15.5580222409'{attack_4}
+{rightArm_rotY}+=35.5064231488'{attack_4}
+{rightArm_rotZ}+=83.1356784225'{attack_4}
+{rightArm_posX}+=-0.182233047{attack_0}
+{rightArm_posY}+=3.903489875{attack_0}
+{rightArm_posZ}+=-4.681344541{attack_0}
+{rightArm_posX}+=-0.182233047{attack_1}
+{rightArm_posY}+=3.903489875{attack_1}
+{rightArm_posZ}+=-4.756344541{attack_1}
+{rightArm_posX}+=-0.182233047{attack_2}
+{rightArm_posY}+=3.903489875{attack_2}
+{rightArm_posZ}+=-4.756344541{attack_2}
+
+{leftArm_rotX}+=-77.4374545812'{attack_0}
+{leftArm_rotY}+=-16.8594633602'{attack_0}
+{leftArm_rotZ}+=-72.3316354057'{attack_0}
+{leftArm_rotX}+=-3.7531831794'{attack_1}
+{leftArm_rotY}+=-55.8489043998'{attack_1}
+{leftArm_rotZ}+=-102.1018045984'{attack_1}
+{leftArm_rotX}+=-20.5139760331'{attack_3}
+{leftArm_rotY}+=48.1357090106'{attack_3}
+{leftArm_rotZ}+=37.8175497155'{attack_3}
+{leftArm_rotX}+=-30.396783006'{attack_4}
+{leftArm_rotY}+=-28.9609656415'{attack_4}
+{leftArm_rotZ}+=-77.1327585814'{attack_4}
+{leftArm_posX}+=0.3893932372{attack_0}
+{leftArm_posY}+=4.367785741{attack_0}
+{leftArm_posZ}+=-4.8204195728{attack_0}
+{leftArm_posX}+=0.3893932372{attack_1}
+{leftArm_posY}+=3.717785741{attack_1}
+{leftArm_posZ}+=-4.1454195728{attack_1}
+{leftArm_posX}+=0.3893932372{attack_2}
+{leftArm_posY}+=3.717785741{attack_2}
+{leftArm_posZ}+=-4.1454195728{attack_2}
+
+{rightLeg_rotX}+=47.1181903826'{attack_0}
+{rightLeg_rotY}+=-4.0359107177'{attack_0}
+{rightLeg_rotZ}+=3.7395946792'{attack_0}
+{rightLeg_rotX}+=47.1181903826'{attack_1}
+{rightLeg_rotY}+=-4.0359107177'{attack_1}
+{rightLeg_rotZ}+=3.7395946792'{attack_1}
+{rightLeg_rotX}+=47.1181903826'{attack_2}
+{rightLeg_rotY}+=-4.0359107177'{attack_2}
+{rightLeg_rotZ}+=3.7395946792'{attack_2}
+{rightLeg_posX}+=-0.05{attack_0}
+{rightLeg_posY}+=-0.275{attack_0}
+{rightLeg_posZ}+=-4.9{attack_0}
+{rightLeg_posX}+=-0.05{attack_1}
+{rightLeg_posY}+=-0.275{attack_1}
+{rightLeg_posZ}+=-4.9{attack_1}
+{rightLeg_posX}+=-0.05{attack_2}
+{rightLeg_posY}+=-0.275{attack_2}
+{rightLeg_posZ}+=-4.9{attack_2}
+
+{leftLeg_rotX}+=62.9891862036'{attack_0}
+{leftLeg_rotY}+=1.559211435'{attack_0}
+{leftLeg_rotZ}+=-0.7946795606'{attack_0}
+{leftLeg_rotX}+=62.9891862036'{attack_1}
+{leftLeg_rotY}+=1.559211435'{attack_1}
+{leftLeg_rotZ}+=-0.7946795606'{attack_1}
+{leftLeg_rotX}+=62.9891862036'{attack_2}
+{leftLeg_rotY}+=1.559211435'{attack_2}
+{leftLeg_rotZ}+=-0.7946795606'{attack_2}
+{leftLeg_posX}+=0.1{attack_0}
+{leftLeg_posZ}+=-1.275{attack_0}
+{leftLeg_posX}+=0.1{attack_1}
+{leftLeg_posZ}+=-4.025{attack_1}
+{leftLeg_posX}+=0.1{attack_2}
+{leftLeg_posZ}+=-4.025{attack_2}

@@ -1,0 +1,23 @@
+
+
+{data} = curve {data}
+{limbSwingAmount} *= {data}
+{leg_r_rotX}-=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+
+
+{leg_r2_rotY}+=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+
+
+{leg_r3_rotY}-=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+{leg_r3_rotX}-=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+
+
+
+{leg_l_rotX}+=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+
+
+{leg_l2_rotY}-=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+
+
+{leg_l3_rotY}+=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)
+{leg_l3_rotX}+=0.3{limbSwingAmount}cos(0.6662{limbSwing} - 0.4)

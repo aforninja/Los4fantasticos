@@ -1,0 +1,22 @@
+{
+  "texture": {
+    "in": "tgheroes:x_men/iceman/human_form",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "tgheroes:x_men/iceman/xor_human/human_<TIMER>"
+      }
+    ],
+    "out": "tgheroes:generated/ice_form_<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "Math.ceil(25 * entity.getInterpolatedData('tgheroes:dyn/ice_timer')) | 0",
+      "values": {
+        "min": 1,
+        "max": 25
+      }
+    }
+  },
+  "isDynamic": true
+}

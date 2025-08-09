@@ -1,0 +1,9 @@
+{data} = curve {data}
+{Wing1_rotZ} += 2{data}
+{Wing2_rotZ} += 2{data}
+{Wing3_rotZ} += 0.5{data}
+{Wing4_rotZ} += 0.5{data}
+
+
+
+

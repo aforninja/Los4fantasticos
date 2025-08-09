@@ -1,0 +1,21 @@
+{leftArm_rotZ}=0
+{leftArm_rotY}=0
+{leftArm_rotX}=0
+
+{visor_time}={data}
+{visor_0}=curve animate2({visor_time},0.25,0,0.125,0.125)
+{visor_1}=curve animate2({visor_time},0.875,0.125,0.125,0.75)
+{visor_2}=curve animate2({visor_time},19.75,0.25,0.75,19)
+
+
+{leftArm_rotX}+=-146.75'{visor_0}
+{leftArm_rotX}+=-163.25'{visor_1}
+{leftArm_rotX}+=-163.25'{visor_2}
+
+{leftArm_posY}+=2{visor_0}
+{leftArm_posZ}+=1.5{visor_0}
+{leftArm_posY}+=2{visor_1}
+{leftArm_posY}+=2{visor_2}
+
+{mask_rotX}+=-30'{visor_1}
+{mask_rotX}+=-30'{visor_2}

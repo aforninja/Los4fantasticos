@@ -1,0 +1,12 @@
+{
+  "parent": "fiskheroes:lightning_zoom",
+  "flicker": {
+    "color": "0x8ED6EE",
+    "density": 32,
+    "frequency": 1.0,
+    "length": 1.0,
+    "spread": 1.0,
+    "opacity": 1.0,
+    "confined": true
+  }
+}

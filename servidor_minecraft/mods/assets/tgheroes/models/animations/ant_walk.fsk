@@ -1,0 +1,40 @@
+{data} = curve {data}
+
+
+{athony_rotX}+=-22.5'{data_0}
+
+{head_rotX}+=22.5'{data_0}
+
+{back_rotX}+=15'{data_0}
+
+
+
+;legs fly
+{leg_r_rotX}+=sin(2pi{data_1})*27.5'
+
+
+{leg_r2_rotX}-=sin(2pi{data_1})*27.5'
+
+
+{leg_r3_rotX}+=sin(2pi{data_1})*15'
+
+
+
+{leg_l_rotX}-=sin(2pi{data_1})*27.5'
+
+
+{leg_l2_rotX}+=sin(2pi{data_1})*27.5'
+
+
+{leg_l3_rotX}-=sin(2pi{data_1})*15'
+
+
+
+
+;wings walk
+
+{l_wings_rotX}-=45'{data_2}
+{r_wings_rotX}-=45'{data_2}
+
+{small_r_wing_rotX}-=29'{data_2}
+{small_l_wing_rotX}-=29'{data_2}

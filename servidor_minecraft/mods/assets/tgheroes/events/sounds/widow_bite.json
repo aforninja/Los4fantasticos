@@ -1,0 +1,6 @@
+{
+  "parent": "fiskheroes:sound_base",
+  "sound": "tgheroes:widow_bite",
+  "volume": 0.8,
+  "pitch": "1.2 - Math.random() * 0.3"
+}

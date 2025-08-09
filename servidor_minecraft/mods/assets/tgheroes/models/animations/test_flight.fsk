@@ -1,0 +1,5 @@
+
+{rightLeg_rotZ} -= 15
+
+{leftLeg_rotZ} += 15
+

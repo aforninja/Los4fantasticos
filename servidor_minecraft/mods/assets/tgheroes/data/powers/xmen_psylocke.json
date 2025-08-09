@@ -1,0 +1,82 @@
+{
+  "name": "Psylocke Powers",
+  "modifiers": {
+    "fiskheroes:cooldown|sound": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/psy_timer') > 0",
+        "cooldownData": "tgheroes:dyn/psy_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:psy_dancing"
+      }
+    }, 
+  "fiskheroes:transformation": {
+      "key": "DASH",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "timerData": "tgheroes:dyn/dodge_timer",
+        "time": 1
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:psy_dash"
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "cooldownData": "tgheroes:dyn/dodge_cooldown",
+        "duration": 5,
+        "recovery": 1.0
+      }
+    },
+"fiskheroes:invisibility": {
+    },
+    "fiskheroes:transformation|invis": {
+      "key": "INVIS",
+      "transformation": {
+      "toggleData": "tgheroes:dyn/invis",
+      "timerData": "tgheroes:dyn/invis_timer",
+      "time": 5
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:psy_invis",
+        "DISABLE": "tgheroes:psy_invis"
+      }
+    },
+"fiskheroes:damage_immunity": {
+      "damageType": "TELEPATIC"
+    },
+	"fiskheroes:repulsor_blast": {
+	"damageProfile": {
+		"damage": 6.0,
+		"types": {
+		"ENERGY": 1.0
+		},
+	"properties": {
+		"ADD_KNOCKBACK": 1.0,
+		"HIT_COOLDOWN": 0.0
+		}
+	},
+		"range": 48.0,
+		"speed": 20.0,
+		"spread": 0.0,
+		"radius": 0.1,
+		"cooldownTime": 20,
+    "soundEvents": {
+        "SHOOT": "tgheroes:psu_aim_shoot"
+      }
+	},
+    "fiskheroes:leaping": {
+      "leapAmount": [0.9, 0.1]
+    }
+  },
+  "hud": [
+  {
+    "type": "CHARGE",
+    "texture": "tgheroes:textures/gui/bars/psy_dance.png",
+    "data": "entity.getInterpolatedData('tgheroes:dyn/psy_timer')"
+  }
+]
+}

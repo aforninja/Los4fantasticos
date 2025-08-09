@@ -1,0 +1,102 @@
+{
+  "name": "Thing's Powers",
+  "modifiers": {
+    "fiskheroes:cooldown|aoe_cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/stone_timer') > 0",
+        "cooldownData": "tgheroes:dyn/stone_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:stone_throw"
+      }
+    }, 
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 2.0,
+        "types": {
+          "SOUND": 2.0
+        },
+        "properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 160,
+                  "amplifier": 3,
+                  "chance": 1
+                },
+                {
+                  "id": "minecraft:weakness",
+                  "duration": 200,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:blindness",
+                  "duration": 120,
+                  "amplifier": 1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "chargeTime": 40,
+      "duration": 80,
+      "cooldownTime": 120,
+      "range": 32.0,
+      "radius": 120.2,
+       "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:thunderclap_thing"
+      }
+    },
+	"fiskheroes:earthquake": {
+      "damageProfile": {
+        "damage": 1.0,
+        "types": {
+          "EXPLOSION": 1.0
+        }
+      },
+      "radius": 20.0,
+      "knockback": 1.0,
+      "duration": 100,
+      "cooldownTime": 160
+    },
+    "fiskheroes:ground_smash": {
+      "damageProfile": {
+        "damage": 20.0,
+        "types": {
+          "EXPLOSION": 2.0
+        }
+      },
+      "radius": 3.5,
+      "knockback": 2.0,
+      "cooldownTime": 40
+    },
+	"fiskheroes:leaping": {
+      "leapAmount": [1.0, 0.3]
+    },
+	"fiskheroes:projectile_immunity": {
+    },
+    "fiskheroes:damage_immunity": {
+      "damageType": "BULLET"
+    },
+    "fiskheroes:fire_immunity": {
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    }
+  },
+ "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_clap.png",
+      "data": "fiskheroes:beam_charge"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/throw_stone.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/stone_timer')"
+    }
+  ]
+}

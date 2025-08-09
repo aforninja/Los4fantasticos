@@ -1,0 +1,179 @@
+{
+	"name": "Doctor Doom's Magic",
+  "modifiers": {
+    "fiskheroes:spellcasting|basic_0": {
+        "spells": {
+		"fiskheroes:blindness": {
+          "sequence": "dawd",
+          "cooldown": 100,
+          "duration": 400,
+          "range": 24.0
+        },
+        "fiskheroes:atmospheric": {
+          "sequence": "dswad",
+          "cooldown": 20,
+          "pushPower": 1.0,
+          "damageProfile": {
+            "damage": 4.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        },
+        "fiskheroes:earth_swallowing": {
+          "sequence": "wdsawd",
+          "cooldown": 400,
+          "range": 48.0,
+          "radius": 6.0,
+          "damageProfile": {
+            "damage": 18.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        }
+      },
+      "soundEvents": {
+        "CAST": "fiskheroes:spell_cast",
+        "CAST_FAIL": "fiskheroes:spell_fail"
+      }
+    },
+	
+	"fiskheroes:spellcasting|darkhold_0": {
+        "spells": {
+		"fiskheroes:blindness": {
+          "sequence": "dawd",
+          "cooldown": 100,
+          "duration": 800,
+          "range": 32.0
+        },
+        "fiskheroes:atmospheric": {
+          "sequence": "dswad",
+          "cooldown": 20,
+          "pushPower": 1.0,
+          "damageProfile": {
+            "damage": 8.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        },
+        "fiskheroes:earth_swallowing": {
+          "sequence": "wdsawd",
+          "cooldown": 400,
+          "range": 64.0,
+          "radius": 24.0,
+          "damageProfile": {
+            "damage": 16.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        }
+      },
+      "soundEvents": {
+        "CAST": "fiskheroes:spell_cast",
+        "CAST_FAIL": "fiskheroes:spell_fail"
+      }
+    },
+	"fiskheroes:shield|magic": {
+      "shield": {
+        "health": 50.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 60,
+        "cooldown": 100
+      },
+      "coverage": {
+        "yawRadius": 50.0,
+        "pitchRadius": 50.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.2,
+      "soundEvents": {
+        "DEFLECT": "fiskheroes:shield_deflect",
+        "DISARM": "fiskheroes:shield_disarm"
+      }
+    },
+	    "fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": true,
+        "crushThrowables": true,
+        "squeezeChickens": true,
+        "explodeCreepers": true,
+        "destroyInanimates": true
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": true,
+        "inanimates": true
+      },
+      "range": 10.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:telekinesis_start", "fiskheroes:telekinesis_loop"]
+      }
+    },
+	"fiskheroes:repulsor_blast|basic_2": {
+	"damageProfile": {
+		"damage": 6.0,
+		"types": {
+		"MAGIC": 1.0
+		},
+	"properties": {
+		"ADD_KNOCKBACK": 1.0,
+		"HIT_COOLDOWN": 0.0
+		}
+	},
+		"range": 48.0,
+		"speed": 20.0,
+		"spread": 0.0,
+		"radius": 0.1,
+		"cooldownTime": 20,
+    "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+	},
+	
+	"fiskheroes:energy_projection|darkhold_1": {
+      "damageProfile": {
+        "damage": 3.0,
+        "types": {
+          "MAGIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 50
+        }
+      },
+      "range": 25.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:mysterio_beam_loop"
+      }
+    },
+	"fiskheroes:repulsor_blast|darkhold_2": {
+	"damageProfile": {
+		"damage": 8.0,
+		"types": {
+		"MAGIC": 1.0
+		},
+	"properties": {
+		"ADD_KNOCKBACK": 1.0,
+		"HIT_COOLDOWN": 0.0
+		}
+	},
+		"range": 48.0,
+		"speed": 20.0,
+		"spread": 0.0,
+		"radius": 0.1,
+		"cooldownTime": 20,
+    "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+	},
+	"fiskheroes:regeneration": {
+      "factor": 2.5
+    }
+  }
+}

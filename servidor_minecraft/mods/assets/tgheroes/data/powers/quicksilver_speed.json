@@ -1,0 +1,56 @@
+{
+  "name": "Quicksilver speed",
+  "modifiers": {
+	  "fiskheroes:transformation|wall": {
+      "key": "WALL",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/wall_climb",
+        "timerData": "tgheroes:dyn/wall_timer",
+        "time": 5
+      }
+    },
+	  "fiskheroes:intangibility": {
+      "isAbsolute": false,
+	  "soundEvents": {
+        "ENABLE": "fiskheroes:reverse_flash_vibration_loop"
+      }
+    },
+	"fiskheroes:flight": {
+      "speed": 0.1
+    },
+    "fiskheroes:super_speed": {
+      "canUseTreadmill": true,
+      "soundEvents": {
+        "ENABLE": [],
+        "DISABLE": [],
+        "MOVE": ["fiskheroes:super_speed_move_loop_cw"],
+        "SPRINT": ["fiskheroes:super_speed_sprint_barry"],
+        "STOP": ["fiskheroes:super_speed_stop_barry"]
+      }
+    },
+	"fiskheroes:propelled_flight": {
+    },
+    "fiskheroes:slow_motion": {
+    },
+    "fiskheroes:arrow_catching": {
+    },
+    "fiskheroes:regeneration": {
+      "factor": 4
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    }
+  },
+  "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_bunshee.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/speedtornado_timer')"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/wall_run.png",
+      "data": "tgheroes:dyn/wall_timer"
+    }
+  ]
+}

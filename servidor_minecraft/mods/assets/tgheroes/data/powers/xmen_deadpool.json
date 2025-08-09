@@ -1,0 +1,27 @@
+{
+  "name": "Genetically Enhanced Physiology",
+  "modifiers": {
+	  "fiskheroes:damage_immunity": {
+      "damageType": "TELEPATIC"
+    },
+	"fiskheroes:teleportation": {
+      "canReachMoon": false,
+      "range": 64.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:breach"
+      }
+    },
+	  "fiskheroes:healing_factor": {
+      "delay": 60,
+      "soundEvents": {
+        "HEAL": "fiskheroes:healing_factor"
+      }
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither", "minecraft:mining_fatigue", "minecraft:hunger"]
+    },
+    "fiskheroes:regeneration": {
+      "factor": 4
+    }
+  }
+}

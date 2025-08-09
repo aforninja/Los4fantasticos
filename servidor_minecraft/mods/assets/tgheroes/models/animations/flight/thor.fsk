@@ -1,0 +1,17 @@
+{inv_fly_time}={data}
+{inv_fly_0}=curve animate2({inv_fly_time},10,0,0.5,9.5)
+
+{RightArm_rotX}+=-25.2844167609'{inv_fly_0}
+{RightArm_rotY}+=-3.6217924486'{inv_fly_0}
+{RightArm_rotZ}+=32.4144034398'{inv_fly_0}
+
+{LeftArm_rotX}+=-34.1684794348'{inv_fly_0}
+{LeftArm_rotY}+=1.6323119072'{inv_fly_0}
+{LeftArm_rotZ}+=-28.9668544987'{inv_fly_0}
+
+{RightLeg_rotX}+=22.9900784218'{inv_fly_0}
+{RightLeg_rotY}+=11.5348614229'{inv_fly_0}
+{RightLeg_rotZ}+=4.8492972012'{inv_fly_0}
+
+{LeftLeg_rotY}+=-14.25'{inv_fly_0}
+{LeftLeg_rotZ}+=-2.75'{inv_fly_0}

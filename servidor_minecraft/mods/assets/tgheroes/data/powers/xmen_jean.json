@@ -1,0 +1,93 @@
+{
+  "name": "Jean Grey Powers",
+  "modifiers": {
+	 "fiskheroes:damage_resistance|jean": {
+      "damageType": "TELEPATIC",
+      "factor": 0.5
+    },
+    "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 80,
+                  "amplifier": 4,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:slowness",
+                  "duration": 80,
+                  "amplifier": 10,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:jump_boost",
+                  "duration": 80,
+                  "amplifier": -1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 160,
+      "soundEvents": {
+        "SHOOT": "tgheroes:psionic_blast"
+      }
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+          "COOK_ENTITY": false
+        }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 200,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:psionic_beam"
+      }
+    },
+    "fiskheroes:shield": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 10.0,
+        "recoveryDelay": 100,
+        "cooldown": 300
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    }
+  },
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_jean.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

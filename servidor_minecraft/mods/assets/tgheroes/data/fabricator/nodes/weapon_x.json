@@ -1,0 +1,19 @@
+
+{
+  "display": {
+    "name": "Weapon X",
+	"description": "Weapon X",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/weapon_x.png"
+    }
+  },
+  "requirements": [ 
+    "fiskheroes:defense2",
+    "fiskheroes:regeneration2",
+	"fiskheroes:melee3"
+	],
+  "price": {
+    "XP_LEVELS": 10,
+	"IRID_GOLD": 2
+  }
+}

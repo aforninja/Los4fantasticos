@@ -1,0 +1,86 @@
+{wings_slow_flap_time}={data}
+{wings_slow_flap_0}=curve animate2({wings_slow_flap_time},0.333332,0,0.166668,0.166664)
+{wings_slow_flap_1}=curve animate2({wings_slow_flap_time},0.333332,0.16666799999999998,0.166664,0.166668)
+{wings_slow_flap_2}=curve animate2({wings_slow_flap_time},0.333332,0.5,0.166668,0.166664)
+{wings_slow_flap_3}=curve animate2({wings_slow_flap_time},0.333332,0.666668,0.166664,0.166668)
+{wings_slow_flap_4}=curve animate2({wings_slow_flap_time},0.333336,0.333332,0.166668,0.166668)
+{wings_slow_flap_5}=curve animate2({wings_slow_flap_time},0.5,0,0.166668,0.333332)
+{wings_slow_flap_6}=curve animate2({wings_slow_flap_time},0.5,0.5,0.166668,0.333332)
+
+{wing_rotX}+=24.1486747732'{wings_slow_flap_0}
+{wing_rotY}+=-20.7048110546'{wings_slow_flap_0}
+{wing_rotZ}+=-9.0071669588'{wings_slow_flap_0}
+{wing_rotX}+=-3.2466678913'{wings_slow_flap_1}
+{wing_rotY}+=22.4674789958'{wings_slow_flap_1}
+{wing_rotZ}+=-1.2418784552'{wings_slow_flap_1}
+{wing_rotX}+=24.1486747732'{wings_slow_flap_2}
+{wing_rotY}+=-20.7048110546'{wings_slow_flap_2}
+{wing_rotZ}+=-9.0071669588'{wings_slow_flap_2}
+{wing_rotX}+=-3.2466678913'{wings_slow_flap_3}
+{wing_rotY}+=22.4674789958'{wings_slow_flap_3}
+{wing_rotZ}+=-1.2418784552'{wings_slow_flap_3}
+
+{wing_end_rotY}+=-22.5'{wings_slow_flap_0}
+{wing_end_rotY}+=22.5'{wings_slow_flap_1}
+{wing_end_rotY}+=-22.5'{wings_slow_flap_2}
+{wing_end_rotY}+=22.5'{wings_slow_flap_3}
+
+{wing_end2_rotY}+=-22.5'{wings_slow_flap_0}
+{wing_end2_rotY}+=22.5'{wings_slow_flap_1}
+{wing_end2_rotY}+=-22.5'{wings_slow_flap_2}
+{wing_end2_rotY}+=22.5'{wings_slow_flap_3}
+
+{arch_wing_rotX}+=-22.5'{wings_slow_flap_0}
+{arch_wing_rotY}+=22.5'{wings_slow_flap_0}
+{arch_wing_rotX}+=22.5'{wings_slow_flap_1}
+{arch_wing_rotX}+=12.65625'{wings_slow_flap_4}
+{arch_wing_rotY}+=11.25'{wings_slow_flap_4}
+{arch_wing_rotX}+=-22.5'{wings_slow_flap_2}
+{arch_wing_rotY}+=22.5'{wings_slow_flap_2}
+{arch_wing_rotX}+=22.5'{wings_slow_flap_3}
+
+{arch_start_rotX}+=32.6035547431'{wings_slow_flap_5}
+{arch_start_rotY}+=-7.5555438713'{wings_slow_flap_5}
+{arch_start_rotZ}+=10.7487344168'{wings_slow_flap_5}
+{arch_start_rotX}+=32.6035547431'{wings_slow_flap_6}
+{arch_start_rotY}+=-7.5555438713'{wings_slow_flap_6}
+{arch_start_rotZ}+=10.7487344168'{wings_slow_flap_6}
+
+{wing2_rotX}+=24.1486747732'{wings_slow_flap_0}
+{wing2_rotY}+=20.7048110546'{wings_slow_flap_0}
+{wing2_rotZ}+=9.0071669588'{wings_slow_flap_0}
+{wing2_rotX}+=-3.2466678913'{wings_slow_flap_1}
+{wing2_rotY}+=-22.4674789958'{wings_slow_flap_1}
+{wing2_rotZ}+=1.2418784552'{wings_slow_flap_1}
+{wing2_rotX}+=24.1486747732'{wings_slow_flap_2}
+{wing2_rotY}+=20.7048110546'{wings_slow_flap_2}
+{wing2_rotZ}+=9.0071669588'{wings_slow_flap_2}
+{wing2_rotX}+=-3.2466678913'{wings_slow_flap_3}
+{wing2_rotY}+=-22.4674789958'{wings_slow_flap_3}
+{wing2_rotZ}+=1.2418784552'{wings_slow_flap_3}
+
+{wing_end3_rotY}+=22.5'{wings_slow_flap_0}
+{wing_end3_rotY}+=-22.5'{wings_slow_flap_1}
+{wing_end3_rotY}+=22.5'{wings_slow_flap_2}
+{wing_end3_rotY}+=-22.5'{wings_slow_flap_3}
+
+{wing_end4_rotY}+=22.5'{wings_slow_flap_0}
+{wing_end4_rotY}+=-22.5'{wings_slow_flap_1}
+{wing_end4_rotY}+=22.5'{wings_slow_flap_2}
+{wing_end4_rotY}+=-22.5'{wings_slow_flap_3}
+
+{arch_wing2_rotX}+=-22.5'{wings_slow_flap_0}
+{arch_wing2_rotY}+=-22.5'{wings_slow_flap_0}
+{arch_wing2_rotX}+=22.5'{wings_slow_flap_1}
+{arch_wing2_rotX}+=12.65625'{wings_slow_flap_4}
+{arch_wing2_rotY}+=-11.25'{wings_slow_flap_4}
+{arch_wing2_rotX}+=-22.5'{wings_slow_flap_2}
+{arch_wing2_rotY}+=-22.5'{wings_slow_flap_2}
+{arch_wing2_rotX}+=22.5'{wings_slow_flap_3}
+
+{arch_start2_rotX}+=32.6035547431'{wings_slow_flap_5}
+{arch_start2_rotY}+=7.5555438713'{wings_slow_flap_5}
+{arch_start2_rotZ}+=-10.7487344168'{wings_slow_flap_5}
+{arch_start2_rotX}+=32.6035547431'{wings_slow_flap_6}
+{arch_start2_rotY}+=7.5555438713'{wings_slow_flap_6}
+{arch_start2_rotZ}+=-10.7487344168'{wings_slow_flap_6}

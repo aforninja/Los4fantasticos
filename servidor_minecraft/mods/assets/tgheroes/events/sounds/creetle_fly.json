@@ -1,0 +1,7 @@
+{
+  "parent": "fiskheroes:sound_base",
+  "sound": "tgheroes:creetle_fly",
+  "override": "fiskheroes:funcs/firestorm_flight_loop",
+  "volume": 5.0,
+  "loop": true
+}

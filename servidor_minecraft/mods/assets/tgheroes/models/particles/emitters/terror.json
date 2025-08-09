@@ -1,0 +1,288 @@
+{
+  "particles": [
+    {
+      "condition": "!firstPerson",
+      "type": "ENERGY_SMOKE",
+      "anchor": "body",
+      "amount": 3,
+      "offset": [20.0, 14.5, 0.0],
+      "randOffset": [0.05, 1.0, 0.05],
+      "motion": [0.0, 0.0, 0.0],
+      "mirror": true
+    },
+    {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [40.0, 14.5, 0.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [0.0, 14.5, 20.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [0.0, 14.5, 40.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [20.0, 14.5, 20.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [40.0, 14.5, 40.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [60.0, 14.5, 0.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [0.0, 14.5, 60.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [60.0, 14.5, 60.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [80.0, 14.5, 0.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [0.0, 14.5, 80.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [20.0, 14.5, 40.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [80.0, 14.5, 60.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      }
+      ,{
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [40.0, 14.5, 20.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+
+      
+
+
+      {
+        "condition": "!firstPerson",
+        "type": "ENERGY_SMOKE",
+        "anchor": "body",
+        "amount": 3,
+        "offset": [-20.0, 14.5, 0.0],
+        "randOffset": [0.05, 1.0, 0.05],
+        "motion": [0.0, 0.0, 0.0],
+        "mirror": true
+      },
+      {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-40.0, 14.5, 0.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [0.0, 14.5, -20.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [0.0, 14.5, -40.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-20.0, 14.5, -20.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-40.0, 14.5, -40.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-60.0, 14.5, 0.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [0.0, 14.5, -60.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-60.0, 14.5, -60.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-80.0, 14.5, 0.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [0.0, 14.5, -80.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-20.0, 14.5, -40.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        },
+        {
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-80.0, 14.5, -60.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        }
+        ,{
+          "condition": "!firstPerson",
+          "type": "ENERGY_SMOKE",
+          "anchor": "body",
+          "amount": 3,
+          "offset": [-40.0, 14.5, -20.0],
+          "randOffset": [0.05, 1.0, 0.05],
+          "motion": [0.0, 0.0, 0.0],
+          "mirror": true
+        }
+  ]
+}

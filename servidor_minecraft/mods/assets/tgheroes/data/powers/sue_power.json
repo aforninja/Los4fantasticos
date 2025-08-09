@@ -1,0 +1,189 @@
+{
+	"name": "Invisible Woman's Powers",
+  "modifiers": {  
+  "fiskheroes:transformation": {
+      "key": "INVIS",
+      "transformation": {
+      "toggleData": "tgheroes:dyn/invis",
+      "timerData": "tgheroes:dyn/invis_timer",
+      "time": 6
+      }
+    },
+    
+  "fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": true,
+        "crushThrowables": true,
+        "squeezeChickens": true,
+        "explodeCreepers": true,
+        "destroyInanimates": true
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": true,
+        "inanimates": true
+      },
+      "range": 16.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:telekinesis_start", "fiskheroes:telekinesis_loop"]
+      }
+    },
+  "fiskheroes:repulsor_blast|basic": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:invis_aim"
+      }
+    },
+	 "fiskheroes:repulsor_blast|shield": {
+      "damageProfile": {
+        "damage": 0.1,
+		"types": {
+          "ENERGY": 1.0
+        },
+      "properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:resistance",
+                  "duration": 80,
+                  "amplifier": 2,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:invis_aim"
+      }
+    },
+	"fiskheroes:repulsor_blast|invis": {
+      "damageProfile": {
+        "damage": 0.1,
+		"types": {
+          "ENERGY": 1.0
+        },
+      "properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:invisibility",
+                  "duration": 80,
+                  "amplifier": 2,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:invis_aim"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "chargeTime": 25,
+      "duration": 60,
+      "cooldownTime": 50,
+	  "canDoGriefing": false,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "CHARGE": "fiskheroes:mysterio_charged_beam_charge",
+		"SHOOT": "tgheroes:psi_beam"
+      }
+    },
+  
+    "fiskheroes:invisibility": {
+    },
+	"fiskheroes:shield": {
+      "shield": {
+        "health": 150.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 240
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+    "fiskheroes:damage_resistance": {
+      "damageType": "TELEPATIC",
+	  "factor": 1.0
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": false
+        }
+      },
+	  "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    }
+  
+  },
+  "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_invis.png",
+      "data": "fiskheroes:beam_charge"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_invis_basic.png",
+      "data": "tgheroes:dyn/spell_basic"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_invis_def.png",
+      "data": "tgheroes:dyn/spell_heal"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_invis_invis.png",
+      "data": "tgheroes:dyn/spell_bind"
+    }
+  ]
+}

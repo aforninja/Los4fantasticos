@@ -1,0 +1,90 @@
+{
+  "name": "Human Torch Physiology",
+  "modifiers": {
+    "fiskheroes:transformation|flame": {
+      "key": "FLAME_ON",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/flame",
+        "timerData": "tgheroes:dyn/flame_timer",
+        "time": 5
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:flame_on",
+        "DISABLE": "fiskheroes:flame_off"
+      }
+    },
+	
+    "fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "COSMIC": 1.0,
+          "FIRE": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "IGNITE": 20,
+          "HEAT_TRANSFER": 80
+        }
+      },
+      "range": 20.0,
+      "radius": 0.1,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:antimatter_beam"
+      }
+    },
+    "fiskheroes:fireball": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "FIRE": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20,
+          "IGNITE": 3
+        }
+      },
+      "radius": 2.5,
+      "cooldownTime": 7,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:fireball"
+      }
+    },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.18,
+      "canBoost": true,
+      "canRoll": true,
+      "diveSpeedRetention": 0.5,
+      "collision": {
+        "blocks": {
+          "stopFlying": true,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": true,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.7,
+      "soundEvents": {
+        "ENABLE": [ "fiskheroes:firestorm_flight_enable", "fiskheroes:firestorm_flight_loop" ],
+        "DIVE": "fiskheroes:flight_dive_loop"
+      }
+    },
+    "fiskheroes:fire_immunity": {
+    },
+    "fiskheroes:damage_weakness": {
+      "damageType": "COLD",
+      "factor": 5.0
+    }
+  },
+  "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/f4_torch_ult.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/fire_timer')"
+    }
+  ]
+}

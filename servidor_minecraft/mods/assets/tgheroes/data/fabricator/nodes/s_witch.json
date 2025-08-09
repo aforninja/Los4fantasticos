@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:s_witch",
+  "requirements": [
+    "fiskheroes:tier1",
+	"tgheroes:tgheroes",
+    "fiskheroes:sorcery",
+    "fiskheroes:flight",
+    "fiskheroes:defense2",
+    "fiskheroes:ranged2",
+    "fiskheroes:object_manipulation"
+  ]
+}

@@ -1,0 +1,16 @@
+
+{body_rotX} = 0.2
+{body_rotY} = 0
+{body_rotZ} = 0
+
+{head_rotX} = 0.7
+{head_rotY} = 0
+{head_rotZ} = 0
+
+{rightArm_rotX} = 1.2
+{rightArm_rotY} = -0.5
+{rightArm_rotZ} = 0.5
+
+{leftArm_rotX} = 1.2
+{leftArm_rotY} = 0.5
+{leftArm_rotZ} = -0.5

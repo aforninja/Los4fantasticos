@@ -1,0 +1,405 @@
+{
+	"name": "Chaos Magic",
+  "modifiers": {
+	 "fiskheroes:cooldown|aoe_cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/no_mutants_timer') > 0",
+        "cooldownData": "tgheroes:dyn/no_mutants_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:no_more_mutants"
+      }
+    }, 
+	  
+    "fiskheroes:spellcasting": {
+      "spells": {
+		  "fiskheroes:duplication": {
+          "sequence": "adad",
+          "cooldown": 1200,
+          "quantity": 7
+        },
+		"fiskheroes:blindness": {
+          "sequence": "awswa",
+          "cooldown": 100,
+          "duration": 400,
+          "range": 24.0
+        },
+		"fiskheroes:whip": {
+          "sequence": "wasa",
+          "cooldown": 50,
+          "damageProfile": {
+            "damage": 5.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          },
+          "whipBurn": {
+            "frequency": 20,
+            "damageProfile": {
+              "damage": 0.5,
+              "types": {
+                "MAGIC": 1.0
+              },
+              "properties": {
+                "REDUCE_KNOCKBACK": 1.0
+              }
+            }
+          }
+        },
+        "fiskheroes:atmospheric": {
+          "sequence": "swsw",
+          "cooldown": 20,
+          "pushPower": 1.0,
+          "damageProfile": {
+            "damage": 2.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        },
+        "fiskheroes:earth_swallowing": {
+          "sequence": "wawa",
+          "cooldown": 400,
+          "range": 48.0,
+          "radius": 6.0,
+          "damageProfile": {
+            "damage": 14.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        }
+      },
+      "soundEvents": {
+        "CAST": "fiskheroes:spell_cast",
+        "CAST_FAIL": "fiskheroes:spell_fail"
+      }
+    },
+	"fiskheroes:shield": {
+      "shield": {
+        "health": 120.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 250
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+	  "fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "MAGIC": 1.0
+        }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 250,
+      "range": 32.0,
+      "radius": 0.2,
+	  "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:mysterio_beam_loop"
+      }
+    },
+	"fiskheroes:repulsor_blast|binding": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "MAGIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:slowness",
+                  "duration": 400,
+                  "amplifier": 10,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:jump_boost",
+                  "duration": 400,
+                  "amplifier": -10,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:repulsor_blast|heal": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "MAGIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:regeneration",
+                  "duration": 400,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:instant_health",
+                  "duration": 1,
+                  "amplifier": 1,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:repulsor_blast|basic": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "MAGIC": 1.0
+        }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	
+	"fiskheroes:repulsor_blast|binding2": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "MAGIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:slowness",
+                  "duration": 600,
+                  "amplifier": 10,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:jump_boost",
+                  "duration": 600,
+                  "amplifier": -10,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:repulsor_blast|heal2": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "MAGIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:regeneration",
+                  "duration": 400,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 2,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:repulsor_blast|basic2": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "MAGIC": 1.0
+        }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:shadowdome": {
+      "chargeTime": 40,
+      "duration": 2400,
+      "radius": 64.0,
+      "soundEvents": {
+        "CAST": "fiskheroes:shadowdome_cast_loop",
+        "DISSOLVE": "fiskheroes:shadowdome_dissolve",
+        "FORM": ["fiskheroes:shadowdome_form", "fiskheroes:shadowdome_form_loop"]
+      }
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": false
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+	"fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": true,
+        "crushThrowables": true,
+        "squeezeChickens": true,
+        "explodeCreepers": true,
+        "destroyInanimates": true
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": true,
+        "inanimates": true
+      },
+      "range": 16.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:telekinesis_start", "fiskheroes:telekinesis_loop"]
+      }
+    },
+	"fiskheroes:teleportation": {
+      "canReachMoon": false,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:breach"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "MAGIC": 1.0
+        },
+		"properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 1,
+      "duration": 60,
+      "cooldownTime": 300,
+      "range": 16.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:mysterio_charged_beam_loop"
+      }
+    },
+	"fiskheroes:transformation": {
+      "key": "CHAOS",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/chaos",
+        "timerData": "tgheroes:dyn/chaos_timer",
+        "time": 60
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:fire_on"
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/chaos",
+        "cooldownData": "tgheroes:dyn/chaos_cooldown",
+        "duration": 12000,
+        "recovery": 1.0
+      }
+    }
+  },
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/witch_blast.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/no_mutants_timer')"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/magic_basic.png",
+      "data": "tgheroes:dyn/spell_basic"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/magic_heal.png",
+      "data": "tgheroes:dyn/spell_heal"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/magic_bind.png",
+      "data": "tgheroes:dyn/spell_bind"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/witch.png",
+      "data": "tgheroes:dyn/chaos_cooldown"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/witch_blast.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+
+
+{tail_rotX} += 1.6 {lookY} * {data}
+
+

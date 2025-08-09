@@ -1,0 +1,14 @@
+{
+  "suit": "tgheroes:invisible_woman",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	  "tgheroes:tgheroes",
+	  "tgheroes:cosmic_radiation",
+    "fiskheroes:defense3",
+    "fiskheroes:melee",
+    "fiskheroes:flight",
+    "fiskheroes:object_manipulation"
+
+
+  ]
+}

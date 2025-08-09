@@ -1,0 +1,15 @@
+{
+  "suit": "tgheroes:rogue",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+	"tgheroes:wolverine",
+	"tgheroes:angel",
+	"tgheroes:nightcrawler",
+	"tgheroes:quicksilver",
+	"fiskheroes:colossus_xmen",
+	"tgheroes:psylocke",
+    "fiskheroes:melee",
+	"tgheroes:xgene"
+  ]
+}

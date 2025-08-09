@@ -1,0 +1,25 @@
+{leftLeg_rotX} @ {data} -> 0.0
+
+{rightLeg_rotX} @ {data} -> 0.0
+
+{rightArm_rotX}@ {data} -> 0.0
+
+{leftArm_rotX}@ {data} -> 0.0
+
+
+
+
+
+{body_rotX}+=5.25'{data}
+{body_rotY}+=12'{data}
+
+{rightArm_rotY}+=22.5'{data}
+{rightArm_posZ}+=1.5{data}
+
+{leftArm_rotY}+=-22.5'{data}
+{leftArm_posZ}+=-0.75{data}
+
+{rightLeg_rotX}+=21.25'{data}
+
+{leftLeg_rotX}+=-4.5'{data}
+{leftLeg_rotY}+=-5.25'{data}

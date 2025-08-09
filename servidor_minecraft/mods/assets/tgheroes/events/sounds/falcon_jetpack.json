@@ -1,0 +1,7 @@
+{
+  "sound": "tgheroes:falcon_jetpack",
+  "override": "tgheroes:funcs/falcon_jetpack",
+  "loop": true,
+  "fadeIn": 10,
+  "fadeOut": 10
+}

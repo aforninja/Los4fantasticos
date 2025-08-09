@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:magneto",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"tgheroes:tgheroes",
+    "tgheroes:xgene",
+    "fiskheroes:defense2",
+    "fiskheroes:melee",
+    "fiskheroes:ranged2"
+
+  ]
+}

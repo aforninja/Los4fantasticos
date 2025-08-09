@@ -1,0 +1,5 @@
+{
+  "parent": "fiskheroes:sound_base",
+  "sound": "tgheroes:galactus_charge",
+  "condition": "fiskheroes:beam_charging"
+}

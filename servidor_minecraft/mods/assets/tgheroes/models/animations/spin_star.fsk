@@ -1,0 +1,13 @@
+{data} = curve {data}
+
+{rightArm_rotX} = -2
+{rightArm_rotY} = 1
+{rightArm_rotZ} = 0
+
+{leftArm_rotX} = -2
+{leftArm_rotY} = -1
+{leftArm_rotZ} = 0
+
+out "rotate" (0 - sin({data}) *9000, 0, 1, 0)
+out "firstPerson" (true)
+out "translate" (0,  0 , 0)

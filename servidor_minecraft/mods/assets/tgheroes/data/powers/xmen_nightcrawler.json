@@ -1,0 +1,42 @@
+{
+  "name": "Nightcrawler Powers",
+  "modifiers": {
+	  "fiskheroes:tentacles": {
+      "tentacles": [
+        [1.0, -1.0, 0.5]
+      ],
+	  "climbing": {
+        "speed": 0.1,
+        "range": 3,
+        "tolerance": 7,
+        "minAnchorPoints": 1,
+        "anchorPointZones": [
+          ["TOP", "RIGHT", "FRONT"],
+          ["TOP", "LEFT", "FRONT"],
+          ["BOTTOM", "RIGHT", "BACK"],
+          ["BOTTOM", "LEFT", "BACK"]
+        ]
+      },
+      "range": 3.0,
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "SHARP": 0.5,
+          "BLUNT": 0.5
+        },
+        "properties": {
+          "DAMAGE_DROPOFF": 0.6,
+          "HIT_COOLDOWN": 0
+        }
+      },
+      "canBreakGlass": true
+    },
+    "fiskheroes:teleportation": {
+      "canReachMoon": false,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "tgheroes:nightcrawler_port"
+      }
+    }
+  }
+}

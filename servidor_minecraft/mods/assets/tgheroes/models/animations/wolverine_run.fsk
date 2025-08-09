@@ -1,0 +1,55 @@
+{wolverine_run_time}={data}
+{wolverine_run_0}=curve animate2({wolverine_run_time},0.4868421053,0,0,0.4868421053)
+{wolverine_run_1}=curve animate2({wolverine_run_time},0.9868421053,0,0.4868421053,0.5)
+{wolverine_run_2}=curve animate2({wolverine_run_time},7.1131578947,0.4868421052631579,0.5,6.6131578947)
+{wolverine_run_3}=curve animate2({wolverine_run_time},0.9868421053,0,0,0.9868421053)
+{wolverine_run_4}=curve animate2({wolverine_run_time},7.6,0,0.9868421053,6.6131578947)
+
+{data} = curve {data}
+{limbSwingAmount} *= {data}
+
+{f} = {limbSwingAmount}cos(0.6662{limbSwing} - 0.3)
+{body_rotY} -= 0.4{f}
+
+
+{head_rotX} -= 10'{data}
+{rightLeg_rotX} -= 3'{data}
+{leftLeg_rotX} -= 3'{data}
+
+
+
+
+{rightArm_rotX}+=43.1880891351'{wolverine_run_0}
+{rightArm_rotY}+=-7.6762182397'{wolverine_run_0}
+{rightArm_rotZ}+=31.057584595'{wolverine_run_0}
+{rightArm_rotX}+=33.7002576776'{wolverine_run_1}
+{rightArm_rotY}+=-1.524419966'{wolverine_run_1}
+{rightArm_rotZ}+=28.2074734597'{wolverine_run_1}
+{rightArm_rotX}+=43.1880891351'{wolverine_run_2}
+{rightArm_rotY}+=-7.6762182397'{wolverine_run_2}
+{rightArm_rotZ}+=31.057584595'{wolverine_run_2}
+{rightArm_posX}+=0.5{wolverine_run_3}
+{rightArm_posY}+=0.7{wolverine_run_3}
+{rightArm_posZ}+=2.2{wolverine_run_3}
+{rightArm_posX}+=0.5{wolverine_run_4}
+{rightArm_posY}+=0.7{wolverine_run_4}
+{rightArm_posZ}+=2.2{wolverine_run_4}
+
+{leftArm_rotX}+=44.4493930334'{wolverine_run_0}
+{leftArm_rotY}+=-1.3077864111'{wolverine_run_0}
+{leftArm_rotZ}+=-29.0859174922'{wolverine_run_0}
+{leftArm_rotX}+=64.5650014976'{wolverine_run_1}
+{leftArm_rotY}+=5.735159758'{wolverine_run_1}
+{leftArm_rotZ}+=-34.0516738969'{wolverine_run_1}
+{leftArm_rotX}+=44.4493930334'{wolverine_run_2}
+{leftArm_rotY}+=-1.3077864111'{wolverine_run_2}
+{leftArm_rotZ}+=-29.0859174922'{wolverine_run_2}
+{leftArm_posX}+=-0.577854758{wolverine_run_3}
+{leftArm_posY}+=1.372756195{wolverine_run_3}
+{leftArm_posZ}+=0.6555886893{wolverine_run_3}
+{leftArm_posX}+=-0.577854758{wolverine_run_4}
+{leftArm_posY}+=1.372756195{wolverine_run_4}
+{leftArm_posZ}+=0.6555886893{wolverine_run_4}
+
+out "translate" (0, 0, 0.1{data})
+out "rotate" (-10{data}, 1, 0, 0)

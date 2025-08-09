@@ -1,0 +1,159 @@
+{
+  "name": "Cosmic Entity",
+  "modifiers": {
+    "fiskheroes:transformation|giant": {
+      "transformation": {
+        "toggleData": "fiskheroes:dyn/giant_mode",
+        "timerData": "fiskheroes:dyn/giant_mode_timer",
+        "time": 20
+      }
+    },
+
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/black_hole_timer') > 0",
+        "cooldownData": "tgheroes:dyn/black_hole_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:black_hole"
+      }
+    }, 
+
+    "fiskheroes:transformation|shield": {
+      "key": "FORCEFIELD",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/field",
+        "timerData": "tgheroes:dyn/field_timer",
+        "time": 4
+      },
+      "soundEvents": {
+        "ENABLE": "fiskheroes:anti_forcefield"
+      }
+    },
+
+    "fiskheroes:charged_beam|smol": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "COSMIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 65,
+      "duration": 100,
+      "cooldownTime": 100,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+		"CHARGE": "tgheroes:galactus_charge",
+        "SHOOT": "tgheroes:cosmic_beam"
+      }
+    },
+
+    "fiskheroes:charged_beam|big": {
+      "damageProfile": {
+        "damage": 12.0,
+        "types": {
+          "COSMIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 85,
+      "duration": 100,
+      "cooldownTime": 100,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+		"CHARGE": "tgheroes:galactus_big_beam",
+        "SHOOT": "tgheroes:cosmic_beam"
+      }
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:flight_loop",
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+    "fiskheroes:size_manipulation": {
+      "isInstant": false,
+      "minSize": 1.1,
+      "maxSize": 18.0,
+      "soundEvents": {
+        "GROW": ["fiskheroes:anti_grow_roar", "fiskheroes:anti_grow", "fiskheroes:anti_grow_antimatter"],
+        "GROW_STOP": "fiskheroes:anti_grow_stop",
+        "SHRINK": "fiskheroes:anti_shrink"
+      }
+    },
+    "fiskheroes:shield": {
+      "shield": {
+        "health": 200.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 300
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+    "fiskheroes:teleportation": {
+      "canReachMoon": true,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:breach"
+      }
+    },
+    "fiskheroes:projectile_immunity": {
+    },
+    "fiskheroes:water_breathing": {
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    },
+    "fiskheroes:regeneration": {
+      "factor": 10
+    }
+  },
+  "hud": [
+    {
+      "type": "CIRCLE",
+      "color": "fiskheroes:charged_beam",
+      "data": "fiskheroes:beam_charge"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/black_hole.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/black_hole_timer')"
+    }
+  ]
+}

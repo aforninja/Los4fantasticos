@@ -1,0 +1,29 @@
+{
+  "name": "Soulsword",
+  "permission": "LIMBO_WEAPONS",
+  "holdingPose": "SINGLE",
+  "melee": {
+    "attackDamage": 7
+  },
+  "activation": {
+    "type": "SHIELD",
+    "shield": {
+      "health": 100.0,
+      "regeneration": 20.0,
+      "recoveryDelay": 30,
+      "cooldown": 60
+    },
+    "coverage": {
+      "yawRadius": 50.0,
+      "pitchRadius": 50.0,
+      "yawOffset": 0.0,
+      "pitchOffset": 0.0
+    },
+    "knockback": 0.2
+  },
+  
+  "soundEvents": {
+    "DEFLECT": "fiskheroes:shield_deflect",
+    "DISARM": "fiskheroes:shield_disarm"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:bunshee",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+    "fiskheroes:flight",
+    "fiskheroes:defense",
+    "fiskheroes:ranged2",
+	"tgheroes:xgene"
+  ]
+}

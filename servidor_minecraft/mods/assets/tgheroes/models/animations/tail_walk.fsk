@@ -1,0 +1,7 @@
+{data} = curve {data}
+{tail_rotZ} += sin(5pi{data}) * 0.45
+
+
+
+
+

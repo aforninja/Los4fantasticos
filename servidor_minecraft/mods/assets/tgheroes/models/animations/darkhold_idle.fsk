@@ -1,0 +1,15 @@
+{darkhold_idle_time}={data}
+{darkhold_idle_0}=curve animate2({darkhold_idle_time},0.2133995037,0,0,0.2133995037)
+{darkhold_idle_1}=curve animate2({darkhold_idle_time},0.4913151365,0,0.2133995037,0.2779156328)
+{darkhold_idle_2}=curve animate2({darkhold_idle_time},0.5508684864,0.21339950372208438,0.2779156328,0.2729528536)
+{darkhold_idle_3}=curve animate2({darkhold_idle_time},0.5086848635,0.49131513647642683,0.2729528536,0.2357320099)
+{darkhold_idle_4}=curve animate2({darkhold_idle_time},49.6107320099,0.7642679900744418,0.2357320099,49.375)
+
+
+
+{book_posZ}+=-9{darkhold_idle_0}
+{book_posZ}+=-6{darkhold_idle_1}
+{book_posZ}+=-9{darkhold_idle_2}
+{book_posZ}+=-6{darkhold_idle_3}
+{book_posZ}+=-9{darkhold_idle_4}
+

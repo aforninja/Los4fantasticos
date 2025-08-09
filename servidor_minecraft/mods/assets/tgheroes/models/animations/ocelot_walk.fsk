@@ -1,0 +1,14 @@
+
+{body_rotX} = 1.5
+{body_posY} = 6
+
+{rightArm_rotX} -= sin(2pi{data}) * 0.05
+{rightArm_posY} = 6
+
+
+{leftArm_rotX} -= sin(2pi{data}) * 0.05
+{leftArm_posY} = 6
+
+{leftLeg_rotX} = 0
+
+{rightLeg_rotX} = 0

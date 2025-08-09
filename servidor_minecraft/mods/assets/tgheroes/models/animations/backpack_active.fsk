@@ -1,0 +1,20 @@
+{backpack_active_time}={data}
+{backpack_active_0}=curve animate2({backpack_active_time},0,0,0,0)
+
+{stinger_left_1_rotX}+=-45'{backpack_active_0}
+{stinger_left_1_rotY}+=22.5'{backpack_active_0}
+
+{stinger_left_2_rotX}+=22.5'{backpack_active_0}
+
+{stinger_left_3_rotX}+=45'{backpack_active_0}
+
+{stinger_left_4_rotX}+=67.5'{backpack_active_0}
+
+{stinger_right_1_rotX}+=-45'{backpack_active_0}
+{stinger_right_1_rotY}+=-22.5'{backpack_active_0}
+
+{stinger_right_2_rotX}+=22.5'{backpack_active_0}
+
+{stinger_right_3_rotX}+=45'{backpack_active_0}
+
+{stinger_right_4_rotX}+=67.5'{backpack_active_0}

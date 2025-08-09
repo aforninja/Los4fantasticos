@@ -1,0 +1,11 @@
+{data_0} = curve {data_0}
+{data_1} = curve {data_1}
+{data_2} = curve {data_2}
+
+{head_rotX} += -0.6 * {data_0}
+
+{rightArm_rotX} = 0.6 * {data_0}
+{leftArm_rotX} = 0.6 * {data_0}
+
+{rightArm_rotZ} = 0.6 * {data_0}
+{leftArm_rotZ} = -0.6 * {data_0}

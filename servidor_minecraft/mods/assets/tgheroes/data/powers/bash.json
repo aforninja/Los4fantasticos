@@ -1,0 +1,25 @@
+{
+  "name": "Bash",
+  "modifiers": {
+  "fiskheroes:transformation": {
+      "key": "BASH",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "timerData": "tgheroes:dyn/dodge_timer",
+        "time": 1
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:psy_dash"
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "cooldownData": "tgheroes:dyn/dodge_cooldown",
+        "duration": 5,
+        "recovery": 0.025
+      }
+    }
+
+  }
+}

@@ -1,0 +1,4 @@
+{Wing1_rotY} += sin(2pi{data}) * 0.6
+{Wing2_rotY} += sin(2pi{data}) * 0.6
+{Wing3_rotY} += -(sin(2pi{data})) * 0.6
+{Wing4_rotY} += -(sin(2pi{data})) * 0.6

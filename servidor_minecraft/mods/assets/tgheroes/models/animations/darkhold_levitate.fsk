@@ -1,0 +1,85 @@
+{darkhold_levitate2_time}={data}
+{darkhold_levitate2_0}=curve animate2({darkhold_levitate2_time},0.1076923077,0,0,0.1076923077)
+{darkhold_levitate2_1}=curve animate2({darkhold_levitate2_time},0.3384615385,0,0.1076923077,0.2307692308)
+{darkhold_levitate2_2}=curve animate2({darkhold_levitate2_time},0.4307692308,0.1076923076923077,0.2307692308,0.2)
+{darkhold_levitate2_3}=curve animate2({darkhold_levitate2_time},0.3153846154,0.3384615384615384,0.2,0.1153846154)
+{darkhold_levitate2_4}=curve animate2({darkhold_levitate2_time},0.2307692308,0.5384615384615384,0.1153846154,0.1153846154)
+{darkhold_levitate2_5}=curve animate2({darkhold_levitate2_time},0.2153846154,0.6538461538461539,0.1153846154,0.1)
+{darkhold_levitate2_6}=curve animate2({darkhold_levitate2_time},0.2038461538,0.7692307692307692,0.1,0.1038461538)
+{darkhold_levitate2_7}=curve animate2({darkhold_levitate2_time},25.1307692308,0.8692307692307691,0.1038461538,25.0269230769)
+{darkhold_levitate2_8}=curve animate2({darkhold_levitate2_time},0.1076923077,0,0.0538461538,0.0538461538)
+{darkhold_levitate2_9}=curve animate2({darkhold_levitate2_time},0.2846153846,0.05384615384615385,0.0538461538,0.2307692308)
+{darkhold_levitate2_10}=curve animate2({darkhold_levitate2_time},0.3346153846,0.1076923076923077,0.2307692308,0.1038461538)
+{darkhold_levitate2_11}=curve animate2({darkhold_levitate2_time},0.3192307692,0.3384615384615384,0.1038461538,0.2153846154)
+{darkhold_levitate2_12}=curve animate2({darkhold_levitate2_time},0.3038461538,0.44230769230769224,0.2153846154,0.0884615385)
+{darkhold_levitate2_13}=curve animate2({darkhold_levitate2_time},0.1884615385,0.6576923076923077,0.0884615385,0.1)
+{darkhold_levitate2_14}=curve animate2({darkhold_levitate2_time},0.1730769231,0.7461538461538461,0.1,0.0730769231)
+{darkhold_levitate2_15}=curve animate2({darkhold_levitate2_time},25.1538461538,0.8461538461538461,0.0730769231,25.0807692308)
+{darkhold_levitate2_16}=curve animate2({darkhold_levitate2_time},25.8923076923,0.1076923076923077,0.2307692308,25.6615384615)
+
+{book_rotX}+=-260.5'{darkhold_levitate2_0}
+{book_rotY}+=-36.25'{darkhold_levitate2_0}
+{book_rotZ}+=360'{darkhold_levitate2_0}
+
+{book_rotX}+=45'{darkhold_levitate2_1}
+{book_rotZ}+=180'{darkhold_levitate2_1}
+
+{book_rotX}+=45'{darkhold_levitate2_2}
+{book_rotZ}+=180'{darkhold_levitate2_2}
+
+{book_rotX}+=45'{darkhold_levitate2_3}
+{book_rotZ}+=180'{darkhold_levitate2_3}
+
+{book_rotX}+=45'{darkhold_levitate2_4}
+{book_rotZ}+=180'{darkhold_levitate2_4}
+
+{book_rotX}+=45'{darkhold_levitate2_5}
+{book_rotZ}+=180'{darkhold_levitate2_5}
+
+{book_rotX}+=45'{darkhold_levitate2_6}
+{book_rotZ}+=180'{darkhold_levitate2_6}
+
+{book_rotX}+=-260.5'{darkhold_levitate2_7}
+{book_rotY}+=-36.25'{darkhold_levitate2_7}
+{book_rotZ}+=360'{darkhold_levitate2_7}
+
+{book_posX}+=11{darkhold_levitate2_8}
+{book_posY}+=-20{darkhold_levitate2_8}
+{book_posZ}+=-5.75{darkhold_levitate2_8}
+
+{book_posX}+=8.38{darkhold_levitate2_9}
+{book_posY}+=-4.72{darkhold_levitate2_9}
+{book_posZ}+=3.06{darkhold_levitate2_9}
+
+{book_posX}+=-15{darkhold_levitate2_10}
+{book_posZ}+=20.75{darkhold_levitate2_10}
+{book_posY}+=10{darkhold_levitate2_10}
+
+{book_posX}+=-15{darkhold_levitate2_11}
+{book_posZ}+=20.75{darkhold_levitate2_11}
+{book_posY}+=10{darkhold_levitate2_11}
+
+{book_posX}+=-15{darkhold_levitate2_12}
+{book_posZ}+=20.75{darkhold_levitate2_12}
+{book_posY}+=10{darkhold_levitate2_12}
+
+{book_posX}+=-15{darkhold_levitate2_13}
+{book_posZ}+=20.75{darkhold_levitate2_13}
+{book_posY}+=10{darkhold_levitate2_13}
+
+{book_posX}+=-15{darkhold_levitate2_14}
+{book_posZ}+=20.75{darkhold_levitate2_14}
+{book_posY}+=10{darkhold_levitate2_14}
+
+
+
+
+
+;{book_posX}+=8.38{darkhold_levitate2_14}
+;{book_posY}+=-4.72{darkhold_levitate2_14}
+;{book_posZ}+=3.06{darkhold_levitate2_14}
+
+;{book_posX}+=11{darkhold_levitate2_15}
+;{book_posY}+=-9{darkhold_levitate2_15}
+;{book_posZ}+=-5.75{darkhold_levitate2_15}
+

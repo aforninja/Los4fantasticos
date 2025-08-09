@@ -1,0 +1,17 @@
+{
+  "suit": "tgheroes:doctor_doom",
+  "requirements": [
+    "fiskheroes:tier6_7",
+	  "tgheroes:tgheroes",
+	      "fiskheroes:teleportation",
+    "fiskheroes:sorcery",
+	"fiskheroes:regeneration",
+
+    "fiskheroes:defense3",
+    "fiskheroes:melee3",
+    "fiskheroes:ranged3",
+    "fiskheroes:flight"
+
+
+  ]
+}

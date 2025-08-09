@@ -1,0 +1,19 @@
+{leftArm_posX} = 2.7
+{leftArm_posY} = -2
+{leftArm_posZ} = 0
+
+{rightArm_posX} = -2.7
+{rightArm_posY} = -2
+{rightArm_posZ} = 0
+
+{leftLeg_posX} = 1.9
+{leftLeg_posY} = 4
+{leftLeg_posZ} = 0
+
+{rightLeg_posX} = -1.9
+{rightLeg_posY} = 4
+{rightLeg_posZ} = 0
+
+
+{head_posY} = 6
+{body_posY} = 6

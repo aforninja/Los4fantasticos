@@ -1,0 +1,16 @@
+{bucky_block_time}={data}
+{bucky_block_0}=curve animate2({bucky_block_time},2.5,0,1,1.5)
+
+{leftArm_rotX}=0
+{leftArm_rotY}=0
+{leftArm_rotZ}=0
+{leftArm_rotX}+=-108.5894434802'{bucky_block_0}
+{leftArm_rotY}+=66.8093054921'{bucky_block_0}
+{leftArm_rotZ}+=-33.8594063517'{bucky_block_0}
+{leftArm_posZ}+=-1.75{bucky_block_0}
+
+
+{LeftArm_rotX}+=-108.5894434802'{bucky_block_0}
+{LeftArm_rotY}+=66.8093054921'{bucky_block_0}
+{LeftArm_rotZ}+=-33.8594063517'{bucky_block_0}
+{LeftArm_posZ}+=-1.75{bucky_block_0}

@@ -1,0 +1,10 @@
+{
+  "suit": "tgheroes:jubilee",
+  "requirements": [
+    "fiskheroes:tier2_3",
+    "fiskheroes:defense",
+	"tgheroes:tgheroes",
+	"fiskheroes:ranged3",
+	"tgheroes:xgene"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:sabertooth",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"tgheroes:tgheroes",
+    "fiskheroes:traversal2",
+    "fiskheroes:regeneration2",
+    "fiskheroes:defense",
+    "fiskheroes:melee2",
+	"tgheroes:xgene"
+  ]
+}

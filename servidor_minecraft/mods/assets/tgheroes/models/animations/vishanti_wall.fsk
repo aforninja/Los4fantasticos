@@ -1,0 +1,6 @@
+{data} = curve {data}
+
+
+{bone_posY} @ {data} -> 24
+{bone_posX} @ {data} -> -1
+{bone_posZ} @ {data} -> -6

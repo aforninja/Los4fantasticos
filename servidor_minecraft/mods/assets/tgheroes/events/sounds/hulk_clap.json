@@ -1,0 +1,7 @@
+{
+  "parent": "fiskheroes:sound_base",
+  "loop": false,
+  "fadeIn": 3,
+  "fadeOut": 10
+  "sound": "tgheroes:hulk_clap"
+}

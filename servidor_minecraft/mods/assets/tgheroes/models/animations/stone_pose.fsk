@@ -1,0 +1,58 @@
+{data_0} = curve {data_0}
+{data_1} = curve {data_1}
+{data_2} = curve {data_2}
+
+{body_posY} += 10{data_0}
+{body_posZ} += -10{data_0}
+{body_rotX} += 80'{data_0}
+
+{head_posY} += 10{data_0}
+{head_posZ} += -10{data_0}
+{head_rotX} += 80'{data_0}
+
+{rightArm_posY} += 10{data_0}
+{rightArm_posZ} -= 10{data_0}
+
+{leftArm_posY} += 10{data_0}
+{leftArm_posZ} -= 10{data_0}
+
+
+{body_posZ} += 1{data_1}
+{head_posZ} += 1{data_1}
+{rightArm_posZ} += 1{data_1}
+{rightArm_posY} -= 5{data_1}
+{leftArm_posZ} += 1{data_1}
+{leftArm_posY} -= 5{data_1}
+
+{rightArm_rotX} -= 200'{data_1}
+{leftArm_rotX} -= 200'{data_1}
+
+{body_rotX} -= 10'{data_1}
+{head_rotX} -= 10'{data_1}
+
+
+{rightArm_rotX} -= 130'{data_2}
+{leftArm_rotX} -= 130'{data_2}
+
+{rightArm_posY} -= 5{data_2}
+
+
+{leftArm_posY} -= 5{data_2}
+
+
+{body_posY} += 1{data_2}
+{body_posZ} += -1{data_2}
+{body_rotX} += 10'{data_2}
+
+{head_posY} += 1{data_2}
+{head_posZ} += -1{data_2}
+{head_rotX} += 10'{data_2}
+
+
+
+
+
+
+
+
+

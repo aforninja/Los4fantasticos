@@ -1,0 +1,35 @@
+{
+	"name": "Kitty Pryde Powers",
+  "modifiers": {
+	  "fiskheroes:damage_immunity": {
+      "damageType": "TELEPATIC"
+    },
+	"fiskheroes:invisibility": {
+    },
+	"fiskheroes:flight": {
+      "speed": 0.01
+    },
+	"fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "fiskheroes:intangible",
+        "cooldownData": "fiskheroes:dyn/intangibility_cooldown",
+        "duration": 30,
+        "recovery": 0.5
+      }
+    },
+	"fiskheroes:intangibility": {
+      "isAbsolute": false,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:vision_intang_on",
+        "DISABLE": "fiskheroes:vision_intang_off"
+      }
+    }
+  },
+    "hud": [
+    {
+      "type": "PROGRESS",
+      "texture": "fiskheroes:textures/gui/bars/shadowform.png",
+      "data": "fiskheroes:dyn/intangibility_cooldown"
+    }
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:kitty_pryde",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+    "tgheroes:xgene",
+    "fiskheroes:intangibility",
+    "fiskheroes:defense"
+
+  ]
+}

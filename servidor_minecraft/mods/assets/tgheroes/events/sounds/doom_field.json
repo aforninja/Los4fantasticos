@@ -1,0 +1,7 @@
+{
+  "sound": "tgheroes:doom_field",
+  "condition": "fiskheroes:shield_blocking",
+  "loop": true,
+  "fadeIn": 1,
+  "fadeOut": 1
+}

@@ -1,0 +1,13 @@
+{
+  "suit": "tgheroes:omega_red",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"tgheroes:tgheroes",
+    "fiskheroes:defense2",
+    "fiskheroes:melee",
+	"fiskheroes:regeneration2",
+
+	"tgheroes:xgene",
+    "fiskheroes:object_manipulation"
+  ]
+}

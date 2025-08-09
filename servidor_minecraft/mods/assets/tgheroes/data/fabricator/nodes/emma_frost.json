@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:emma_frost",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"tgheroes:tgheroes",
+    "fiskheroes:ranged2",
+	"fiskheroes:defense3",
+    "fiskheroes:melee2",
+	"tgheroes:xgene"
+  ]
+}

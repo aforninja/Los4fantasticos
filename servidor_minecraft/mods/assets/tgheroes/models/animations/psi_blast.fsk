@@ -1,0 +1,5 @@
+{data} = curve {data}
+
+; {rightArm_posY} =  4.0 * {data}
+{rightArm_rotX} =  -2.9 * {data}
+

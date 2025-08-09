@@ -1,0 +1,13 @@
+{data_0} = curve {data_0}
+{data_1} = curve {data_1}
+{data_2} = curve {data_2}
+{data_3} = curve {data_3}
+; {data_4} = curve {data_4}
+; {data_5} = curve {data_5}
+
+; ; {bone_posX} = 0
+{bone_posY} += -20 * {data_0} 
+{bone_posY} += 10000 * {data_3} * {data_2}
+{bone_posZ} += 100000 * (-1 * (cos(({data_3} / {data_2}))  - 1)) 
+
+; {bone_posZ} = 0

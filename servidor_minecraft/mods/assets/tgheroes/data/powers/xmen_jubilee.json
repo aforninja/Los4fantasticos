@@ -1,0 +1,53 @@
+{
+  "name": "Jubilee Powers",
+  "modifiers": {
+	  "fiskheroes:damage_resistance": {
+      "damageType": "TELEPATIC",
+      "factor": 1.0
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 10.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "chargeTime": 25,
+      "duration": 60,
+      "cooldownTime": 1800,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "CHARGE": "fiskheroes:mysterio_charged_beam_charge",
+		"SHOOT": "tgheroes:cosmic_beam"
+      }
+    },
+    "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "ENERGY": 1.0
+        },
+        "properties": {
+          "ADD_KNOCKBACK": 0.1,
+          "HIT_COOLDOWN": 0.0
+        }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 15,
+	  "soundEvents": {
+        "SHOOT": "fiskheroes:energy_blast"
+      }
+    }
+  },
+	"hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_jubi.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

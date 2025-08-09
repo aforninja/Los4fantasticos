@@ -1,0 +1,241 @@
+{
+  "name": "Phoenix Force",
+  "modifiers": {
+    "fiskheroes:transformation|dark": {
+      "key": "DARK_PHOENIX",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/dark_phoenix",
+        "timerData": "tgheroes:dyn/dark_phoenix_timer",
+        "time": 4
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:fire_on"
+      }
+    },
+    "fiskheroes:cooldown|dark_phoenix": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/dark_phoenix",
+        "cooldownData": "tgheroes:dyn/dark_phoenix_cooldown",
+        "duration": 8000,
+        "recovery": 1.0
+      }
+    },
+
+    "fiskheroes:transformation|white": {
+      "key": "WHITE_PHOENIX",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/white_phoenix",
+        "timerData": "tgheroes:dyn/white_phoenix_timer",
+        "time": 4
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:fire_on"
+      }
+    },
+    "fiskheroes:cooldown|white_phoenix": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/white_phoenix",
+        "cooldownData": "tgheroes:dyn/white_phoenix_cooldown",
+        "duration": 8000,
+        "recovery": 1.0
+      }
+    },
+
+	"fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 3.0,
+        "types": {
+          "FIRE": 1.0
+        }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 250,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:psionic_proj"
+      }
+    },
+	"fiskheroes:transformation|basic": {
+      "key": "PHOENIX",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/phoenix",
+        "timerData": "tgheroes:dyn/phoenix_timer",
+        "time": 4
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:fire_on"
+      }
+    },
+    "fiskheroes:cooldown|basic_phoenix": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/phoenix",
+        "cooldownData": "tgheroes:dyn/phoenix_cooldown",
+        "duration": 8000,
+        "recovery": 1.0
+      }
+    },
+
+     "fiskheroes:cooldown|sound1": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/crown_timer') > 0",
+        "cooldownData": "tgheroes:dyn/crown_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:crown_of_rebirth"
+      }
+    },
+
+    "fiskheroes:cooldown|sound2": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/healing_timer') > 0",
+        "cooldownData": "tgheroes:dyn/healing_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:raidiant_rebirth"
+      }
+    },
+
+    "fiskheroes:cooldown|sound3": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/cosmos_song_timer') > 0",
+        "cooldownData": "tgheroes:dyn/cosmos_song_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:song_of_the_cosmos"
+      }
+    },
+
+     "fiskheroes:cooldown|sound4": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/terror_timer') > 0",
+        "cooldownData": "tgheroes:dyn/terror_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:terror_field"
+      }
+    },
+
+    "fiskheroes:cooldown|sound5": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/jean_timer') > 0",
+        "cooldownData": "tgheroes:dyn/jean_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:mind_storm"
+      }
+    },
+
+
+    "fiskheroes:damage_resistance|phoenix": {
+      "damageType": "TELEPATIC",
+      "factor": 1.0
+    },
+    "fiskheroes:regeneration": {
+      "factor": 6
+    },
+    "fiskheroes:water_breathing": {
+    },
+	 "fiskheroes:controlled_flight": {
+      "speed": 0.05,
+      "boostSpeed": 0.1,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:flight_loop",
+        "BOOST": "fiskheroes:flight_boost",
+        "IMPACT_ENTITY": "fiskheroes:flight_impact_entity"
+      }
+    }
+  },
+	"hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/bird.png",
+      "data": "tgheroes:dyn/phoenix_basic"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/d_bird.png",
+      "data": "tgheroes:dyn/phoenix_white"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/w_bird.png",
+      "data": "tgheroes:dyn/phoenix_dark"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix.png",
+      "data": "tgheroes:dyn/phoenix_cooldown"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_white.png",
+      "data": "tgheroes:dyn/white_phoenix_cooldown"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_dark.png",
+      "data": "tgheroes:dyn/dark_phoenix_cooldown"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/mind_rechardge.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/jean_timer')"
+    },
+    
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_avatar.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/phoenix_flame_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_avatar.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/oblivion_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_ult.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/terror_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_ult.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/cosmos_song_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_crown.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/crown_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_phoenix_crown.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/healing_timer')"
+    }
+
+  ]
+}

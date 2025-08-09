@@ -1,0 +1,114 @@
+{
+  "name": "Atmokinesis",
+  "modifiers": {
+	  "fiskheroes:sonic_waves": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "COLD": 1.0
+        }
+      },
+      "knockback": 0.025
+    },
+	"fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "COLD": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 0
+        }
+      },
+      "range": 25.0,
+      "radius": 0.2,
+	  "soundEvents": {
+		"SHOOT": "tgheroes:wind_storm"
+      }
+    },
+	 "fiskheroes:shadowdome": {
+      "chargeTime": 40,
+      "duration": 1200,
+      "radius": 64.0,
+      "soundEvents": {
+        "CAST": "fiskheroes:shadowdome_cast_loop",
+        "DISSOLVE": "fiskheroes:shadowdome_dissolve",
+        "FORM": ["fiskheroes:shadowdome_form", "fiskheroes:shadowdome_form_loop"]
+      }
+    },
+	"fiskheroes:lightning_cast": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "ELECTRICITY": 2.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "LIGHTNING_STRIKE": 0.15
+        }
+      },
+      "range": 48.0,
+      "chainRadius": 2.5,
+      "cooldownTime": 20,
+	  "soundEvents": {
+        "SHOOT": "fiskheroes:black_lightning_lightning_cast"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "ELECTRICITY": 2.0
+        }
+      },
+      "chargeTime": 40,
+      "duration": 80,
+      "cooldownTime": 120,
+      "range": 32.0,
+      "radius": 120.2,
+       "soundEvents": {
+        "CHARGE": "tgheroes:lightning",
+        "BEAM_AMBIENT": "tgheroes:lightning"
+      }
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": false
+        }
+      },
+	  "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+	"fiskheroes:damage_resistance|cold": {
+      "damageType": "COLD"
+    },
+    "fiskheroes:damage_resistance|electricity": {
+      "damageType": "ELECTRICITY"
+    }
+  },
+    "hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_bunshee.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/tornado_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_storm.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

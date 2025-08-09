@@ -1,0 +1,35 @@
+{
+  "name": "Absorbed Powers of Nightcrawler",
+  "modifiers": {
+    "fiskheroes:teleportation": {
+      "canReachMoon": false,
+      "range": 96.0,
+      "soundEvents": {
+        "TELEPORT": "tgheroes:nightcrawler_port"
+      }
+    },
+	"fiskheroes:transformation": {
+      "key": "NIGHTCRAWLER",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/rogue_night",
+        "timerData": "tgheroes:dyn/rogue_night_timer",
+        "time": 2
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/rogue_night",
+        "cooldownData": "tgheroes:dyn/rogue_night_cooldown",
+        "duration": 7200,
+        "recovery": 0.3
+      }
+    }
+	},
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_rogue_crawler.png",
+      "data": "tgheroes:dyn/rogue_night_cooldown"
+    }
+  ]
+}

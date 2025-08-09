@@ -1,0 +1,51 @@
+  {
+  "name": "Mac 10 Dual",
+  "permission": "USE_DEADPOOL_GUN",
+  "holdingPose": "DUAL",
+  "isHidden": true,
+  "cooldown": 15,
+  "damageProfile": {
+    "damage": 3,
+    "types": {
+      "BULLET": 1
+    }
+  },
+  "activation": {
+    "type": "AUTO",
+    "rate": 5,
+    "windup": 4,
+    "maxDuration": 200
+  },
+  "fisktag": {
+    "sprintShootDelay": 10,
+    "sprintDelay": 10
+  },
+  "ammo": {
+    "amount": 60,
+    "reloadTime": 50
+  },
+  "spread": {
+    "sprintingFactor": 1.5,
+    "fallingFactor": 1.6,
+    "sneakingFactor": 0.7
+  },
+  "recoil": {
+    "amount": 0.25,
+    "cameraShake": 1.0
+  },
+  "scope": {
+    "zoom": 0.45,
+    "allowHeadshots": true,
+    "headshotDamageBonus": 1
+  },
+  "projectiles": [
+    {
+      "type": "BEAM",
+      "spread": 2.5,
+      "trail": 1
+    }
+  ],
+  "soundEvents": {
+    "SHOOT": "tgheroes:mac10_shoot"
+  }
+}

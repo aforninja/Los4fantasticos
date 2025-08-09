@@ -1,0 +1,141 @@
+{
+  "name": "Ultimate Form",
+  "modifiers": {
+	  "fiskheroes:super_speed": {
+      "canUseTreadmill": true,
+      "soundEvents": {
+        "ENABLE": [],
+        "DISABLE": [],
+        "MOVE": ["fiskheroes:super_speed_move_loop_cw"],
+        "SPRINT": ["fiskheroes:super_speed_sprint_barry"],
+        "STOP": ["fiskheroes:super_speed_stop_barry"]
+      }
+    },
+
+    "fiskheroes:slow_motion|all1": {
+    },
+    "fiskheroes:arrow_catching|all2": {
+    },
+    "fiskheroes:potion_immunity|all3": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither", "minecraft:mining_fatigue", "minecraft:hunger", "minecraft:slowness"]
+    },
+	"fiskheroes:leaping|all4": {
+      "leapAmount": [1.3, 0.1]
+    },
+    "fiskheroes:regeneration|all5": {
+      "factor": 3
+    },
+	"fiskheroes:healing_factor|all6": {
+      "delay": 100,
+      "soundEvents": {
+        "HEAL": "fiskheroes:healing_factor"
+      }
+    },
+	"fiskheroes:metal_skin|all7": {
+    },
+	"fiskheroes:projectile_immunity|all8": {
+    },
+    "fiskheroes:fire_immunity|all9": {
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 10.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 40,
+      "duration": 100,
+      "cooldownTime": 220,
+      "range": 32.0,
+      "radius": 0.2,
+	  "soundEvents": {
+        "SHOOT": "tgheroes:psi_beam"
+      }
+    },
+	"fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": false,
+        "crushThrowables": false,
+        "squeezeChickens": false,
+        "explodeCreepers": false,
+        "destroyInanimates": false
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": false,
+        "inanimates": false
+      },
+      "range": 24.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:shadowchain_loop", "fiskheroes:shadowchain_start"],
+        "RELEASE": "fiskheroes:shadowchain_release"
+      }
+    },
+	  "fiskheroes:teleportation": {
+      "canReachMoon": false,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "tgheroes:nightcrawler_port"
+      }
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.15,
+      "canBoost": true,
+	  "barrelRoll": {
+        "duration": 14,
+        "speed": 0.12,
+        "drag": 0.03
+      },
+      "diveSpeedRetention": 0.5,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop", "tgheroes:flap_wings"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+	"fiskheroes:transformation": {
+      "key": "ULTIMATE",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/rogue_all",
+        "timerData": "tgheroes:dyn/rogue_all_timer",
+        "time": 10
+      },
+	  "soundEvents": {
+        "ENABLE": "fiskheroes:manta_blade_enable",
+        "DISABLE": "fiskheroes:manta_blade_disable"
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/rogue_all",
+        "cooldownData": "tgheroes:dyn/rogue_all_cooldown",
+        "duration": 12000,
+        "recovery": 2.0
+      }
+    }
+	},
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_rogue_ultimate.png",
+      "data": "tgheroes:dyn/rogue_all_cooldown"
+    }
+  ]
+}

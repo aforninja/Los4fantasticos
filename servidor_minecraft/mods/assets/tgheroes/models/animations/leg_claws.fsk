@@ -1,0 +1,8 @@
+{data} = curve {data}
+
+
+{claws_rotZ} @ {data} -> -90'
+
+{claws_posX} @ {data} -> 14
+
+

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "name": "Awakening the Devourer",
+    "description": "The one who has carried the burden of the Herald for so long has finally achieved the appearance of his master. The cosmos holds its breath. He is coming",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/galactus.png"
+    }
+  },
+  "requirements": [ 
+    "tgheroes:silver_surfer"
+  ],
+  
+    "criteria": {
+    "prototype": {
+      "trigger": "fiskheroes:tick",
+      "minSuccessCount": 168000,
+      "description": {
+        "translate": "For 7 days, be a Silver Surfer. Only a true Herald can summon Galactus    (Wear a Silver Surfer costume for 2 hours and 20 minutes)"
+      },
+      "ignoreRequirements": false,
+      "condition": {
+        "variables": {
+          "player": "PLAYER_TICKING"
+        },
+        "check": "player.getWornChestplate().nbt().getString('HeroType') == 'tgheroes:silver_surfer' && player.ticksExisted() % 20 == 0"
+      }
+    }
+  }
+}

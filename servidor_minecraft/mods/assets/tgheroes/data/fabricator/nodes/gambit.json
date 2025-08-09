@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:gambit",
+  "requirements": [
+	"tgheroes:tgheroes",
+	"fiskheroes:defense",
+    "fiskheroes:tier2_3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged2",
+	"tgheroes:xgene"
+  ]
+}

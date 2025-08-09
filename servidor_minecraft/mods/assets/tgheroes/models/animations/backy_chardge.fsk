@@ -1,0 +1,47 @@
+{bucky_chardge_slam_time}={data}
+{bucky_chardge_slam_0}=curve animate2({bucky_chardge_slam_time},0.5066666667,0,0.3333333333,0.1733333333)
+{bucky_chardge_slam_1}=curve animate2({bucky_chardge_slam_time},0.3333333333,0.3333333333333333,0.1733333333,0.16)
+{bucky_chardge_slam_2}=curve animate2({bucky_chardge_slam_time},0.4933333333,0.5066666666666667,0.16,0.3333333333)
+
+{body_rotY}+=-8.75'{bucky_chardge_slam_0}
+{body_rotY}+=13.75'{bucky_chardge_slam_1}
+{body_rotY}+=13.75'{bucky_chardge_slam_2}
+
+
+{rightArm_rotX}=0
+{rightArm_rotY}=0
+{rightArm_rotZ}=0
+{rightArm_rotX}+=12.2585268558'{bucky_chardge_slam_0}
+{rightArm_rotY}+=21.1768493453'{bucky_chardge_slam_0}
+{rightArm_rotZ}+=7.4061942573'{bucky_chardge_slam_0}
+{rightArm_rotX}+=12.26'{bucky_chardge_slam_1}
+{rightArm_rotY}+=21.18'{bucky_chardge_slam_1}
+{rightArm_rotZ}+=7.41'{bucky_chardge_slam_1}
+{rightArm_rotX}+=12.26'{bucky_chardge_slam_2}
+{rightArm_rotY}+=21.18'{bucky_chardge_slam_2}
+{rightArm_rotZ}+=7.41'{bucky_chardge_slam_2}
+{rightArm_posX}+=0.13{bucky_chardge_slam_0}
+{rightArm_posZ}+=0.44{bucky_chardge_slam_0}
+{rightArm_posX}+=0.5{bucky_chardge_slam_1}
+{rightArm_posZ}+=1.75{bucky_chardge_slam_1}
+{rightArm_posX}+=0.5{bucky_chardge_slam_2}
+{rightArm_posZ}+=1.75{bucky_chardge_slam_2}
+
+{leftArm_rotX}=0
+{leftArm_rotY}=0
+{leftArm_rotZ}=0
+{leftArm_rotX}+=-95.3321871507'{bucky_chardge_slam_0}
+{leftArm_rotY}+=-15.6616090737'{bucky_chardge_slam_0}
+{leftArm_rotZ}+=-19.6452894474'{bucky_chardge_slam_0}
+{leftArm_rotX}+=-89.9999992093'{bucky_chardge_slam_1}
+{leftArm_rotY}+=5.0000003267'{bucky_chardge_slam_1}
+{leftArm_rotZ}+=-44.9999999309'{bucky_chardge_slam_1}
+{leftArm_rotX}+=-89.9999992093'{bucky_chardge_slam_2}
+{leftArm_rotY}+=5.0000003267'{bucky_chardge_slam_2}
+{leftArm_rotZ}+=-44.9999999309'{bucky_chardge_slam_2}
+{leftArm_posY}+=1.825{bucky_chardge_slam_0}
+{leftArm_posZ}+=3{bucky_chardge_slam_0}
+{leftArm_posY}+=1.82{bucky_chardge_slam_1}
+{leftArm_posZ}+=-2.25{bucky_chardge_slam_1}
+{leftArm_posY}+=1.82{bucky_chardge_slam_2}
+{leftArm_posZ}+=-2.25{bucky_chardge_slam_2}

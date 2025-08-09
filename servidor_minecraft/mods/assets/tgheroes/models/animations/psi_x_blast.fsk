@@ -1,0 +1,7 @@
+{data} = curve {data}
+
+{rightArm_rotX} =  -2.9 * {data}
+{rightArm_rotZ} =  0.3 * {data}
+{rightArm_posY} =  4.0 * {data}
+
+{leftArm_rotX} = -1.5 * {data}

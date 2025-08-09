@@ -1,0 +1,49 @@
+{
+  "name": "Gambit Powers",
+  "modifiers": {
+	  "fiskheroes:damage_immunity": {
+      "damageType": "ROGUE"
+    },
+	  "fiskheroes:blade": {
+      "soundEvents": {
+        "ENABLE": "fiskheroes:utility_belt_switch",
+        "DISABLE": "fiskheroes:utility_belt_switch"
+      }
+    },
+	"fiskheroes:transformation|card": {
+      "key": "CARDS",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/card",
+        "timerData": "tgheroes:dyn/card_timer",
+        "time": 5
+      }
+    },
+    "fiskheroes:energy_manipulation": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "ENERGY": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 10
+        }
+      },
+      "chargeTime": 15,
+      "range": 48.0
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "chargeTime": 15,
+      "duration": 20,
+      "cooldownTime": 20,
+      "range": 26.0,
+      "radius": 1.5
+    }
+  }
+}

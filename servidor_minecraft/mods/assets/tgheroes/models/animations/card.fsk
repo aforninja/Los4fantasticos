@@ -1,0 +1,2 @@
+{bone_rotZ} = {data} * 1000000
+{bone_posX} += {data} * 1000

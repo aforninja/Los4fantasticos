@@ -1,0 +1,18 @@
+{
+  "particles": [
+    {
+      "type": "CRYO_SMOKE",
+      "anchor": "rightArm",
+      "amount": 3,
+      "offset": {
+        "tp": [1.0, 5.0, 0.0],
+        "fp": [3.0, 7.0, 0.0]
+      },
+      "motion": [0.0, 0.07, 0.0],
+      "randOffset": [0.011, 0.41, 0.38],
+      "randMotion": [0.01, 0.0, 0.01],
+      "mirror": false,
+      "lockFPYaw": true
+    }
+  ]
+}

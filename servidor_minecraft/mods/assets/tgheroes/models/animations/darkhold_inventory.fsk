@@ -1,0 +1,6 @@
+{darkhold_inv_time}={data}
+{darkhold_inv_0}=curve animate2({darkhold_inv_time},0.1866666667,0,0,0.1866666667)
+
+{right_rotZ}+=61.5'{darkhold_inv_0}
+
+{left_rotZ}+=-60.5'{darkhold_inv_0}

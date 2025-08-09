@@ -1,0 +1,14 @@
+{
+  "display": {
+    "name": "Mutant Biology",
+    "description": "Homo superior (Human mutants) possess the X-Gene positioned on the 23rd chromosome",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/x_node.png"
+    }
+  },
+  "requirements": [ ],
+  "price": {
+    "XP_LEVELS": 10,
+	"IRID_GOLD": 2
+  }
+}

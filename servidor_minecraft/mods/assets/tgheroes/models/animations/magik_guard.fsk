@@ -1,0 +1,15 @@
+{block_time}={data}
+{block_0}=curve animate2({block_time},40,0,0.125,39.875)
+
+{rightArm_rotX}+=-120.9928330412'{block_0}
+{rightArm_rotY}+=-25.7048110546'{block_0}
+{rightArm_rotZ}+=65.8513252268'{block_0}
+
+{soulsword_rotX}+=-180.2843047126'{block_0}
+{soulsword_rotZ}+=45.1924245856'{block_0}
+{soulsword_rotY}+=120.1924245856'{block_0}
+
+{soulsword_posX}+=5.0{block_0}
+{soulsword_posY}+=-10.0{block_0}
+{soulsword_posZ}+=0.0{block_0}
+

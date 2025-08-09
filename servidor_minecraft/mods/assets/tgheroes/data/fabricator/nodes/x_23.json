@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:x_23",
+  "requirements": [
+	"fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+	"tgheroes:wolverine",
+	"fiskheroes:regeneration2",
+
+	"tgheroes:xgene"
+  ]
+}

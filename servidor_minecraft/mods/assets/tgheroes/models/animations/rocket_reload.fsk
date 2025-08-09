@@ -1,0 +1,44 @@
+{reload_time}={data}
+{reload_0}=curve animate2({reload_time},0.5,0,0.25,0.25)
+{reload_1}=curve animate2({reload_time},0.5,0.25,0.25,0.25)
+{reload_2}=curve animate2({reload_time},9.5,0.5,0.25,9.25)
+{reload_3}=curve animate2({reload_time},0.25,0,0,0.25)
+{reload_4}=curve animate2({reload_time},10,0,0.25,9.75)
+{reload_5}=curve animate2({reload_time},10,0,0,10)
+
+{rightArm_rotX}+=-55.4303920055'{reload_0}
+{rightArm_rotY}+=5.8159688352'{reload_0}
+{rightArm_rotZ}+=-12.3898989868'{reload_0}
+{rightArm_rotX}+=-55.4303920055'{reload_1}
+{rightArm_rotY}+=5.8159688352'{reload_1}
+{rightArm_rotZ}+=-12.3898989868'{reload_1}
+{rightArm_rotX}+=-57.7897090863'{reload_2}
+{rightArm_rotY}+=20.5551926891'{reload_2}
+{rightArm_rotZ}+=-10.7252860091'{reload_2}
+
+{rightArm_posY}+=4.75{reload_0}
+{rightArm_posZ}+=-1.5{reload_0}
+{rightArm_posY}+=4.75{reload_1}
+{rightArm_posZ}+=-1.5{reload_1}
+{rightArm_posY}+=4.75{reload_2}
+{rightArm_posZ}+=-2.5{reload_2}
+
+{leftArm_rotX}+=-225'{reload_0}
+{leftArm_rotX}+=-112.5'{reload_1}
+{leftArm_rotX}+=-100.7075087355'{reload_2}
+{leftArm_rotY}+=-22.2667500451'{reload_2}
+{leftArm_rotZ}+=-60.4822375371'{reload_2}
+{leftArm_posY}+=2.5{reload_0}
+{leftArm_posZ}+=-2.25{reload_0}
+{leftArm_posY}+=2.5{reload_1}
+{leftArm_posZ}+=-2.25{reload_1}
+{leftArm_posY}+=0.5{reload_2}
+{leftArm_posZ}+=-2.875{reload_2}
+
+{bone_posY}+=-1{reload_3}
+{bone_posZ}+=15{reload_3}
+{bone_posY}+=-2{reload_4}
+{bone_posZ}+=15{reload_4}
+
+{bone2_posY}+=-1{reload_5}
+{bone2_posZ}+=0.5{reload_5}

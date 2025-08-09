@@ -1,0 +1,15 @@
+{
+  "suit": "tgheroes:cable",
+  "requirements": [
+    "fiskheroes:tier6_7",
+	"tgheroes:tgheroes",
+	"fiskheroes:marksmanship",
+    "fiskheroes:teleportation",
+	"fiskheroes:regeneration2",
+	"fiskheroes:object_manipulation",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged2",
+	"tgheroes:xgene"
+  ]
+}

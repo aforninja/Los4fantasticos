@@ -1,0 +1,80 @@
+{
+  "name": "Archangel Powers",
+  "modifiers": {
+	 
+	  "fiskheroes:spike_burst|arch_1": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "SHARP": 1.0
+        },
+		"properties": {
+			"REDUCE_KNOCKBACK": 0.75,
+              "EFFECTS": [
+                {
+                  "id": "minecraft:wither",
+                  "duration": 100,
+                  "amplifier": 2,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:weakness",
+                  "duration": 100,
+                  "amplifier": 2,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "cooldownTime": 60,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:spike_burst"
+      }
+    },
+	"fiskheroes:shield": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 8.0,
+        "recoveryDelay": 10,
+        "cooldown": 100
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.2,
+      "isToggle": false,
+      "soundEvents": {
+        "DEFLECT": "fiskheroes:shield_deflect"
+      }
+    },
+	"fiskheroes:controlled_flight|arch_2": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": true,
+	  "barrelRoll": {
+        "duration": 14,
+        "speed": 0.12,
+        "drag": 0.03
+      },
+      "diveSpeedRetention": 0.5,
+      "collision": {
+        "blocks": {
+          "stopFlying": true,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop", "tgheroes:flap_wings"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    }
+  }
+}

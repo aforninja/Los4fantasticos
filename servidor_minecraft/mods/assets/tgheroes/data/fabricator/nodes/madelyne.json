@@ -1,0 +1,9 @@
+{
+  "suit": "tgheroes:madelyne",
+  "requirements": [
+    "fiskheroes:tier1",
+	"tgheroes:tgheroes",
+    "tgheroes:jean",
+	"fiskheroes:sorcery"
+  ]
+}

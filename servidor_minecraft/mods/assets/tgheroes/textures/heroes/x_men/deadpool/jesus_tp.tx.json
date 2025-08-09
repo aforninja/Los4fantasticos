@@ -1,0 +1,22 @@
+{
+    "texture": {
+      "in": "tgheroes:x_men/deadpool/marvel_messiah",
+      "transform": [
+        {
+          "operation": "XOR",
+          "supply": "tgheroes:x_men/deadpool/xor/dead_tp_<TIMER>"
+        }
+      ],
+      "out": "fiskheroes:generated/marvel_messiah_<TIMER>"
+    },
+    "getters": {
+      "TIMER": {
+        "key": "Math.ceil(7 * entity.getInterpolatedData('tgheroes:dyn/teleport')) | 0",
+        "values": {
+          "min": 1,
+          "max": 7
+        }
+      }
+    },
+    "isDynamic": true
+  }

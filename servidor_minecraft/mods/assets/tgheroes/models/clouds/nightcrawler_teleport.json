@@ -1,0 +1,20 @@
+{
+  "color": {
+    "red": {
+      "start": 0.0,
+      "end": {
+        "base": 0.0,
+        "rand": 0.1
+      }
+    },
+    "green": 
+	0.0,
+    "blue": {
+      "start": 0.0,
+      "end": {
+        "base": 0.0,
+        "rand": 0.15
+      }
+  }
+}
+}

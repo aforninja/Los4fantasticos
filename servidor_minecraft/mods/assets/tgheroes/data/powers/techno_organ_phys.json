@@ -1,0 +1,156 @@
+{
+  "name": "Techno-Organic Physiology",
+  "modifiers": {
+	  "fiskheroes:equipment|basic": {
+      "equipment": {
+	    "fiskheroes:grenade": {
+          "cooldown": 200,
+          "uses": 3,
+          "damageProfile": {
+            "damage": 20.0,
+            "types": {
+              "EXPLOSION": 1.0
+            }
+          },
+          "isInstant": false,
+          "affectsUser": true,
+          "fuseTime": 30,
+          "radius": 8.0
+        }
+      }
+    },
+	  "fiskheroes:equipment|flashbang": {
+      "equipment": {
+        "fiskheroes:grenade": {
+          "cooldown": 150,
+          "uses": 2,
+          "damageProfile": {
+            "damage": 3.0,
+            "types": {
+              "EXPLOSION": 1.0
+            },
+            "properties": {
+              "EFFECTS": [
+                {
+                  "id": "fiskheroes:flashbang",
+                  "duration": 100,
+                  "amplifier": 0,
+                  "chance": 1.0
+                },
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 200,
+                  "amplifier": 2,
+                  "chance": 1.0
+                }
+              ]
+            }
+          },
+          "isInstant": true,
+          "affectsUser": true,
+          "fuseTime": 40,
+          "radius": 8.0
+        }
+	  },
+      "soundEvents": {
+        "SWITCH": "fiskheroes:utility_belt_switch"
+      }
+    },
+	
+	"fiskheroes:equipment|eterno_tutrid": {
+      "equipment": {
+        "fiskheroes:grenade": {
+          "cooldown": 200,
+          "uses": 2,
+          "damageProfile": {
+            "damage": 3.0,
+            "types": {
+              "EXPLOSION": 1.0
+            },
+            "properties": {
+              "EFFECTS": [
+                {
+                  "id": "fiskheroes:eternium",
+                  "duration": 120,
+                  "amplifier": 0,
+                  "chance": 1
+                },
+                {
+                  "id": "fiskheroes:tutridium",
+                  "duration": 120,
+                  "amplifier": 0,
+                  "chance": 1.0
+                },
+				{
+                  "id": "fiskheroes:disable_phasing",
+                  "duration": 120,
+                  "amplifier": 0,
+                  "chance": 1.0
+                }
+              ]
+            }
+          },
+          "isInstant": true,
+          "affectsUser": true,
+          "fuseTime": 40,
+          "radius": 8.0
+        }
+      },
+      "soundEvents": {
+        "SWITCH": "fiskheroes:utility_belt_switch"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 3.0,
+        "types": {
+          "ENERGY": 1.0,
+          "FIRE": 0.5
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 20,
+      "duration": 40,
+      "cooldownTime": 80,
+      "range": 32.0,
+      "radius": 0.1,
+	    "soundEvents": {
+        "SHOOT": "tgheroes:ironman_shoot"
+      }
+    },
+	"fiskheroes:regeneration": {
+      "factor": 3.5
+    },
+    "fiskheroes:arrow_catching": {
+    },
+    "fiskheroes:damage_resistance|telepat": {
+      "damageType": "TELEPATIC",
+	  "factor": 1.0
+    }
+  },
+  "hud": [
+  {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/grenade_basic.png",
+      "data": "tgheroes:dyn/grenade_basic"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/grenade_flashbang.png",
+      "data": "tgheroes:dyn/grenade_flashbang"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/grenade_eterno_tutrid.png",
+      "data": "tgheroes:dyn/grenade_eterno_tutrid"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_cable.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

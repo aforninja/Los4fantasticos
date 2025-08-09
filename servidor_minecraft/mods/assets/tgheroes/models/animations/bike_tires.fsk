@@ -1,0 +1,4 @@
+{data} = curve {data}
+{tire_back_rotX} += 2pi*{data}
+
+{tire_front_rotX} += 2pi*{data}

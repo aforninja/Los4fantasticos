@@ -1,0 +1,8 @@
+{
+  "parent": "fiskheroes:sound_base",
+  "sound": "tgheroes:creetle_fly_bosnia",
+  "condition": "entity.isSprinting() && entity.getData('fiskheroes:flying')",
+  "pitch": 1,
+  "fadeOut": 5,
+  "loop": true
+}

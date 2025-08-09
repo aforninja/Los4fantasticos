@@ -1,0 +1,141 @@
+{
+  "name": "Iceman Powers",
+  "modifiers": {
+	"fiskheroes:shield": {
+    "shield": {
+      "health": 70.0,
+      "regeneration": 10.0,
+      "recoveryDelay": 150,
+      "cooldown": 220
+    },
+    "coverage": {
+      "yawRadius": 100.0,
+      "pitchRadius": 100.0,
+      "yawOffset": 0.0,
+      "pitchOffset": 0.0
+    },
+    "knockback": 0.0,
+    "isToggle": false,
+    "soundEvents": {
+      "BLOCK_START": "tgheroes:cryo_sound"
+    }
+  },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.08,
+      "boostSpeed": 0.16,
+      "canBoost": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": true,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.7,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:firestorm_flight_enable", "tgheroes:iceman_flight"],
+        "BOOST": "fiskheroes:firestorm_boost"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "COLD": 1.0
+        },
+		 "properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 0,
+		  "EFFECTS": [
+                {
+                  "id": "minecraft:slowness",
+                  "duration": 300,
+                  "amplifier": 3,
+                  "chance": 1
+                }
+              ]
+        }
+      },
+      "chargeTime": 25,
+      "duration": 40,
+      "cooldownTime": 120,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+		"SHOOT": "tgheroes:iceman_beam"
+
+      }
+    },
+    "fiskheroes:icicles": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "SHARP": 1.0,
+          "COLD": 0.5
+        },
+        "properties": {
+          "REDUCE_KNOCKBACK": 0.2
+        }
+      },
+      "quantity": 5,
+      "spread": 0.5,
+      "cooldownTime": 5
+    },
+	"fiskheroes:transformation": {
+      "key": "ICE_FORM",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/ice",
+        "timerData": "tgheroes:dyn/ice_timer",
+        "time": 10
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:cryo_sound"
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData":"tgheroes:dyn/ice",
+        "cooldownData": "tgheroes:dyn/ice_cooldown",
+        "duration": 6000,
+        "recovery": 1.0
+      }
+    },
+	"fiskheroes:cryoball": {
+    },
+    "fiskheroes:frost_walking": {
+    },
+    "fiskheroes:blade": {
+		"soundEvents": {
+        "ENABLE": "tgheroes:cryo_sound"
+      }
+    },
+    "fiskheroes:regeneration": {
+      "factor": 5.5
+    },
+	"fiskheroes:water_breathing": {
+    },
+    "fiskheroes:damage_weakness": {
+      "damageType": "FIRE",
+      "factor": 0.5
+    },
+	"fiskheroes:damage_resistance": {
+      "damageType": "COLD",
+      "factor": 1.0
+    }
+  },
+  "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_iceman.png",
+      "data": "fiskheroes:beam_charge"
+    },
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/cryo_bar.png",
+      "data": "tgheroes:dyn/ice_cooldown"
+    }
+  ]
+}

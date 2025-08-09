@@ -1,0 +1,16 @@
+{
+  "suit": "tgheroes:silver_surfer",
+  "requirements": [
+    "fiskheroes:tier8_9",
+	  "tgheroes:tgheroes",
+	      "fiskheroes:intangibility",
+	"fiskheroes:regeneration2",
+
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged2",
+    "fiskheroes:flight"
+
+
+  ]
+}

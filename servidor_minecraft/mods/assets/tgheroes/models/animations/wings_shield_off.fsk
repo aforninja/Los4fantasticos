@@ -1,0 +1,53 @@
+{wings_shield_off_time}={data}
+{wings_shield_off_0}=curve animate2({wings_shield_off_time},0.0632911392,0,0,0.0632911392)
+{wings_shield_off_1}=curve animate2({wings_shield_off_time},0.3164556962,0,0.0632911392,0.253164557)
+{wings_shield_off_2}=curve animate2({wings_shield_off_time},0.9240506329,0.06329113924050633,0.253164557,0.6708860759)
+{wings_shield_off_3}=curve animate2({wings_shield_off_time},0.3164556962,0,0,0.3164556962)
+
+{Right Arm_rotX}+=-87.2341739895'{wings_shield_off_0}
+{Right Arm_rotY}+=20.8600610819'{wings_shield_off_0}
+{Right Arm_rotZ}+=0.665519725'{wings_shield_off_0}
+{Right Arm_rotX}+=-90'{wings_shield_off_1}
+{Right Arm_rotY}+=58.26'{wings_shield_off_1}
+{Right Arm_rotZ}+=13.68'{wings_shield_off_1}
+{Right Arm_rotY}+=67.5'{wings_shield_off_2}
+{Right Arm_rotZ}+=89.9999999999'{wings_shield_off_2}
+
+{Left Arm_rotX}+=-87.2263034767'{wings_shield_off_0}
+{Left Arm_rotY}+=-21.2570560365'{wings_shield_off_0}
+{Left Arm_rotZ}+=-0.6683477897'{wings_shield_off_0}
+{Left Arm_rotX}+=-90'{wings_shield_off_1}
+{Left Arm_rotY}+=-43.26'{wings_shield_off_1}
+{Left Arm_rotZ}+=-13.68'{wings_shield_off_1}
+{Left Arm_rotY}+=-67.5'{wings_shield_off_2}
+{Left Arm_rotZ}+=-89.9999999999'{wings_shield_off_2}
+
+{wing_start_rotX}+=5.1552755329'{wings_shield_off_3}
+{wing_start_rotY}+=22.2971119258'{wings_shield_off_3}
+{wing_start_rotZ}+=-8.1100274189'{wings_shield_off_3}
+
+{wing_start_segment_rotY}+=77.75'{wings_shield_off_3}
+
+{wing_end_rotY}+=-0.5'{wings_shield_off_3}
+
+{wing_end2_rotY}+=49.5'{wings_shield_off_3}
+
+{arch_wing_rotX}+=22.5'{wings_shield_off_3}
+{arch_wing_rotY}+=22.5'{wings_shield_off_3}
+
+{arch_start_rotX}+=45'{wings_shield_off_3}
+
+{wing_start2_rotX}+=-0.3233230353'{wings_shield_off_3}
+{wing_start2_rotY}+=-21.8930529545'{wings_shield_off_3}
+{wing_start2_rotZ}+=14.0303077071'{wings_shield_off_3}
+
+{wing_start_segment2_rotY}+=-77.75'{wings_shield_off_3}
+
+{wing_end3_rotY}+=-0.5'{wings_shield_off_3}
+
+{wing_end4_rotY}+=-67.5'{wings_shield_off_3}
+
+{arch_wing2_rotX}+=22.5'{wings_shield_off_3}
+{arch_wing2_rotY}+=-22.5'{wings_shield_off_3}
+
+{arch_start2_rotX}+=45'{wings_shield_off_3}

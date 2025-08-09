@@ -1,0 +1,10 @@
+{
+  "suit": "tgheroes:jean",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+    "fiskheroes:melee",
+	"fiskheroes:ranged2",
+	"fiskheroes:defense2"
+  ]
+}

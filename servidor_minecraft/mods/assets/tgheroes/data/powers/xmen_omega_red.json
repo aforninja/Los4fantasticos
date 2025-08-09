@@ -1,0 +1,79 @@
+{
+  "name": "Carbonadium Tentacles",
+  "modifiers": {
+     "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('tgheroes:dyn/drain_timer') > 0",
+        "cooldownData": "tgheroes:dyn/no_mutants_timer_sound",
+        "duration": 2,
+        "recovery": 1.0
+      },
+      "soundEvents": {
+        "START": "tgheroes:omega_red_drain"
+      }
+    }, 
+	"fiskheroes:regeneration": {
+      "factor": 4.5
+    },
+  "fiskheroes:healing_factor": {
+      "delay": 0
+    },
+	"fiskheroes:tentacles": {
+      "tentacles": [
+        [0.15, -1.0, 1.5],
+		[-0.15, -1.0, 1.5]
+      ],
+	  "climbing": {
+        "speed": 0.1,
+        "range": 3,
+        "tolerance": 7,
+        "minAnchorPoints": 2,
+        "anchorPointZones": [
+          ["TOP", "RIGHT", "FRONT"],
+          ["TOP", "LEFT", "FRONT"],
+          ["BOTTOM", "RIGHT", "BACK"],
+          ["BOTTOM", "LEFT", "BACK"]
+        ]
+      },
+      "range": 15.0,
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "BLUNT": 1.0
+        },
+        "properties": {
+          "DAMAGE_DROPOFF": 0.6,
+          "HIT_COOLDOWN": 0
+        }
+      },
+	  "tentacleStrike": {
+        "chargeTime": 20,
+        "damageProfile": {
+          "damage": 12.0,
+          "types": {
+            "BLUNT": 1.0
+          },
+          "properties": {
+            "HIT_COOLDOWN": 0
+          }
+        }
+      },
+      "canBreakGlass": true,
+	  "soundEvents": {
+        "ENABLE": "fiskheroes:ock_enable",
+        "DISABLE": "fiskheroes:ock_disable",
+        "JAB_START": "fiskheroes:ock_jab",
+        "GRAB_START": "fiskheroes:ock_grab",
+        "STRIKE_START": "fiskheroes:ock_strike",
+        "STRIKE_CHARGED": "fiskheroes:ock_strike_charged"
+      }
+    }
+  },
+    "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_cyclops.png",
+      "data": "tgheroes:dyn/drain_charge"
+    }
+  ]
+}

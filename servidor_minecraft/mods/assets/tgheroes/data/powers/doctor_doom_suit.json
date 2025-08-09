@@ -1,0 +1,107 @@
+{
+	"name": "Doctor Doom's Power Suit",
+  "modifiers": {
+    "fiskheroes:teleportation": {
+      "canReachMoon": true,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:breach"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "ELECTRICITY": 1.0
+        }
+      },
+      "chargeTime": 20,
+      "duration": 40,
+      "cooldownTime": 60,
+	  "canDoGriefing": false,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "CHARGE": "tgheroes:doom_blast"
+      }
+    },
+	"fiskheroes:shield|forcefield": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 240
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "tgheroes:doom_field",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+	"fiskheroes:controlled_flight|boosters": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:iron_man_flight_enable", "fiskheroes:iron_man_flight_loop", "fiskheroes:flight_cape_loop"],
+        "BOOST": "fiskheroes:iron_man_boost"
+      }
+    },
+	"fiskheroes:controlled_flight|cloak": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": false,
+      "canRoll": false,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop", "fiskheroes:flight_cape_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+    "fiskheroes:projectile_immunity": {
+    },
+    "fiskheroes:water_breathing": {
+    }
+  },
+    "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/doom_electic_boom.png",
+      "data": "entity.getInterpolatedData('tgheroes:dyn/electric_timer')"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/doom_electic.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

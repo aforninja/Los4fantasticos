@@ -1,0 +1,6 @@
+
+
+
+{bottom_rotX} += 0.5 {lookY} * {data}
+
+

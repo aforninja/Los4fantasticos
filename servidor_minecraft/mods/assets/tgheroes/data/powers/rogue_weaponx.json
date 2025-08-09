@@ -1,0 +1,49 @@
+{
+  "name": "Absorbed Powers of Wolverine",
+  "modifiers": {
+	  "fiskheroes:healing_factor|x1": {
+      "delay": 120,
+      "soundEvents": {
+        "HEAL": "fiskheroes:healing_factor"
+      }
+    },
+    "fiskheroes:blade": {
+      "soundEvents": {
+        "ENABLE": "fiskheroes:manta_blade_enable",
+        "DISABLE": "fiskheroes:manta_blade_disable"
+      }
+    },
+    "fiskheroes:potion_immunity|x2": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither", "minecraft:mining_fatigue", "minecraft:hunger", "minecraft:slowness"]
+    },
+    "fiskheroes:leaping|x3": {
+      "leapAmount": [1.3, 0.1]
+    },
+    "fiskheroes:regeneration|x4": {
+      "factor": 3
+    },
+	"fiskheroes:transformation": {
+      "key": "X23",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/rogue_x",
+        "timerData": "tgheroes:dyn/rogue_x_timer",
+        "time": 1
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/rogue_x",
+        "cooldownData": "tgheroes:dyn/rogue_x_cooldown",
+        "duration": 6000,
+        "recovery": 0.3
+      }
+    }
+  },
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_rogue_wolverine.png",
+      "data": "tgheroes:dyn/rogue_x_cooldown"
+    }
+  ]
+}

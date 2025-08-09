@@ -1,0 +1,13 @@
+{
+  "particles": [
+    {
+      "maxDistance": 256,
+      "condition": "!firstPerson",
+      "type": "FIREWORK_BACKGROUND",
+      "amount": 1,
+      "offset": [0.0, 0.5, 0.0],
+      "motion": [180.0, 120.0, 50.0],
+      "mirror": false
+    }
+  ]
+}

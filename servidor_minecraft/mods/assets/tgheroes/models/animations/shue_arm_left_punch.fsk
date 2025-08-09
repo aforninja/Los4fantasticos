@@ -1,0 +1,9 @@
+{f6} = 1.0 - {data}
+{f6} *= {f6}
+{f6} *= {f6}
+{f6} = 1.0 - {f6}
+{f7} = sin({f6} * pi)
+{f8} = sin({data} * pi) * -({head_rotX} - 0.7) * 0.75
+{leftArm_rotX} @ {data} -> {rightArm_rotX} - ({f7} * 1.2 + {f8})
+{leftArm_rotY} @ {data} -> -({body_rotY}) * 2.0
+{leftArm_rotZ} @ {data} -> sin({data} * pi) * -0.4

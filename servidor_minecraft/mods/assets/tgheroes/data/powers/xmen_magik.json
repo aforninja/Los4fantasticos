@@ -1,0 +1,129 @@
+{
+  "name": "Magik Powers",
+  "modifiers": {
+
+
+    "fiskheroes:charged_beam|basic_beam": {
+      "damageProfile": {
+        "damage": 3.0,
+        "types": {
+          "MAGIC": 1.0
+        }
+      },
+      "chargeTime": 25,
+      "duration": 60,
+      "cooldownTime": 20,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "CHARGE": "fiskheroes:mysterio_charged_beam_charge",
+		"BEAM_AMBIENT": "tgheroes:fire_breath"
+      }
+    },
+
+    "fiskheroes:charged_beam|dark_beam": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "MAGIC": 1.0
+        }
+      },
+      "chargeTime": 25,
+      "duration": 60,
+      "cooldownTime": 20,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "CHARGE": "fiskheroes:mysterio_charged_beam_charge",
+		"BEAM_AMBIENT": "tgheroes:fire_breath"
+      }
+    },
+
+  "fiskheroes:transformation|dodge1": {
+      "key": "RUN",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "timerData": "tgheroes:dyn/dodge_timer",
+        "time": 1
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:limbo_dash"
+      }
+    },
+    "fiskheroes:cooldown|dodge": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/dodge",
+        "cooldownData": "tgheroes:dyn/dodge_cooldown",
+        "duration": 5,
+        "recovery": 1.0
+      }
+    },
+
+
+    "fiskheroes:transformation|darkchild3": {
+      "key": "DARKCHILD",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/darkchild",
+        "timerData": "tgheroes:dyn/darkchild_timer",
+        "time": 30
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:darkchyld"
+      }
+    },
+    "fiskheroes:cooldown|darkchild": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/darkchild",
+        "cooldownData": "tgheroes:dyn/darkchild_cooldown",
+        "duration": 2400,
+        "recovery": 1.0
+      }
+    },
+
+	"fiskheroes:damage_resistance": {
+      "damageType": "TELEPATIC",
+      "factor": 0.5
+    },
+
+	 "fiskheroes:energy_manipulation|basic": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "MAGIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 10
+        }
+      },
+      "chargeTime": 30,
+      "range": 48.0
+    },
+    "fiskheroes:energy_manipulation|darkchild1": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "MAGIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 30,
+      "range": 48.0
+    }
+  },
+"hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_cable.png",
+      "data": "fiskheroes:beam_charge"
+    },
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/darkchyld.png",
+      "data": "tgheroes:dyn/darkchild_cooldown"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{leftLeg_rotX} @ {data} -> 0.0
+
+{rightLeg_rotX} @ {data} -> 0.0
+
+{rightArm_rotX}@ {data} -> 0.0
+
+{leftArm_rotX}@ {data} -> 0.0
+
+
+{fast_fly_time}={data}
+{fast_fly_0}=curve animate2({fast_fly_time},5,0,1,4)
+{fast_fly_1}=curve animate2({fast_fly_time},1,0,0,1)
+{fast_fly_2}=curve animate2({fast_fly_time},1,0,0.5,0.5)
+{fast_fly_3}=curve animate2({fast_fly_time},4.5,0.5,0.5,4)
+
+{head_posY}+=6.5{fast_fly_0}
+{head_posZ}+=-5.5{fast_fly_0}
+
+{body_rotX}+=5.25'{fast_fly_1}
+{body_rotY}+=12'{fast_fly_1}
+{body_rotX}+=29.75'{fast_fly_0}
+{body_posX}+=-0.25{fast_fly_0}
+{body_posY}+=6.1{fast_fly_0}
+{body_posZ}+=-5.875{fast_fly_0}
+
+{rightArm_rotY}+=22.5'{fast_fly_1}
+{rightArm_rotX}+=68.4237417079'{fast_fly_0}
+{rightArm_rotY}+=-15.9661987358'{fast_fly_0}
+{rightArm_rotZ}+=15.215174658'{fast_fly_0}
+{rightArm_posZ}+=1.5{fast_fly_1}
+{rightArm_posY}+=5.75{fast_fly_0}
+{rightArm_posZ}+=-4.5{fast_fly_0}
+
+{leftArm_rotY}+=-22.5'{fast_fly_1}
+{leftArm_rotX}+=-97.3491438269'{fast_fly_0}
+{leftArm_rotY}+=5.171366792'{fast_fly_0}
+{leftArm_rotZ}+=-62.2598365453'{fast_fly_0}
+{leftArm_posZ}+=-0.75{fast_fly_1}
+{leftArm_posY}+=7.75{fast_fly_0}
+{leftArm_posZ}+=-5.75{fast_fly_0}
+
+{rightLeg_rotX}+=21.25'{fast_fly_1}
+{rightLeg_rotX}+=23'{fast_fly_0}
+{rightLeg_posY}+=0.55{fast_fly_0}
+{rightLeg_posZ}+=-5.5{fast_fly_0}
+
+{leftLeg_rotX}+=-4.5'{fast_fly_1}
+{leftLeg_rotY}+=-5.25'{fast_fly_1}
+{leftLeg_rotX}+=63'{fast_fly_0}
+{leftLeg_rotY}+=-5.25'{fast_fly_0}
+{leftLeg_posY}+=1.37{fast_fly_2}
+{leftLeg_posY}+=4.75{fast_fly_3}

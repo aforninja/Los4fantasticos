@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:proff_x",
+  "requirements": [
+    "fiskheroes:tier1",
+    "fiskheroes:defense3",
+    "fiskheroes:ranged2",
+	"tgheroes:tgheroes",
+	"tgheroes:xgene",
+    "fiskheroes:object_manipulation"
+  ]
+}

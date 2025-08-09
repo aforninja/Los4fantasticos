@@ -1,0 +1,27 @@
+{cap_landing_time}={data}
+{cap_landing_0}=curve animate2({cap_landing_time},2.5,0,1,1.5)
+
+{head_rotX}+=45'{cap_landing_0}
+{head_posY}+=10{cap_landing_0}
+{head_posZ}+=-5{cap_landing_0}
+
+{body_rotX}+=58'{cap_landing_0}
+{body_posY}+=10.75{cap_landing_0}
+{body_posZ}+=-4.75{cap_landing_0}
+
+{rightArm_rotY}+=-67.5'{cap_landing_0}
+{rightArm_posY}+=11{cap_landing_0}
+{rightArm_posZ}+=-3{cap_landing_0}
+
+{leftArm_rotX}+=73.5042650144'{cap_landing_0}
+{leftArm_rotY}+=23.8490945527'{cap_landing_0}
+{leftArm_rotZ}+=-39.6063479577'{cap_landing_0}
+{leftArm_posY}+=9{cap_landing_0}
+{leftArm_posZ}+=-3{cap_landing_0}
+
+{rightLeg_rotX}+=67.5'{cap_landing_0}
+{rightLeg_posX}+=-0.075{cap_landing_0}
+{rightLeg_posY}+=5.25{cap_landing_0}
+{rightLeg_posZ}+=-2.5{cap_landing_0}
+
+{leftLeg_posX}+=0.2{cap_landing_0}

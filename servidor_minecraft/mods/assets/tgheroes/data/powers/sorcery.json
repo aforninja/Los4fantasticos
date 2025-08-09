@@ -1,0 +1,128 @@
+{
+  "name": "Sorcery",
+  "modifiers": {
+	  "fiskheroes:shield|jean_2": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 10.0,
+        "recoveryDelay": 100,
+        "cooldown": 300
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+	 "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 0.1,
+        "types": {
+          "MAGIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 0,
+		  "EFFECTS": [
+                {
+                  "id": "minecraft:instant_health",
+                  "duration": 1,
+                  "amplifier": 1,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:regeneration",
+                  "duration": 120,
+                  "amplifier": 3,
+                  "chance": 0.3
+                }
+              ]
+        }
+      },
+      "chargeTime": 20,
+      "duration": 20,
+      "cooldownTime": 50,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "SHOOT": "tgheroes:apocalypse_beam",
+        "BEAM_AMBIENT": "fiskheroes:antimatter_blast_loop"
+      }
+    }, 
+    "fiskheroes:spellcasting|jean_1": {
+      "spells": {
+        "fiskheroes:whip": {
+          "sequence": "sw",
+          "cooldown": 50,
+          "damageProfile": {
+            "damage": 5.0,
+            "types": {
+              "MAGIC": 1.0,
+              "FIRE": 1.0
+            }
+          },
+          "whipBurn": {
+            "frequency": 20,
+            "damageProfile": {
+              "damage": 0.5,
+              "types": {
+                "MAGIC": 1.0,
+                "FIRE": 1.0
+              },
+              "properties": {
+                "REDUCE_KNOCKBACK": 1.0
+              }
+            }
+          }
+        },
+        "fiskheroes:atmospheric": {
+          "sequence": "w",
+          "cooldown": 20,
+          "pushPower": 1.0,
+          "damageProfile": {
+            "damage": 2.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        },
+        "fiskheroes:earth_swallowing": {
+          "sequence": "ws",
+          "cooldown": 800,
+          "range": 48.0,
+          "radius": 6.0,
+          "damageProfile": {
+            "damage": 14.0,
+            "types": {
+              "MAGIC": 1.0
+            }
+          }
+        },
+        "fiskheroes:blindness": {
+          "sequence": "s",
+          "cooldown": 100,
+          "duration": 400,
+          "range": 24.0
+        }
+      },
+      "soundEvents": {
+        "CAST": "fiskheroes:spell_cast",
+        "CAST_FAIL": "fiskheroes:spell_fail"
+      }
+    }
+  },
+  "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/madelyne_heal.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Energy Rifle",
+  "permission": "USE_FISKTAG_GUN",
+  "holdingPose": "DOUBLE",
+  "isHidden": false,
+  "cooldown": 20,
+  "damageProfile": {
+    "damage": 6,
+    "types": {
+      "ENERGY": 1
+    }
+  },
+  "fisktag": {
+    "sprintShootDelay": 6,
+    "sprintDelay": 6
+  },
+  "scope": {
+    "zoom": 1.0,
+    "allowHeadshots": true,
+    "headshotDamageBonus": 1
+  },
+  "spread": {
+    "sprintingFactor": 1.5,
+    "fallingFactor": 1.5,
+    "scopingFactor": 0.5
+  },
+  "recoil": {
+    "amount": 1.5,
+    "cameraShake": 3.5
+  },
+  "projectiles": [
+    {
+      "type": "BEAM",
+      "spread": 1.0,
+      "speed": 12.0,
+      "trail": 2
+    }
+  ],
+  "soundEvents": {
+    "SHOOT": "fisktag:rifle_shoot",
+    "SCOPE_START": "fisktag:rifle_scope_start",
+    "SCOPE_STOP": "fisktag:rifle_scope_stop"
+  }
+}

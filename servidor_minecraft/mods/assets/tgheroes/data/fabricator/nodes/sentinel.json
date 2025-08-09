@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:sentinel",
+  "requirements": [
+    "fiskheroes:tier6_7",
+	"tgheroes:tgheroes",
+	"fiskheroes:flight",
+    "fiskheroes:object_manipulation",
+    "fiskheroes:defense2",
+	"fiskheroes:ranged2",
+    "fiskheroes:melee2"
+  ]
+}

@@ -1,0 +1,33 @@
+{data} = curve {data}
+
+
+{head_rotX}@ {data} ->44.5'
+{head_posY}@ {data} ->6.175
+{head_posZ}@ {data} ->-3.45
+
+{body_rotX}@ {data} ->12.75'
+{body_posY}@ {data} ->6.1
+{body_posZ}@ {data} ->-3.1
+
+{rightArm_rotX}@ {data} ->-8.7527425301'
+{rightArm_rotY}@ {data} ->6.1372853007'
+{rightArm_rotZ}@ {data} ->9.8547443583'
+{rightArm_posY}@ {data} ->6.8
+{rightArm_posZ}@ {data} ->-1.15
+
+{leftArm_rotX}@ {data} ->-17.9077070529'
+{leftArm_rotY}@ {data} ->-1.8510370514'
+{leftArm_rotZ}@ {data} ->-5.7083278369'
+{leftArm_posY}@ {data} ->6.575
+{leftArm_posZ}@ {data} ->-1.625
+
+{rightLeg_posX}@ {data} ->-0.125
+;{rightLeg_posY}@ {data} ->-0.1
+{rightLeg_posZ}@ {data} ->-4.825
+
+{leftLeg_rotX}@ {data} ->71.2393703814'
+{leftLeg_rotY}@ {data} ->1.8938205035'
+{leftLeg_rotZ}@ {data} ->-0.6431131578'
+{leftLeg_posX}@ {data} ->1.425
+{leftLeg_posY}@ {data} ->20.2
+{leftLeg_posZ}@ {data} ->-4.025

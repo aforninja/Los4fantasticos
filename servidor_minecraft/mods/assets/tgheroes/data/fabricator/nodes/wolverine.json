@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:wolverine",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	"fiskheroes:traversal2",
+	"tgheroes:tgheroes",
+	"fiskheroes:regeneration2",
+
+    "tgheroes:weapon_x",
+	"tgheroes:xgene"
+  ]
+}

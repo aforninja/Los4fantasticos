@@ -1,0 +1,87 @@
+{
+  "name": "Cyclops Powers",
+  "modifiers": {
+	  "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "ADD_KNOCKBACK": 1.0,
+          "HIT_COOLDOWN": 0.0
+        }
+      },
+      "range": 32.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+	  "soundEvents": {
+        "SHOOT": "tgheroes:lantern_aim"
+      }
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 4.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 200
+        }
+      },
+      "chargeTime": 20,
+      "duration": 40,
+      "cooldownTime": 100,
+      "range": 42.0,
+      "radius": 0.1,
+	  "soundEvents": {
+        "SHOOT": "fiskheroes:manta_beam_start",
+        "BEAM_AMBIENT": "fiskheroes:manta_beam_loop"
+      }
+    },
+    "fiskheroes:heat_vision|5": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 50
+        }
+      },
+      "range": 32.0,
+      "radius": 0.1,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:heat_vision"
+      }
+    },
+	"fiskheroes:heat_vision|10": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 100
+        }
+      },
+      "range": 32.0,
+      "radius": 0.1,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:heat_vision"
+      }
+    }
+},
+    "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_cyclops.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

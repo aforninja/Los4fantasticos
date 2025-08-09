@@ -1,0 +1,7 @@
+{data} = curve {data}
+{icewall_right_posY} @ {data} -> 10
+{icewall_right_posX} @ {data} -> -4
+{icewall_right_posZ} @ {data} -> -12
+{icewall_left_posY} @ {data} -> 10
+{icewall_left_posX} @ {data} -> 4
+{icewall_left_posZ} @ {data} -> -12

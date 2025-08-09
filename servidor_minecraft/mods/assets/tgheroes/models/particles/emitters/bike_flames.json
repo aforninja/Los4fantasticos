@@ -1,0 +1,64 @@
+{
+  "particles": [
+    {
+      "condition": "!firstPerson",
+      "type": "FLAME",
+      "anchor": "body",
+      "amount": 4,
+      "offset": [0.0, 22.0, 15.0],
+      "motion": [0.0, 0.01, 0.0],
+      "randMotion": [0.0, 0.0, 0.0],
+      "mirror": false
+    },
+	{
+      "condition": "!firstPerson",
+      "type": "FLAME",
+      "anchor": "body",
+      "amount": 10,
+      "offset": [0.0, 22.0, -18.0],
+      "motion": [0.0, 0.01, 0.0],
+      "randMotion": [0.05, 0.0, 0.05],
+      "mirror": false
+    },
+	{
+      "condition": "!firstPerson",
+      "type": "FLAME",
+      "anchor": "body",
+      "amount": 10,
+      "offset": [0.0, 20.0, -30.0],
+      "motion": [0.0, 0.01, 0.0],
+      "randMotion": [0.02, 0.0, 0.02],
+      "mirror": false
+    },
+	{
+      "condition": "!firstPerson",
+      "type": "SHADOW_SMOKE",
+      "anchor": "body",
+      "amount": 20,
+      "offset": [2.0, 20.0, -28.0],
+      "motion": [0.0, 0.02, 0.0],
+      "randMotion": [0.05, 0.0, 0.05],
+      "mirror": false
+    },
+	{
+      "condition": "!firstPerson",
+      "type": "SHADOW_SMOKE",
+      "anchor": "body",
+      "amount": 20,
+      "offset": [-2.0, 20.0, -28.0],
+      "motion": [0.0, 0.02, 0.0],
+      "randMotion": [0.05, 0.0, 0.05],
+      "mirror": false
+    },
+	{
+      "condition": "!firstPerson",
+      "type": "SHADOW_SMOKE",
+      "anchor": "body",
+      "amount": 20,
+      "offset": [0.0, 20.0, -35.0],
+      "motion": [0.0, 0.02, 0.0],
+      "randMotion": [0.05, 0.0, 0.05],
+      "mirror": false
+    }
+  ]
+}

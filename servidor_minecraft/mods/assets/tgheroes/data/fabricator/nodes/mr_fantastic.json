@@ -1,0 +1,14 @@
+{
+  "suit": "tgheroes:mr_fantastic",
+  "requirements": [
+    "fiskheroes:tier4_5",
+	  "tgheroes:tgheroes",
+	  "tgheroes:cosmic_radiation",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:traversal2",
+    "fiskheroes:object_manipulation"
+
+
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Sentinel",
+  "modifiers": {
+	  "fiskheroes:damage_immunity": {
+      "damageType": "TELEPATIC"
+    },
+	"fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither", "minecraft:mining_fatigue", "minecraft:hunger"]
+    },
+	"fiskheroes:fire_immunity": {
+    },
+	"fiskheroes:metal_skin": {
+    },
+	"fiskheroes:projectile_immunity": {
+    },
+	"fiskheroes:water_breathing": {
+    },
+	"fiskheroes:ground_smash": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "EXPLOSION": 1.0
+        }
+      },
+      "radius": 5.0,
+      "knockback": 2.0,
+      "cooldownTime": 100
+    },
+	"fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "ADD_KNOCKBACK": 1.0,
+          "HIT_COOLDOWN": 0.0
+        }
+      },
+      "range": 32.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+	  "soundEvents": {
+        "SHOOT": "tgheroes:lantern_aim"
+      }
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "HEAT_VISION": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 200
+        }
+      },
+      "chargeTime": 40,
+      "duration": 100,
+      "cooldownTime": 200,
+      "range": 64.0,
+      "radius": 0.1,
+	  "soundEvents": {
+        "SHOOT": "fiskheroes:manta_beam_start",
+        "BEAM_AMBIENT": "fiskheroes:manta_beam_loop"
+      }
+    },
+	"fiskheroes:tentacles": {
+      "tentacles": [
+        [1.5, -1.0, 15.0],
+		[-1.5, -1.0, 15.0]
+      ],
+      "range": 8.0,
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "BLUNT": 1.0
+        },
+        "properties": {
+          "DAMAGE_DROPOFF": 0.6,
+          "HIT_COOLDOWN": 0
+        }
+      },
+	  "tentacleStrike": {
+        "chargeTime": 20,
+        "damageProfile": {
+          "damage": 18.0,
+          "types": {
+            "BLUNT": 1.0
+          },
+          "properties": {
+            "HIT_COOLDOWN": 0
+          }
+        }
+      },
+      "canBreakGlass": true,
+	  "soundEvents": {
+        "ENABLE": "fiskheroes:ock_enable",
+        "DISABLE": "fiskheroes:ock_disable",
+        "JAB_START": "fiskheroes:ock_jab",
+        "GRAB_START": "fiskheroes:ock_grab",
+        "STRIKE_START": "fiskheroes:ock_strike",
+        "STRIKE_CHARGED": "fiskheroes:ock_strike_charged"
+      }
+    },
+	"fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": true,
+      "diveSpeedRetention": 0.5,
+      "collision": {
+        "blocks": {
+          "stopFlying": true,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:iron_man_flight_enable", "fiskheroes:iron_man_flight_loop"],
+        "BOOST": "fiskheroes:iron_man_boost",
+        "IMPACT_BLOCK": "fiskheroes:flight_impact_block",
+        "IMPACT_ENTITY": "fiskheroes:flight_impact_entity"
+      }
+    }
+  },
+    "hud": [
+    {
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_cyclops.png",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Winter Soldier Program",
+  "modifiers": {
+    "fiskheroes:regeneration": {
+      "factor": 4
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    },
+    "fiskheroes:arrow_catching": {
+    },
+    "fiskheroes:leaping": {
+      "leapAmount": [0.6, 0.0]
+    },
+    "fiskheroes:transformation": {
+      "key": "RED_CODE",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/red_code",
+        "timerData": "tgheroes:dyn/red_code_timer",
+        "time": 10
+      },
+      "soundEvents": {
+        "ENABLE": "tgheroes:diamond_on",
+        "DISABLE": "tgheroes:diamond_on"
+      }	  
+    }, 
+	"fiskheroes:shield": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 20.0,
+        "recoveryDelay": 30,
+        "cooldown": 80
+      },
+      "coverage": {
+        "yawRadius": 40.0,
+        "pitchRadius": 40.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+		"soundEvents": {
+        "DEFLECT": "fiskheroes:shield_deflect"
+      }
+    }
+  }
+}

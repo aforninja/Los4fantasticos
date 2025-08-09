@@ -1,0 +1,6 @@
+
+{head_rotX} =0.45
+
+
+
+out "rotate" (90{data_0}, 1, 0, 0)

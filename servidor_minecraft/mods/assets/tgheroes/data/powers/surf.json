@@ -1,0 +1,95 @@
+{
+	"name": "Cosmic Empowerment",
+  "modifiers": {
+	 "fiskheroes:intangibility": {
+      "isAbsolute": true,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:vision_intang_on",
+        "DISABLE": "fiskheroes:vision_intang_off"
+      }
+    },
+    "fiskheroes:repulsor_blast|basic": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 30,
+      "soundEvents": {
+        "SHOOT": "tgheroes:magic_blast"
+      }
+    },
+	"fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 9.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "chargeTime": 25,
+      "duration": 40,
+      "cooldownTime": 80,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:nova_blast"
+      }
+    },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.25,
+      "boostSpeed": 0.4,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": true,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": true,
+          "dealDamage": false
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:flight_loop",
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    },
+    "fiskheroes:regeneration": {
+      "factor": 7
+    },
+    "fiskheroes:teleportation": {
+      "canReachMoon": true,
+      "range": 128.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:glow_teleport"
+      }
+    },
+	"fiskheroes:damage_immunity": {
+      "damageType": "BULLET"
+    },
+    "fiskheroes:fire_immunity": {
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    },
+    "fiskheroes:projectile_immunity": {
+    },
+    "fiskheroes:water_breathing": {
+    },
+    "fiskheroes:metal_skin": {
+    }
+  },
+  "hud": [
+    {
+      "type": "CIRCLE",
+      "color": "fiskheroes:charged_beam",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Demonic Empowerment",
+  "modifiers": {
+    "fiskheroes:projectile_immunity": {
+    },
+	  "fiskheroes:shield": {
+      "shield": {
+        "health": 15.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 50,
+        "cooldown": 100
+      },
+      "coverage": {
+        "yawRadius": 50.0,
+        "pitchRadius": 50.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false
+    },
+	"fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "BLUNT": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": false,
+          "HEAT_TRANSFER": 0
+        }
+      },
+      "range": 2.0,
+      "radius": 180.0
+    },
+    "fiskheroes:ground_smash": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "EXPLOSION": 1.0
+        }
+      },
+      "radius": 3.5,
+      "knockback": 2.0,
+      "cooldownTime": 100
+    },
+    "fiskheroes:regeneration": {
+      "factor": 6
+    }
+  }
+}

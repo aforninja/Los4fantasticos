@@ -1,0 +1,74 @@
+{
+  "name": "Clone of Jean Grey",
+  "modifiers": {
+	"fiskheroes:damage_resistance": {
+      "damageType": "TELEPATIC",
+      "factor": 0.5
+    },
+    "fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+		"properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 80,
+                  "amplifier": 4,
+                  "chance": 1
+                }
+              ]
+            }
+      },
+      "chargeTime": 30,
+      "duration": 60,
+      "cooldownTime": 250,
+      "range": 32.0,
+      "radius": 0.2,
+      "soundEvents": {
+        "BEAM_AMBIENT": "tgheroes:psionic_proj"
+      }
+    },
+     "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 8.0,
+        "types": {
+          "TELEPATIC": 1.0
+        },
+        "properties": {
+              "EFFECTS": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 80,
+                  "amplifier": 4,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:slowness",
+                  "duration": 80,
+                  "amplifier": 10,
+                  "chance": 1
+                },
+				{
+                  "id": "minecraft:jump_boost",
+                  "duration": 80,
+                  "amplifier": -10,
+                  "chance": 1
+                }
+              ]
+            }
+		
+      },
+      "range": 48.0,
+      "speed": 20.0,
+      "spread": 0.0,
+      "radius": 0.1,
+      "cooldownTime": 160,
+      "soundEvents": {
+        "SHOOT": "tgheroes:psionic_blast"
+      }
+    }
+  }
+}

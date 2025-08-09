@@ -1,0 +1,23 @@
+{animation4_time}={data}
+{animation4_0}=curve animate2({animation4_time},5.0769230769,0,1,4.0769230769)
+
+{head_rotX}+=-8.5'{animation4_0}
+{head_posY}+=4.05{animation4_0}
+
+{body_posY}+=5{animation4_0}
+
+{rightArm_rotZ}+=129.5'{animation4_0}
+{rightArm_posX}+=0.025{animation4_0}
+{rightArm_posY}+=7.65{animation4_0}
+
+{leftArm_rotZ}+=-121.75'{animation4_0}
+{leftArm_posX}+=-1{animation4_0}
+{leftArm_posY}+=7{animation4_0}
+
+{rightLeg_rotZ}+=22.5'{animation4_0}
+{rightLeg_posX}+=-4{animation4_0}
+{rightLeg_posY}+=2{animation4_0}
+
+{leftLeg_rotZ}+=-45'{animation4_0}
+{leftLeg_posX}+=1{animation4_0}
+{leftLeg_posY}+=4{animation4_0}

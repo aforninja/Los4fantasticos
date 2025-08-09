@@ -1,0 +1,46 @@
+{
+  "name": "Absorbed Powers of Quicksilver",
+  "modifiers": {
+    "fiskheroes:super_speed": {
+      "canUseTreadmill": true,
+      "soundEvents": {
+        "ENABLE": [],
+        "DISABLE": [],
+        "MOVE": ["fiskheroes:super_speed_move_loop_cw"],
+        "SPRINT": ["fiskheroes:super_speed_sprint_barry"],
+        "STOP": ["fiskheroes:super_speed_stop_barry"]
+      }
+    },
+
+    "fiskheroes:slow_motion|speed1": {
+    },
+    "fiskheroes:arrow_catching|speed2": {
+    },
+    "fiskheroes:potion_immunity|speed3": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    },
+	"fiskheroes:transformation": {
+      "key": "QUICKSILVER",
+      "transformation": {
+        "toggleData": "tgheroes:dyn/rogue_speed",
+        "timerData": "tgheroes:dyn/rogue_speed_timer",
+        "time": 1
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "tgheroes:dyn/rogue_speed",
+        "cooldownData": "tgheroes:dyn/rogue_speed_cooldown",
+        "duration": 7200,
+        "recovery": 0.3
+      }
+    }
+  },
+	"hud": [
+	{
+      "type": "CHARGE",
+      "texture": "tgheroes:textures/gui/bars/x_rogue_speed.png",
+      "data": "tgheroes:dyn/rogue_speed_cooldown"
+    }
+  ]
+}

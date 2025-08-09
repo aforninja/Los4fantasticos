@@ -1,0 +1,41 @@
+{
+  "name": "Spas-12",
+  "permission": "USE_DEADPOOL_GUN",
+  "holdingPose": "DOUBLE",
+  "isHidden": true,
+  "cooldown": 10,
+  "damageProfile": {
+    "damage": 9,
+    "types": {
+      "BULLET": 1
+    }
+  },
+  "fisktag": {
+    "sprintShootDelay": 8,
+    "sprintDelay": 6
+  },
+  "spread": {
+    "sprintingFactor": 1.5,
+    "fallingFactor": 1.6,
+    "scopingFactor": 0.7
+  },
+  "ammo": {
+    "amount": 8,
+    "reloadTime": 50
+  },
+  "recoil": {
+    "amount": 2.0,
+    "cameraShake": 6.0
+  },
+  "projectiles": [
+    {
+      "type": "BEAM",
+      "amount": 5,
+      "spread": 5.0,
+      "trail": 2
+    }
+  ],
+  "soundEvents": {
+    "SHOOT": "tgheroes:spas_12"
+  }
+}

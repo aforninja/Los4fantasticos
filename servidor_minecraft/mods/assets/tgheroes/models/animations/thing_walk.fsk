@@ -1,0 +1,15 @@
+
+{leftArm_posX} = 8
+{leftArm_posZ} += 1
+{leftArm_posY} = -0.5
+
+{rightArm_posX} = -8
+{rightArm_posY} = -0.5
+{rightArm_posZ} += 1
+
+{head_posY} += -2
+
+{head_rotY} += 0
+{head_rotX} += 0
+{head_rotZ} += 0
+

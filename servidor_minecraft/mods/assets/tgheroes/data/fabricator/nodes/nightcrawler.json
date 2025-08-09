@@ -1,0 +1,12 @@
+{
+  "suit": "tgheroes:nightcrawler",
+  "requirements": [
+    "fiskheroes:tier2_3",
+	"tgheroes:tgheroes",
+    "fiskheroes:teleportation",
+    "fiskheroes:defense2",
+    "fiskheroes:melee2",
+	"tgheroes:xgene",
+    "fiskheroes:object_manipulation"
+  ]
+}

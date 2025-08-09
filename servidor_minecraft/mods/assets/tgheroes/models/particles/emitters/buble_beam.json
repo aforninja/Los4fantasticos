@@ -1,0 +1,8 @@
+{
+  "particles": [
+    {
+      "type": "minecraft:splash",
+      "amount": 1000
+    }
+  ]
+}

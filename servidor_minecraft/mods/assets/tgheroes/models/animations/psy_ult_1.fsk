@@ -1,0 +1,51 @@
+
+
+{head_posX} @ {data} -> 80 
+
+
+
+{body_posX} @ {data} -> 80 
+
+
+{rightArm_posX} @ {data} -> 76 
+
+
+
+{leftArm_posX} @ {data} -> 84 
+
+
+
+{rightLeg_posX} @ {data} -> 78 
+
+
+
+{leftLeg_posX} @ {data} -> 82
+
+{pose_1_time}={data}
+{pose_1_0}=curve animate2({pose_1_time},30,0,0,30)
+
+{body_rotX}+=12'{pose_1_0}
+
+{katana_rotZ}+=-90.75'{pose_1_0}
+{katana_posX}+=-0.2492658753{pose_1_0}
+{katana_posY}+=-10.5331821258{pose_1_0}
+{katana_posZ}+=-0.125{pose_1_0}
+
+
+{rightArm_rotX}+=-49.2000371185'{pose_1_0}
+{rightArm_rotY}+=-1.1802648058'{pose_1_0}
+{rightArm_rotZ}+=-31.3797899489'{pose_1_0}
+
+{leftArm_rotX}+=-32.309796281'{pose_1_0}
+{leftArm_rotY}+=44.4877134057'{pose_1_0}
+{leftArm_rotZ}+=17.3778599467'{pose_1_0}
+{leftArm_posX}+=-1.2513771087{pose_1_0}
+{leftArm_posY}+=0.922686487{pose_1_0}
+{leftArm_posZ}+=-0.4687970133{pose_1_0}
+
+{leftLeg_rotX}+=22.4303920053'{pose_1_0}
+{leftLeg_rotY}+=1.8159688352'{pose_1_0}
+{leftLeg_rotZ}+=-4.3898989866'{pose_1_0}
+{leftLeg_posX}+=0.398626201{pose_1_0}
+{leftLeg_posY}+=-0.4611207851{pose_1_0}
+{leftLeg_posZ}+=1.0266887421{pose_1_0}

@@ -1,0 +1,11 @@
+{
+  "suit": "tgheroes:angel",
+  "requirements": [
+    "fiskheroes:tier4_5",
+    "fiskheroes:defense",
+    "fiskheroes:melee",
+	  "tgheroes:tgheroes",
+  	"fiskheroes:flight",
+	  "tgheroes:xgene"
+  ]
+}

@@ -1,0 +1,7 @@
+{data} = curve {data}
+
+
+{claws_posY} @ {data} -> 22.5
+{claws_posX} @ {data} -> 8.5
+
+

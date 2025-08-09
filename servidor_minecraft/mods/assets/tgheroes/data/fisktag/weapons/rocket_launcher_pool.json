@@ -1,0 +1,50 @@
+{
+  "name": "Rocket Launcher",
+  "permission": "USE_DEADPOOL_GUN",
+  "holdingPose": "DOUBLE",
+  "isHidden": true,
+  "cooldown": 40,
+  "damageProfile": {
+    "damage": 100,
+    "types": {
+      "EXPLOSION": 1
+    }
+  },
+  "scope": {
+    "zoom": 1.1,
+    "allowHeadshots": false
+  },
+  "spread": {
+    "sprintingFactor": 1.5,
+    "fallingFactor": 2.0,
+    "sneakingFactor": 0.8,
+    "scopingFactor": 0.6
+  },
+  "ammo": {
+    "amount": 4,
+    "reloadTime": 80
+  },
+  "recoil": {
+    "amount": 8.0,
+    "cameraShake": 8.0
+  },
+  "projectiles": [
+    {
+      "type": "BEAM",
+      "spread": 2.5,
+      "speed": 4.0,
+      "trail": 1,
+      "hitRadius": 1.2,
+      "impact": {
+        "type": "EXPLOSION",
+        "radius": 5.0,
+        "affectsUser": true
+      }
+    }
+  ],
+  "soundEvents": {
+    "SHOOT": "fisktag:rocket_launcher_shoot",
+    "SCOPE_START": "fisktag:rocket_launcher_scope_start",
+    "SCOPE_STOP": "fisktag:rocket_launcher_scope_stop"
+  }
+}

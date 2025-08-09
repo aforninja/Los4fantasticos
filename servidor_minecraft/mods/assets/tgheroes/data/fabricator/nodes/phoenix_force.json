@@ -1,0 +1,23 @@
+{
+  "display": {
+    "name": "Phoenix Force",
+    "description": "I am fire! And life incarnate! Now and forever I am Phoenix!",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/phoenix_node.png"
+    }
+  },
+  "requirements": [ 
+	"fiskheroes:tier10",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged3",
+    "fiskheroes:teleportation",
+	"fiskheroes:regeneration2",
+	"fiskheroes:object_manipulation",
+	"fiskheroes:flight"
+	],
+  "price": {
+    "XP_LEVELS": 20,
+	"IRID_GOLD": 5
+  }
+}

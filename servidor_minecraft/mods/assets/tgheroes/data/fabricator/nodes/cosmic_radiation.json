@@ -1,0 +1,26 @@
+{
+  "display": {
+    "name": "Cosmic Radiation",
+    "description": "Cosmic radiation was responsible for the creation of the Fantastic Four on Reed Richards' fateful space flight.",
+    "icon": {
+      "texture": "tgheroes:textures/gui/nodes/f4_node.png"
+    }
+  },
+  "requirements": [ ],
+
+  "criteria": {
+        "achievement": {
+            "trigger": "fiskheroes:tick",
+            "description": {
+                "translate": "Get exposed to cosmic radiation (Visit Moon)"
+            },
+            "ignoreRequirements": true,
+            "condition": {
+                "variables": {
+                    "player": "PLAYER_TICKING"
+                },
+                "check": "player.world().getDimension() == 2595"
+            }
+        }
+    }
+}
