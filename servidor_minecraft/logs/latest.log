@@ -1,116 +1,65 @@
-[05:18:05] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[05:18:13] [Server thread/INFO]: Loading properties
-[05:18:13] [Server thread/INFO]: Default game type: SURVIVAL
-[05:18:13] [Server thread/INFO]: Generating keypair
-[05:18:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:18:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:18:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:18:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:18:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:18:14] [Server thread/INFO]: Preparing level "world"
-[05:18:19] [Server thread/INFO]: Preparing start region for level 0
-[05:18:19] [Server thread/INFO]: Done (4.729s)! For help, type "help" or "?"
-[05:18:38] [Server thread/INFO]: JuanSBN[/100.118.149.18:62878] logged in with entity id 11961 at (-91.78741746882993, 71.0, 143.38661036974977)
-[05:18:38] [Server thread/INFO]: JuanSBN joined the game
-[05:19:27] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:54201] logged in with entity id 12524 at (63.97813642823738, 70.0, 229.49545403948886)
-[05:19:27] [Server thread/INFO]: Jeffrey_epstein joined the game
-[05:19:50] [Server thread/INFO]: JuanSBN was shot by Skeleton
-[05:23:47] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to JuanSBN]
-[05:24:17] [Server thread/INFO]: JuanSBN was slain by Zombie
-[05:24:47] [Server thread/INFO]: [Jeffrey_epstein: Set the time to 1000]
-[05:24:54] [Server thread/INFO]: <Jeffrey_epstein> nose
-[05:25:08] [Server thread/INFO]: JuanSBN fell from a high place
-[05:25:12] [Server thread/INFO]: <Jeffrey_epstein> JJAJJJA
-[05:25:25] [Server thread/INFO]: [Jeffrey_epstein: Teleported JuanSBN to Jeffrey_epstein]
-[05:25:31] [Server thread/INFO]: <Jeffrey_epstein> oe
-[05:25:51] [Server thread/INFO]: <Jeffrey_epstein> agarrelo
-[05:26:16] [Server thread/INFO]: JuanSBN lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[05:26:16] [Server thread/INFO]: JuanSBN left the game
-[05:27:21] [Server thread/INFO]: JuanSBN[/100.118.149.18:63088] logged in with entity id 20182 at (-1.022465218897392, 69.0, 210.52677807066712)
-[05:27:21] [Server thread/INFO]: JuanSBN joined the game
-[05:27:38] [Server thread/WARN]: JuanSBN moved too quickly! -0.08629034992948093,-2.285239000480047,0.020780297795624847 (3.0956591031510374, 10.988173097710185, 1.404416277658684)
-[05:27:38] [Server thread/WARN]: JuanSBN moved too quickly! 0.559326756802724,-2.853324381598739,0.28102584695778887 (3.3260372284137416, 13.486267792202494, 1.533752377603446)
-[05:27:39] [Server thread/WARN]: JuanSBN moved too quickly! 0.502597119433636,-3.43251111124691,0.2525228400921833 (3.3138517678210433, 15.972564339917778, 1.548245532524654)
-[05:27:39] [Server thread/WARN]: JuanSBN moved too quickly! 0.30464759227534977,-2.9934584046603163,0.15306588966384993 (3.056501378104352, 17.662439492518168, 1.4388757718508227)
-[05:27:39] [Server thread/WARN]: JuanSBN moved too quickly! 0.1927163255689628,-2.7061746751963227,0.09682760203568819 (2.7069083844216646, 18.830389533487484, 1.2807354546344856)
-[05:27:40] [Server thread/WARN]: JuanSBN moved too quickly! 0.11788088110141004,-2.2171721081186035,0.059227587539339765 (2.3368159652744316, 19.378495195422673, 1.1095093791386652)
-[05:27:40] [Server thread/WARN]: JuanSBN moved too quickly! 0.07668239306330626,-1.8523192841587814,0.03852798779118416 (1.9868603981497828, 19.460429065150922, 0.9459031488292433)
-[05:27:40] [Server thread/WARN]: JuanSBN moved too quickly! 0.0779560683716003,-2.406956901614535,0.03916792800126245 (1.6734229947889003, 19.805957607809177, 0.8012155707912885)
-[05:27:40] [Server thread/WARN]: JuanSBN moved too quickly! -0.007443441497571257,-0.875755630330346,0.012045578967729398 (1.2682456011855037, 18.712731935011618, 0.6622637174377847)
-[05:27:41] [Server thread/WARN]: JuanSBN moved too quickly! -0.1616875817984358,-0.5565115982782345,0.003932395354638629 (0.515487139581417, 17.440146886880957, 0.5229013715006006)
-[05:27:41] [Server thread/WARN]: JuanSBN moved too quickly! -0.70346110623972,-0.9332859028650091,-0.06687949645700542 (0.7783689334464966, 16.52090756969946, 0.26059695698318086)
-[05:27:42] [Server thread/WARN]: JuanSBN moved too quickly! -1.4484329061337426,-1.1191804994375474,-0.30236008689919913 (2.548096412904247, 15.751976618892288, 0.30236008689919913)
-[05:27:42] [Server thread/WARN]: JuanSBN moved too quickly! -2.8403876421101995,-1.376192593713995,-0.8844476300177178 (5.119487435403132, 15.144572812526945, 1.1796277905538628)
-[05:27:42] [Server thread/WARN]: JuanSBN moved too quickly! -2.4327814585578373,-0.779395934059508,-0.9458459656411833 (6.935867638137166, 14.061410078065292, 2.074226381924354)
-[05:27:43] [Server thread/WARN]: JuanSBN moved too quickly! -2.6263405468373637,-0.5954989127418457,-1.1563541131943396 (8.514424459110682, 12.94814200842202, 2.9719112379986097)
-[05:27:43] [Server thread/WARN]: JuanSBN moved too quickly! -2.1998225063417487,-0.4324579838680904,-1.037016773862291 (9.454529789016258, 12.027505564877558, 3.6102901797045925)
-[05:27:43] [Server thread/WARN]: JuanSBN moved too quickly! -1.4780386972597108,-0.522163991270574,-0.7212399065936097 (9.614131789137296, 11.490485631020293, 3.857162069910423)
-[05:27:43] [Server thread/WARN]: JuanSBN moved too quickly! -1.1606468779663093,-0.624744618129327,-0.5765723998268868 (9.637288393471772, 11.229757904588942, 4.019768692089746)
-[05:27:44] [Server thread/WARN]: JuanSBN moved too quickly! -0.6845200282847821,-0.3638109587922287,-0.34323019017475076 (9.070146623923348, 10.685667356525181, 3.865288455171116)
-[05:27:44] [Server thread/WARN]: JuanSBN moved too quickly! -0.32736684868129684,-0.16666257552134311,-0.16518884949584844 (8.331935706658502, 10.102712310357639, 3.5969874338242778)
-[05:27:44] [Server thread/WARN]: JuanSBN moved too quickly! -0.1527226847622849,-0.07606689341689332,-0.07728845577290144 (7.601072665882069, 9.6007540507991, 3.3075137733035165)
-[05:27:45] [Server thread/WARN]: JuanSBN moved too quickly! -0.10559375163584939,-0.05157112111298545,-0.05357432140567653 (6.958087885708288, 9.213518950104122, 3.043806653440191)
-[05:27:45] [Server thread/WARN]: JuanSBN moved too quickly! -0.04941477043100706,-0.02394255080110952,-0.025022709325099868 (6.362403115257439, 8.915508789628108, 2.789547248688938)
-[05:27:45] [Server thread/WARN]: JuanSBN moved too quickly! -0.014821630454512569,-0.007166740126933746,-0.007495028818766514 (5.803274685847252, 8.66582218782057, 2.5453085458874023)
-[05:27:45] [Server thread/WARN]: JuanSBN moved too quickly! -0.005330175388302827,-0.0025773130666095767,-0.0026953727032719144 (5.28583057606108, 8.416631674680156, 2.318683632741549)
-[05:27:54] [Server thread/INFO]: JuanSBN fell from a high place
-[05:28:00] [Server thread/INFO]: [Jeffrey_epstein: Teleported JuanSBN to Jeffrey_epstein]
-[05:28:19] [Server thread/INFO]: <Jeffrey_epstein> que
-[05:28:29] [Server thread/INFO]: <Jeffrey_epstein> yo tampoco viejo
-[05:28:30] [Server thread/INFO]: <Jeffrey_epstein> nose
-[05:28:46] [Server thread/INFO]: <Jeffrey_epstein> mano
-[05:29:05] [Server thread/INFO]: <Jeffrey_epstein> ud se enoja si le digo que toca reiniciar para que sea fantastico??
-[05:29:12] [Server thread/INFO]: <Jeffrey_epstein> esq no cargo el tg super
-[05:29:23] [Server thread/INFO]: <Jeffrey_epstein> ale
-[05:29:31] [Server thread/INFO]: <Jeffrey_epstein> y ademas pille lo que le puse al server
-[05:29:34] [Server thread/INFO]: <Jeffrey_epstein> en el menu
-[05:29:41] [Server thread/INFO]: JuanSBN lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[05:29:41] [Server thread/INFO]: JuanSBN left the game
-[05:29:55] [Server thread/INFO]: Jeffrey_epstein lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[05:29:55] [Server thread/INFO]: Jeffrey_epstein left the game
-[05:30:13] [Server thread/INFO]: JuanSBN[/100.118.149.18:63131] logged in with entity id 23566 at (-2.2993179679569513, 69.0, 211.275766234579)
-[05:30:13] [Server thread/INFO]: JuanSBN joined the game
-[05:30:46] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.NoSuchMethodError: net.minecraft.util.FoodStats.func_75114_a(I)V
-	at com.blocklings.items.ItemBlockling.func_77659_a(ItemBlockling.java:110) ~[ItemBlockling.class:?]
-	at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:146) ~[add.class:?]
-	at net.minecraft.server.management.ItemInWorldManager.func_73085_a(ItemInWorldManager.java:316) ~[mx.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147346_a(NetHandlerPlayServer.java:539) ~[nh.class:?]
-	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:60) ~[jo.class:?]
-	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:9) ~[jo.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) ~[ej.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) ~[nc.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) ~[MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) ~[lt.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[05:30:46] [Server thread/ERROR]: This crash report has been saved to: /workspaces/Los4fantasticos/servidor_minecraft/./crash-reports/crash-2025-08-11_05.30.46-server.txt
-[05:30:46] [Server thread/INFO]: Stopping server
-[05:30:46] [Server thread/INFO]: Saving players
-[05:30:46] [Server thread/INFO]: Saving worlds
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Moon
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Mars
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Lost World
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Diona
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Koentus
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Polongnius
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Nibiru
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Fronos
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Kapteyn B
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Sirius B
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Mercury
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/The Moon
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Venus
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Quantum Realm
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Pluto
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Deimos
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Phobos
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Dark Asteroids
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/the_aether
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Wyvern Lair
-[05:30:46] [Server thread/INFO]: Saving chunks for level 'world'/Jupiter
+[05:34:32] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[05:34:40] [Server thread/INFO]: Loading properties
+[05:34:40] [Server thread/INFO]: Default game type: SURVIVAL
+[05:34:40] [Server thread/INFO]: Generating keypair
+[05:34:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:34:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:34:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:34:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:34:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:34:41] [Server thread/INFO]: Preparing level "world"
+[05:34:45] [Server thread/INFO]: Preparing start region for level 0
+[05:34:46] [Server thread/INFO]: Done (4.667s)! For help, type "help" or "?"
+[05:35:04] [Server thread/INFO]: JuanSBN[/100.118.149.18:63293] logged in with entity id 12332 at (9.518529487653772, 71.0, 216.3311243606246)
+[05:35:04] [Server thread/INFO]: JuanSBN joined the game
+[05:35:05] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:54359] logged in with entity id 12357 at (7.860448894187293, 78.44225972861659, 218.2659450580422)
+[05:35:05] [Server thread/INFO]: Jeffrey_epstein joined the game
+[05:35:54] [Server thread/INFO]: <Jeffrey_epstein> pille
+[05:36:41] [Server thread/INFO]: JuanSBN was jabbed to death by Jeffrey_epstein
+[05:36:45] [Server thread/INFO]: <Jeffrey_epstein> JAJAJJA
+[05:36:53] [Server thread/INFO]: [Jeffrey_epstein: Teleported JuanSBN to Jeffrey_epstein]
+[05:37:09] [Server thread/INFO]: <Jeffrey_epstein> y pille
+[05:37:26] [Server thread/INFO]: <Jeffrey_epstein> pere
+[05:37:58] [Server thread/INFO]: <Jeffrey_epstein> quita mas que el puño no?
+[05:38:11] [Server thread/INFO]: <Jeffrey_epstein> si o no viejo
+[05:39:16] [Server thread/INFO]: <Jeffrey_epstein> bof
+[05:39:42] [Server thread/WARN]: JuanSBN was kicked for floating too long!
+[05:39:42] [Server thread/INFO]: JuanSBN lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[05:39:42] [Server thread/INFO]: JuanSBN left the game
+[05:39:52] [Server thread/INFO]: JuanSBN[/100.118.149.18:63373] logged in with entity id 15971 at (6.384821109546728, 77.31109846434636, 222.44039755216784)
+[05:39:52] [Server thread/INFO]: JuanSBN joined the game
+[05:41:08] [Server thread/INFO]: <Jeffrey_epstein> bof
+[05:41:50] [Server thread/INFO]: [Jeffrey_epstein: Changing to clear weather]
+[05:42:39] [Server thread/WARN]: JuanSBN moved wrongly!
+[05:42:40] [Server thread/INFO]: <Jeffrey_epstein> melo el mod no?
+[05:42:56] [Server thread/INFO]: <Jeffrey_epstein> por eso lo vale joder tanto con el server
+[05:43:53] [Server thread/INFO]: [Jeffrey_epstein: Cleared the inventory of Jeffrey_epstein, removing 19 items]
+[05:44:10] [Server thread/INFO]: [Jeffrey_epstein: Cleared the inventory of JuanSBN, removing 69 items]
+[05:44:11] [Server thread/INFO]: JuanSBN fell from a high place
+[05:44:15] [Server thread/INFO]: <Jeffrey_epstein> JAJAJJAAJ
+[05:44:27] [Server thread/INFO]: <Jeffrey_epstein> la mole se murio
+[05:44:34] [Server thread/INFO]: <Jeffrey_epstein> la agarraron a tiros
+[05:44:44] [Server thread/INFO]: [Jeffrey_epstein: Set the time to 1000]
+[05:44:51] [Server thread/INFO]: [Jeffrey_epstein: Set game difficulty to Peaceful]
+[05:44:57] [Server thread/INFO]: [Jeffrey_epstein: Set game difficulty to Normal]
+[05:45:05] [Server thread/INFO]: [Jeffrey_epstein: Set own game mode to Survival Mode]
+[05:45:17] [Server thread/INFO]: <Jeffrey_epstein> listo
+[05:45:19] [Server thread/INFO]: <Jeffrey_epstein> ahora si
+[05:45:24] [Server thread/INFO]: <Jeffrey_epstein> juguemos a ver
+[05:45:38] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Getting Wood]
+[05:45:50] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Benchmarking]
+[05:46:14] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Time to Mine!]
+[05:47:09] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Getting an Upgrade]
+[05:47:22] [Server thread/INFO]: <Jeffrey_epstein> vamos a otra parte a ver si hay valle??
+[05:47:34] [Server thread/INFO]: <Jeffrey_epstein> ale ale
+[05:48:15] [Server thread/INFO]: <Jeffrey_epstein> como diria la mole
+[05:48:20] [Server thread/INFO]: <Jeffrey_epstein> hora de violar mujeres
+[05:51:31] [Server thread/INFO]: <Jeffrey_epstein> el mapa es ta bug no?
+[05:51:47] [Server thread/INFO]: <Jeffrey_epstein> no nada ya me cargo bien
+[05:52:18] [Server thread/INFO]: <Jeffrey_epstein> gracias a dios
+[05:52:33] [Server thread/INFO]: <Jeffrey_epstein> mano la real
+[05:52:42] [Server thread/INFO]: <Jeffrey_epstein> desde que le di chimbo al pc todo va mejor
+[05:53:26] [Server thread/INFO]: <Jeffrey_epstein> nada que vemos valle
+[05:53:39] [Server thread/INFO]: <Jeffrey_epstein> pero mentira le puse las 16 de ram al server
+[05:53:55] [Server thread/WARN]: Jeffrey_epstein moved wrongly!
+[05:55:39] [Server Shutdown Thread/INFO]: Stopping server
