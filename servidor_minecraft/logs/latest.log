@@ -1,26 +1,23 @@
-[03:55:21] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[03:55:29] [Server thread/INFO]: Loading properties
-[03:55:29] [Server thread/INFO]: Default game type: SURVIVAL
-[03:55:29] [Server thread/INFO]: Generating keypair
-[03:55:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:55:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:55:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:55:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:55:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:55:30] [Server thread/INFO]: Preparing level "world"
-[03:55:34] [Server thread/INFO]: Preparing start region for level 0
-[03:55:35] [Server thread/INFO]: Done (4.671s)! For help, type "help" or "?"
-[03:56:20] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53265] logged in with entity id 12350 at (203.5, 72.5, 809.5)
-[03:56:20] [Server thread/INFO]: Jeffrey_epstein joined the game
-[03:56:27] [Server thread/INFO]: Jeffrey_epstein was slain by Zombie
-[03:56:50] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 207.5,71.5,822.5]
-[03:57:25] [Server thread/INFO]: JuanSBN[/100.118.149.18:60958] logged in with entity id 14542 at (206.06383317961513, 70.10408037809304, 796.4827498492508)
-[03:57:25] [Server thread/INFO]: JuanSBN joined the game
-[03:57:28] [Server thread/INFO]: Jeffrey_epstein lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[03:57:28] [Server thread/INFO]: Jeffrey_epstein left the game
-[03:59:04] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56228] logged in with entity id 15963 at (265.5, 76.0999984741211, 624.5)
-[03:59:04] [Server thread/INFO]: Theplaiboy joined the game
-[03:59:38] [Server thread/ERROR]: Encountered an unexpected exception
+[04:04:17] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[04:04:24] [Server thread/INFO]: Loading properties
+[04:04:24] [Server thread/INFO]: Default game type: SURVIVAL
+[04:04:24] [Server thread/INFO]: Generating keypair
+[04:04:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:04:26] [Server thread/INFO]: Preparing level "world"
+[04:04:30] [Server thread/INFO]: Preparing start region for level 0
+[04:04:31] [Server thread/INFO]: Done (4.912s)! For help, type "help" or "?"
+[04:04:49] [Server thread/INFO]: JuanSBN[/100.118.149.18:61260] logged in with entity id 12360 at (189.314703703011, 72.0, 800.9004629442693)
+[04:04:49] [Server thread/INFO]: JuanSBN joined the game
+[04:05:11] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53390] logged in with entity id 13185 at (187.54265804465092, 72.0, 801.7565320099094)
+[04:05:11] [Server thread/INFO]: Jeffrey_epstein joined the game
+[04:05:15] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56364] logged in with entity id 13199 at (258.53393383474787, 76.4807108763317, 630.3985976289524)
+[04:05:15] [Server thread/INFO]: Theplaiboy joined the game
+[04:05:44] [Server thread/INFO]: <Jeffrey_epstein> le voy a meter el chimbo al pc
+[04:05:45] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.NoSuchMethodError: net.minecraft.util.FoodStats.func_75114_a(I)V
 	at com.blocklings.items.ItemBlockling.func_77659_a(ItemBlockling.java:110) ~[ItemBlockling.class:?]
 	at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:146) ~[add.class:?]
@@ -35,32 +32,32 @@ java.lang.NoSuchMethodError: net.minecraft.util.FoodStats.func_75114_a(I)V
 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[03:59:38] [Server thread/ERROR]: This crash report has been saved to: /workspaces/Los4fantasticos/servidor_minecraft/./crash-reports/crash-2025-08-11_03.59.38-server.txt
-[03:59:38] [Server thread/INFO]: Stopping server
-[03:59:38] [Server thread/INFO]: Saving players
-[03:59:38] [Server thread/INFO]: Saving worlds
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Moon
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Mars
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Lost World
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Diona
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Koentus
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Polongnius
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Nibiru
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Fronos
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Kapteyn B
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Sirius B
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Mercury
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/The Moon
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Venus
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Quantum Realm
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Pluto
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Deimos
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Phobos
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Dark Asteroids
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/the_aether
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Wyvern Lair
-[03:59:38] [Server thread/INFO]: Saving chunks for level 'world'/Jupiter
+[04:05:45] [Server thread/ERROR]: This crash report has been saved to: /workspaces/Los4fantasticos/servidor_minecraft/./crash-reports/crash-2025-08-11_04.05.45-server.txt
+[04:05:45] [Server thread/INFO]: Stopping server
+[04:05:45] [Server thread/INFO]: Saving players
+[04:05:45] [Server thread/INFO]: Saving worlds
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Moon
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Mars
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Lost World
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Diona
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Koentus
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Polongnius
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Nibiru
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Fronos
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Kapteyn B
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Sirius B
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Mercury
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/The Moon
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Venus
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Quantum Realm
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Pluto
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Deimos
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Phobos
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Dark Asteroids
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/the_aether
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Wyvern Lair
+[04:05:45] [Server thread/INFO]: Saving chunks for level 'world'/Jupiter
