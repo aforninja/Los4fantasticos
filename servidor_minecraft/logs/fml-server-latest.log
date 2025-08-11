@@ -4838,3 +4838,128 @@ io.netty.handler.timeout.ReadTimeoutException
 [01:43:25] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
 [01:43:25] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
 [01:43:53] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Theplaiboy
+[01:44:06] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Theplaiboy
+[01:44:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:44:17] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[01:44:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:44:57] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: JuanSBN
+[01:45:32] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[01:45:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:46:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:47:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:47:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:48:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:49:14] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[01:49:14] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[01:49:14] [Netty IO #1/TRACE] [FML/]: $ModList:38 mods->FMLHandshakeServerState$2:HELLO
+[01:49:14] [Netty IO #1/INFO] [FML/]: Client attempting to join with 38 mods : NotEnoughItems@1.0.5.120,Waila@1.5.10,Forge@10.13.4.1614,Roguelike@1.5.0,CustomSpawner@3.3.0,iChunUtil@4.2.3,Aroma1997Core@1.0.2.16,CodeChickenCore@1.0.7.48,hammertime@Hammer Time-1.7.10-1.3.6,FoodExpansion@1.0,howlingmoon@1.1.1,mcp@9.05,gravestone@0.7.10.3,Sync@4.0.1,journeymap@5.2.10,securitycraft@v1.8.13,FML@7.10.99.99,ironbackpacks@1.7.10-1.2.20,BetterChests@1.1.1.9,MCA@1.7.10-5.2.2,Aroma1997CoreHelper@1.0.2.16,MoreFurnaces@1.3.9,MorePlanet@1.4.4,fiskheroescore@2.4.0,aether_legacy@v1.1.2.5,fiskheroes@2.4.0,fisktag@3.0,Micdoodlecore@,blocklings@2.1.1,tts@0.6,MoCreatures@6.3.1,RadixCore@2.1.3,dynamictrees@1.7.10-0.7.2c,thejungle@1.0.9,GalacticraftCore@3.0.12,chococraft@4.1.5,GalacticraftMars@3.0.12,fastfood@0.1.2
+[01:49:14] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[01:49:14] [Netty IO #1/INFO] [journeymap/]: CLIENT
+[01:49:14] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[01:49:15] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[01:49:15] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[01:49:15] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: JuanSBN
+[01:49:15] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[01:49:15] [Server thread/INFO] [STDOUT/]: [chococraft.common.events.ChocoboPlayerTracker:onPlayerLogin:60]: npe choco
+[01:49:15] [Server thread/INFO] [Waila/]: Player GCEntityPlayerMP['JuanSBN'/22362, l='world', x=217.69, y=73.00, z=260.78] connected. Sending ping
+[01:49:15] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[01:49:15] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[01:49:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:50:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:50:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:51:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:52:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:53:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:53:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:54:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:55:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:56:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:56:18] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Theplaiboy
+[01:56:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:57:09] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[01:57:14] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[01:57:24] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Theplaiboy
+[01:57:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:57:57] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: Jeffrey_epstein
+[01:58:08] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[01:58:08] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[01:58:08] [Netty IO #1/TRACE] [FML/]: $ModList:38 mods->FMLHandshakeServerState$2:HELLO
+[01:58:08] [Netty IO #1/INFO] [FML/]: Client attempting to join with 38 mods : NotEnoughItems@1.0.5.120,Waila@1.5.10,Forge@10.13.4.1614,Roguelike@1.5.0,CustomSpawner@3.3.0,iChunUtil@4.2.3,Aroma1997Core@1.0.2.16,CodeChickenCore@1.0.7.48,hammertime@Hammer Time-1.7.10-1.3.6,FoodExpansion@1.0,howlingmoon@1.1.1,mcp@9.05,gravestone@0.7.10.3,Sync@4.0.1,journeymap@5.2.10,securitycraft@v1.8.13,FML@7.10.99.99,ironbackpacks@1.7.10-1.2.20,BetterChests@1.1.1.9,MCA@1.7.10-5.2.2,Aroma1997CoreHelper@1.0.2.16,MoreFurnaces@1.3.9,MorePlanet@1.4.4,fiskheroescore@2.4.0,aether_legacy@v1.1.2.5,fiskheroes@2.4.0,fisktag@3.0,Micdoodlecore@,blocklings@2.1.1,tts@0.6,MoCreatures@6.3.1,RadixCore@2.1.3,dynamictrees@1.7.10-0.7.2c,thejungle@1.0.9,GalacticraftCore@3.0.12,chococraft@4.1.5,GalacticraftMars@3.0.12,fastfood@0.1.2
+[01:58:08] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[01:58:08] [Netty IO #1/INFO] [journeymap/]: CLIENT
+[01:58:08] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[01:58:09] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[01:58:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[01:58:09] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: Jeffrey_epstein
+[01:58:09] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[01:58:09] [Server thread/INFO] [STDOUT/]: [chococraft.common.events.ChocoboPlayerTracker:onPlayerLogin:60]: npe choco
+[01:58:09] [Server thread/INFO] [Waila/]: Player GCEntityPlayerMP['Jeffrey_epstein'/36202, l='world', x=228.50, y=72.00, z=253.50] connected. Sending ping
+[01:58:09] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[01:58:09] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[01:58:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:58:39] [Netty IO #1/ERROR] [FML/]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException
+[01:58:39] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: Jeffrey_epstein
+[01:59:09] [Netty IO #2/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[01:59:09] [Netty IO #2/INFO] [FML/]: Client protocol version 2
+[01:59:09] [Netty IO #2/TRACE] [FML/]: $ModList:38 mods->FMLHandshakeServerState$2:HELLO
+[01:59:09] [Netty IO #2/INFO] [FML/]: Client attempting to join with 38 mods : NotEnoughItems@1.0.5.120,Waila@1.5.10,Forge@10.13.4.1614,Roguelike@1.5.0,CustomSpawner@3.3.0,iChunUtil@4.2.3,Aroma1997Core@1.0.2.16,CodeChickenCore@1.0.7.48,hammertime@Hammer Time-1.7.10-1.3.6,FoodExpansion@1.0,howlingmoon@1.1.1,mcp@9.05,gravestone@0.7.10.3,Sync@4.0.1,journeymap@5.2.10,securitycraft@v1.8.13,FML@7.10.99.99,ironbackpacks@1.7.10-1.2.20,BetterChests@1.1.1.9,MCA@1.7.10-5.2.2,Aroma1997CoreHelper@1.0.2.16,MoreFurnaces@1.3.9,MorePlanet@1.4.4,fiskheroescore@2.4.0,aether_legacy@v1.1.2.5,fiskheroes@2.4.0,fisktag@3.0,Micdoodlecore@,blocklings@2.1.1,tts@0.6,MoCreatures@6.3.1,RadixCore@2.1.3,dynamictrees@1.7.10-0.7.2c,thejungle@1.0.9,GalacticraftCore@3.0.12,chococraft@4.1.5,GalacticraftMars@3.0.12,fastfood@0.1.2
+[01:59:09] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[01:59:09] [Netty IO #2/INFO] [journeymap/]: CLIENT
+[01:59:09] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[01:59:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:59:10] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[01:59:10] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[01:59:10] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: Jeffrey_epstein
+[01:59:10] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[01:59:10] [Server thread/INFO] [STDOUT/]: [chococraft.common.events.ChocoboPlayerTracker:onPlayerLogin:60]: npe choco
+[01:59:10] [Server thread/INFO] [Waila/]: Player GCEntityPlayerMP['Jeffrey_epstein'/37619, l='world', x=228.50, y=72.00, z=253.50] connected. Sending ping
+[01:59:10] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[01:59:10] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[01:59:11] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[01:59:33] [Server thread/INFO] [Fisk's Superheroes/]: Regenerated eternity_nexus structure data at [392 10 584]
+[01:59:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:00:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:01:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:01:25] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[02:01:53] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: Jeffrey_epstein
+[02:02:01] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[02:02:01] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[02:02:01] [Netty IO #1/TRACE] [FML/]: $ModList:38 mods->FMLHandshakeServerState$2:HELLO
+[02:02:01] [Netty IO #1/INFO] [FML/]: Client attempting to join with 38 mods : NotEnoughItems@1.0.5.120,Waila@1.5.10,Forge@10.13.4.1614,Roguelike@1.5.0,CustomSpawner@3.3.0,iChunUtil@4.2.3,Aroma1997Core@1.0.2.16,CodeChickenCore@1.0.7.48,hammertime@Hammer Time-1.7.10-1.3.6,FoodExpansion@1.0,howlingmoon@1.1.1,mcp@9.05,gravestone@0.7.10.3,Sync@4.0.1,journeymap@5.2.10,securitycraft@v1.8.13,FML@7.10.99.99,ironbackpacks@1.7.10-1.2.20,BetterChests@1.1.1.9,MCA@1.7.10-5.2.2,Aroma1997CoreHelper@1.0.2.16,MoreFurnaces@1.3.9,MorePlanet@1.4.4,fiskheroescore@2.4.0,aether_legacy@v1.1.2.5,fiskheroes@2.4.0,fisktag@3.0,Micdoodlecore@,blocklings@2.1.1,tts@0.6,MoCreatures@6.3.1,RadixCore@2.1.3,dynamictrees@1.7.10-0.7.2c,thejungle@1.0.9,GalacticraftCore@3.0.12,chococraft@4.1.5,GalacticraftMars@3.0.12,fastfood@0.1.2
+[02:02:01] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[02:02:01] [Netty IO #1/INFO] [journeymap/]: CLIENT
+[02:02:02] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[02:02:02] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[02:02:02] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[02:02:02] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: Jeffrey_epstein
+[02:02:02] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[02:02:02] [Server thread/INFO] [STDOUT/]: [chococraft.common.events.ChocoboPlayerTracker:onPlayerLogin:60]: npe choco
+[02:02:02] [Server thread/INFO] [Waila/]: Player GCEntityPlayerMP['Jeffrey_epstein'/42088, l='world', x=191.59, y=66.00, z=556.36] connected. Sending ping
+[02:02:03] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[02:02:03] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[02:02:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:02:33] [Netty IO #1/ERROR] [FML/]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException
+[02:02:33] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: Jeffrey_epstein
+[02:02:35] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: JuanSBN
+[02:02:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:03:12] [Netty IO #3/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[02:03:12] [Netty IO #3/INFO] [FML/]: Client protocol version 2
+[02:03:12] [Netty IO #3/TRACE] [FML/]: $ModList:38 mods->FMLHandshakeServerState$2:HELLO
+[02:03:12] [Netty IO #3/INFO] [FML/]: Client attempting to join with 38 mods : NotEnoughItems@1.0.5.120,Waila@1.5.10,Forge@10.13.4.1614,Roguelike@1.5.0,CustomSpawner@3.3.0,iChunUtil@4.2.3,Aroma1997Core@1.0.2.16,CodeChickenCore@1.0.7.48,hammertime@Hammer Time-1.7.10-1.3.6,FoodExpansion@1.0,howlingmoon@1.1.1,mcp@9.05,gravestone@0.7.10.3,Sync@4.0.1,journeymap@5.2.10,securitycraft@v1.8.13,FML@7.10.99.99,ironbackpacks@1.7.10-1.2.20,BetterChests@1.1.1.9,MCA@1.7.10-5.2.2,Aroma1997CoreHelper@1.0.2.16,MoreFurnaces@1.3.9,MorePlanet@1.4.4,fiskheroescore@2.4.0,aether_legacy@v1.1.2.5,fiskheroes@2.4.0,fisktag@3.0,Micdoodlecore@,blocklings@2.1.1,tts@0.6,MoCreatures@6.3.1,RadixCore@2.1.3,dynamictrees@1.7.10-0.7.2c,thejungle@1.0.9,GalacticraftCore@3.0.12,chococraft@4.1.5,GalacticraftMars@3.0.12,fastfood@0.1.2
+[02:03:12] [Netty IO #3/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[02:03:12] [Netty IO #3/INFO] [journeymap/]: CLIENT
+[02:03:12] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[02:03:13] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[02:03:13] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[02:03:13] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: Jeffrey_epstein
+[02:03:13] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: Jeffrey_epstein
+[02:03:13] [Server thread/INFO] [STDOUT/]: [chococraft.common.events.ChocoboPlayerTracker:onPlayerLogin:60]: npe choco
+[02:03:13] [Server thread/INFO] [Waila/]: Player GCEntityPlayerMP['Jeffrey_epstein'/43572, l='world', x=191.59, y=66.00, z=556.36] connected. Sending ping
+[02:03:13] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[02:03:13] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[02:03:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[02:03:43] [Netty IO #3/ERROR] [FML/]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException
+[02:03:43] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: Jeffrey_epstein
