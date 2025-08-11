@@ -1,8 +1,27 @@
-[03:23:16] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[03:23:25] [Server thread/INFO]: Loading properties
-[03:23:25] [Server thread/INFO]: Default game type: SURVIVAL
-[03:23:25] [Server thread/INFO]: Generating keypair
-[03:23:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:23:25] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[03:23:25] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
-[03:23:25] [Server thread/WARN]: Perhaps a server is already running on that port?
+[03:27:14] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[03:27:22] [Server thread/INFO]: Loading properties
+[03:27:22] [Server thread/INFO]: Default game type: SURVIVAL
+[03:27:22] [Server thread/INFO]: Generating keypair
+[03:27:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:27:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:27:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:27:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:27:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:27:23] [Server thread/INFO]: Preparing level "world"
+[03:27:28] [Server thread/INFO]: Preparing start region for level 0
+[03:27:29] [Server thread/INFO]: Done (5.201s)! For help, type "help" or "?"
+[03:28:19] [Server thread/INFO]: JuanSBN[/100.118.149.18:60759] logged in with entity id 12363 at (260.78078478088696, 63.0, 556.7694447465122)
+[03:28:19] [Server thread/INFO]: JuanSBN joined the game
+[03:28:47] [Server thread/INFO]: JuanSBN has just earned the achievement [Cow Tipper]
+[03:28:58] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53037] logged in with entity id 13001 at (256.23163144781347, 67.52160004615784, 538.4247143627014)
+[03:28:58] [Server thread/INFO]: Jeffrey_epstein joined the game
+[03:29:40] [Server thread/INFO]: Opped jeffrey_epstein
+[03:29:46] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 256.5,65.5,538.5]
+[03:30:32] [Server thread/INFO]: Jeffrey_epstein was slain by Werewolf Villager
+[03:30:37] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,65.5,560.5]
+[03:30:40] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,65.5,560.5]
+[03:31:20] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56040] logged in with entity id 14694 at (266.5483560547007, 76.0, 629.1527182321429)
+[03:31:20] [Server thread/INFO]: Theplaiboy joined the game
+[03:31:27] [Server thread/INFO]: Theplaiboy was slain by Zombie
+[03:34:53] [Server Shutdown Thread/INFO]: Stopping server
+[03:34:53] [Server Shutdown Thread/INFO]: Saving players
