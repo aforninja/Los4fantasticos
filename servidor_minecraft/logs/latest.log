@@ -1,27 +1,42 @@
-[03:27:14] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[03:27:22] [Server thread/INFO]: Loading properties
-[03:27:22] [Server thread/INFO]: Default game type: SURVIVAL
-[03:27:22] [Server thread/INFO]: Generating keypair
-[03:27:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:27:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:27:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:27:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:27:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:27:23] [Server thread/INFO]: Preparing level "world"
-[03:27:28] [Server thread/INFO]: Preparing start region for level 0
-[03:27:29] [Server thread/INFO]: Done (5.201s)! For help, type "help" or "?"
-[03:28:19] [Server thread/INFO]: JuanSBN[/100.118.149.18:60759] logged in with entity id 12363 at (260.78078478088696, 63.0, 556.7694447465122)
-[03:28:19] [Server thread/INFO]: JuanSBN joined the game
-[03:28:47] [Server thread/INFO]: JuanSBN has just earned the achievement [Cow Tipper]
-[03:28:58] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53037] logged in with entity id 13001 at (256.23163144781347, 67.52160004615784, 538.4247143627014)
-[03:28:58] [Server thread/INFO]: Jeffrey_epstein joined the game
-[03:29:40] [Server thread/INFO]: Opped jeffrey_epstein
-[03:29:46] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 256.5,65.5,538.5]
-[03:30:32] [Server thread/INFO]: Jeffrey_epstein was slain by Werewolf Villager
-[03:30:37] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,65.5,560.5]
-[03:30:40] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,65.5,560.5]
-[03:31:20] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56040] logged in with entity id 14694 at (266.5483560547007, 76.0, 629.1527182321429)
-[03:31:20] [Server thread/INFO]: Theplaiboy joined the game
-[03:31:27] [Server thread/INFO]: Theplaiboy was slain by Zombie
-[03:34:53] [Server Shutdown Thread/INFO]: Stopping server
-[03:34:53] [Server Shutdown Thread/INFO]: Saving players
+[03:35:26] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[03:35:34] [Server thread/INFO]: Loading properties
+[03:35:34] [Server thread/INFO]: Default game type: SURVIVAL
+[03:35:34] [Server thread/INFO]: Generating keypair
+[03:35:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:35:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:35:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:35:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:35:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:35:36] [Server thread/INFO]: Preparing level "world"
+[03:35:40] [Server thread/INFO]: Preparing start region for level 0
+[03:35:40] [Server thread/INFO]: Done (4.746s)! For help, type "help" or "?"
+[03:36:11] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53081] logged in with entity id 12362 at (262.180769930593, 63.0, 560.6999999880791)
+[03:36:11] [Server thread/INFO]: Jeffrey_epstein joined the game
+[03:37:02] [Server thread/INFO]: Jeffrey_epstein was blown up by Creeper
+[03:37:07] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,64.5,557.5]
+[03:37:54] [Server thread/INFO]: JuanSBN[/100.118.149.18:60840] logged in with entity id 15229 at (262.0903737658604, 63.0, 556.4393035982722)
+[03:37:54] [Server thread/INFO]: JuanSBN joined the game
+[03:38:33] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56075] logged in with entity id 15868 at (264.5, 76.0999984741211, 626.5)
+[03:38:33] [Server thread/INFO]: Theplaiboy joined the game
+[03:44:19] [Server thread/INFO]: Theplaiboy was blown up by Creeper
+[03:45:57] [Server thread/INFO]: JuanSBN has just earned the achievement [Time to Mine!]
+[03:45:57] [Server thread/INFO]: JuanSBN has just earned the achievement [Getting an Upgrade]
+[03:46:23] [Server thread/INFO]: <Jeffrey_epstein> afk
+[03:46:57] [Server thread/INFO]: JuanSBN has just earned the achievement [Hot Topic]
+[03:47:53] [Server thread/INFO]: Jeffrey_epstein was slain by Zombie
+[03:48:17] [Server thread/INFO]: <Jeffrey_epstein> q ijueputa risa
+[03:48:21] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 259.5,64.5,557.5]
+[03:48:27] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 186.5,75.5,794.5]
+[03:50:27] [Server thread/INFO]: <Jeffrey_epstein> ve tiene madera??
+[03:50:41] [Server thread/INFO]: <Theplaiboy> no
+[03:50:51] [Server thread/INFO]: <Jeffrey_epstein> perro maricon no hablo con vos
+[03:50:55] [Server thread/INFO]: <Jeffrey_epstein> pedazo de mierda
+[03:51:40] [Server thread/INFO]: <Jeffrey_epstein> el diablo esta afuera
+[03:52:14] [Server thread/INFO]: <Jeffrey_epstein> como esq se domestican los blockis
+[03:52:45] [Server thread/INFO]: <Jeffrey_epstein> suyo?
+[03:52:55] [Server thread/INFO]: <Jeffrey_epstein> que lastima pq lo voy a violar
+[03:53:51] [Server thread/INFO]: <Jeffrey_epstein> cabrones
+[03:53:55] [Server thread/INFO]: <Jeffrey_epstein> me querian matar
+[03:53:59] [Server thread/INFO]: Jeffrey_epstein was slain by Zombie
+[03:54:05] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 203.5,72.5,809.5]
+[03:54:54] [Server Shutdown Thread/INFO]: Stopping server
