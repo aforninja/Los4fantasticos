@@ -1,65 +1,28 @@
-[05:34:32] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[05:34:40] [Server thread/INFO]: Loading properties
-[05:34:40] [Server thread/INFO]: Default game type: SURVIVAL
-[05:34:40] [Server thread/INFO]: Generating keypair
-[05:34:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:34:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:34:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:34:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:34:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:34:41] [Server thread/INFO]: Preparing level "world"
-[05:34:45] [Server thread/INFO]: Preparing start region for level 0
-[05:34:46] [Server thread/INFO]: Done (4.667s)! For help, type "help" or "?"
-[05:35:04] [Server thread/INFO]: JuanSBN[/100.118.149.18:63293] logged in with entity id 12332 at (9.518529487653772, 71.0, 216.3311243606246)
-[05:35:04] [Server thread/INFO]: JuanSBN joined the game
-[05:35:05] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:54359] logged in with entity id 12357 at (7.860448894187293, 78.44225972861659, 218.2659450580422)
-[05:35:05] [Server thread/INFO]: Jeffrey_epstein joined the game
-[05:35:54] [Server thread/INFO]: <Jeffrey_epstein> pille
-[05:36:41] [Server thread/INFO]: JuanSBN was jabbed to death by Jeffrey_epstein
-[05:36:45] [Server thread/INFO]: <Jeffrey_epstein> JAJAJJA
-[05:36:53] [Server thread/INFO]: [Jeffrey_epstein: Teleported JuanSBN to Jeffrey_epstein]
-[05:37:09] [Server thread/INFO]: <Jeffrey_epstein> y pille
-[05:37:26] [Server thread/INFO]: <Jeffrey_epstein> pere
-[05:37:58] [Server thread/INFO]: <Jeffrey_epstein> quita mas que el puño no?
-[05:38:11] [Server thread/INFO]: <Jeffrey_epstein> si o no viejo
-[05:39:16] [Server thread/INFO]: <Jeffrey_epstein> bof
-[05:39:42] [Server thread/WARN]: JuanSBN was kicked for floating too long!
-[05:39:42] [Server thread/INFO]: JuanSBN lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[05:39:42] [Server thread/INFO]: JuanSBN left the game
-[05:39:52] [Server thread/INFO]: JuanSBN[/100.118.149.18:63373] logged in with entity id 15971 at (6.384821109546728, 77.31109846434636, 222.44039755216784)
-[05:39:52] [Server thread/INFO]: JuanSBN joined the game
-[05:41:08] [Server thread/INFO]: <Jeffrey_epstein> bof
-[05:41:50] [Server thread/INFO]: [Jeffrey_epstein: Changing to clear weather]
-[05:42:39] [Server thread/WARN]: JuanSBN moved wrongly!
-[05:42:40] [Server thread/INFO]: <Jeffrey_epstein> melo el mod no?
-[05:42:56] [Server thread/INFO]: <Jeffrey_epstein> por eso lo vale joder tanto con el server
-[05:43:53] [Server thread/INFO]: [Jeffrey_epstein: Cleared the inventory of Jeffrey_epstein, removing 19 items]
-[05:44:10] [Server thread/INFO]: [Jeffrey_epstein: Cleared the inventory of JuanSBN, removing 69 items]
-[05:44:11] [Server thread/INFO]: JuanSBN fell from a high place
-[05:44:15] [Server thread/INFO]: <Jeffrey_epstein> JAJAJJAAJ
-[05:44:27] [Server thread/INFO]: <Jeffrey_epstein> la mole se murio
-[05:44:34] [Server thread/INFO]: <Jeffrey_epstein> la agarraron a tiros
-[05:44:44] [Server thread/INFO]: [Jeffrey_epstein: Set the time to 1000]
-[05:44:51] [Server thread/INFO]: [Jeffrey_epstein: Set game difficulty to Peaceful]
-[05:44:57] [Server thread/INFO]: [Jeffrey_epstein: Set game difficulty to Normal]
-[05:45:05] [Server thread/INFO]: [Jeffrey_epstein: Set own game mode to Survival Mode]
-[05:45:17] [Server thread/INFO]: <Jeffrey_epstein> listo
-[05:45:19] [Server thread/INFO]: <Jeffrey_epstein> ahora si
-[05:45:24] [Server thread/INFO]: <Jeffrey_epstein> juguemos a ver
-[05:45:38] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Getting Wood]
-[05:45:50] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Benchmarking]
-[05:46:14] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Time to Mine!]
-[05:47:09] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Getting an Upgrade]
-[05:47:22] [Server thread/INFO]: <Jeffrey_epstein> vamos a otra parte a ver si hay valle??
-[05:47:34] [Server thread/INFO]: <Jeffrey_epstein> ale ale
-[05:48:15] [Server thread/INFO]: <Jeffrey_epstein> como diria la mole
-[05:48:20] [Server thread/INFO]: <Jeffrey_epstein> hora de violar mujeres
-[05:51:31] [Server thread/INFO]: <Jeffrey_epstein> el mapa es ta bug no?
-[05:51:47] [Server thread/INFO]: <Jeffrey_epstein> no nada ya me cargo bien
-[05:52:18] [Server thread/INFO]: <Jeffrey_epstein> gracias a dios
-[05:52:33] [Server thread/INFO]: <Jeffrey_epstein> mano la real
-[05:52:42] [Server thread/INFO]: <Jeffrey_epstein> desde que le di chimbo al pc todo va mejor
-[05:53:26] [Server thread/INFO]: <Jeffrey_epstein> nada que vemos valle
-[05:53:39] [Server thread/INFO]: <Jeffrey_epstein> pero mentira le puse las 16 de ram al server
-[05:53:55] [Server thread/WARN]: Jeffrey_epstein moved wrongly!
-[05:55:39] [Server Shutdown Thread/INFO]: Stopping server
+[14:58:07] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:58:15] [Server thread/INFO]: Loading properties
+[14:58:15] [Server thread/INFO]: Default game type: SURVIVAL
+[14:58:15] [Server thread/INFO]: Generating keypair
+[14:58:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:58:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:58:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:58:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:58:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:58:17] [Server thread/INFO]: Preparing level "world"
+[14:58:22] [Server thread/INFO]: Preparing start region for level 0
+[14:58:23] [Server thread/INFO]: Done (5.760s)! For help, type "help" or "?"
+[14:59:37] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:50234] logged in with entity id 12265 at (-110.05696691303999, 64.0, 123.92634689158845)
+[14:59:37] [Server thread/INFO]: Jeffrey_epstein joined the game
+[15:01:36] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Head (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:01:37] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Chestpiece (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:01:37] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Pants (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:01:38] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Shoes (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:01:52] [Server thread/INFO]: [Jeffrey_epstein: Cleared the inventory of Jeffrey_epstein, removing 6 items]
+[15:01:54] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Chestpiece (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:01:58] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Head (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:02:01] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Pants (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:02:06] [Server thread/INFO]: [Jeffrey_epstein: Given [Human Torch's Shoes (Johnny Storm)] * 1 to Jeffrey_epstein]
+[15:06:06] [Server thread/INFO]: Jeffrey_epstein fell from a high place
+[15:06:16] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 465.5,61.5,864.5]
+[15:06:17] [Server thread/WARN]: Fetching addPacket for removed entity
+[15:06:37] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 119.5,73.5,-105.5]
+[15:06:37] [Server thread/WARN]: Fetching addPacket for removed entity
