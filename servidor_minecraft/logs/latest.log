@@ -1,14 +1,8 @@
-[02:58:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[02:58:58] [Server thread/INFO]: Loading properties
-[02:58:58] [Server thread/INFO]: Default game type: SURVIVAL
-[02:58:58] [Server thread/INFO]: Generating keypair
-[02:58:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:58:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:58:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:58:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:58:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:59:00] [Server thread/INFO]: Preparing level "world"
-[02:59:05] [Server thread/INFO]: Preparing start region for level 0
-[02:59:05] [Server thread/INFO]: Done (4.870s)! For help, type "help" or "?"
-[03:07:42] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:52723] logged in with entity id 12439 at (200.97572817816084, 70.0, 484.6698020562304)
-[03:07:42] [Server thread/INFO]: Jeffrey_epstein joined the game
+[03:22:22] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[03:22:33] [Server thread/INFO]: Loading properties
+[03:22:33] [Server thread/INFO]: Default game type: SURVIVAL
+[03:22:33] [Server thread/INFO]: Generating keypair
+[03:22:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:22:33] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[03:22:33] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
+[03:22:33] [Server thread/WARN]: Perhaps a server is already running on that port?
