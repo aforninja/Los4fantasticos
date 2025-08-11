@@ -1,25 +1,20 @@
-[04:18:07] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[04:18:15] [Server thread/INFO]: Loading properties
-[04:18:15] [Server thread/INFO]: Default game type: SURVIVAL
-[04:18:15] [Server thread/INFO]: Generating keypair
-[04:18:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:18:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:18:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:18:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:18:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:18:16] [Server thread/INFO]: Preparing level "world"
-[04:18:21] [Server thread/INFO]: Preparing start region for level 0
-[04:18:21] [Server thread/INFO]: Done (4.884s)! For help, type "help" or "?"
-[04:18:37] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53563] logged in with entity id 12360 at (256.60134823621354, 14.0, 799.9215491775032)
-[04:18:37] [Server thread/INFO]: Jeffrey_epstein joined the game
-[04:18:56] [Server thread/INFO]: JuanSBN[/100.118.149.18:61434] logged in with entity id 13057 at (259.6702002763292, 14.0, 801.4168471661974)
-[04:18:56] [Server thread/INFO]: JuanSBN joined the game
-[04:19:14] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56520] logged in with entity id 13254 at (250.30000001192087, 11.0, 789.4359950488353)
-[04:19:14] [Server thread/INFO]: Theplaiboy joined the game
-[04:20:08] [Server thread/INFO]: <Jeffrey_epstein> oe tienen mas madera?
-[04:20:25] [Server thread/INFO]: <Jeffrey_epstein> listo
-[04:20:44] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Hot Topic]
-[04:20:49] [Server thread/INFO]: <JuanSBN> x 258.31 y 14 z 801.636
-[04:20:59] [Server thread/INFO]: <Jeffrey_epstein> que dice este man
-[04:21:16] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Acquire Hardware]
-[04:23:19] [Server Shutdown Thread/INFO]: Stopping server
+[04:26:35] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[04:26:42] [Server thread/INFO]: Loading properties
+[04:26:42] [Server thread/INFO]: Default game type: SURVIVAL
+[04:26:42] [Server thread/INFO]: Generating keypair
+[04:26:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:26:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:26:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:26:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:26:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:26:43] [Server thread/INFO]: Preparing level "world"
+[04:26:47] [Server thread/INFO]: Preparing start region for level 0
+[04:26:48] [Server thread/INFO]: Done (4.728s)! For help, type "help" or "?"
+[04:28:03] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53667] logged in with entity id 12360 at (285.14439925380833, 15.0, 836.5998961410704)
+[04:28:03] [Server thread/INFO]: Jeffrey_epstein joined the game
+[04:28:05] [Server thread/INFO]: JuanSBN[/100.118.149.18:61924] logged in with entity id 12999 at (283.3305530330548, 12.0, 826.7201972635944)
+[04:28:05] [Server thread/INFO]: JuanSBN joined the game
+[04:28:05] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56622] logged in with entity id 13027 at (267.3710280108745, 35.0, 795.8852151221762)
+[04:28:05] [Server thread/INFO]: Theplaiboy joined the game
+[04:28:38] [Server thread/INFO]: <Jeffrey_epstein> LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO LOS ODIO
+[04:30:31] [Server Shutdown Thread/INFO]: Stopping server
