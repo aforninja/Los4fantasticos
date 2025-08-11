@@ -1,30 +1,25 @@
-[04:06:17] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[04:06:25] [Server thread/INFO]: Loading properties
-[04:06:25] [Server thread/INFO]: Default game type: SURVIVAL
-[04:06:25] [Server thread/INFO]: Generating keypair
-[04:06:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:06:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:06:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:06:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:06:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:06:26] [Server thread/INFO]: Preparing level "world"
-[04:06:30] [Server thread/INFO]: Preparing start region for level 0
-[04:06:31] [Server thread/INFO]: Done (4.647s)! For help, type "help" or "?"
-[04:06:46] [Server thread/INFO]: JuanSBN[/100.118.149.18:61313] logged in with entity id 12358 at (201.75024952256916, 71.0, 803.6640290511743)
-[04:06:46] [Server thread/INFO]: JuanSBN joined the game
-[04:06:48] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53402] logged in with entity id 13074 at (187.7388488707346, 72.0, 801.7496600521118)
-[04:06:48] [Server thread/INFO]: Jeffrey_epstein joined the game
-[04:07:44] [Server thread/INFO]: <Jeffrey_epstein> pero si se pueden mirar los inventarios
-[04:07:54] [Server thread/INFO]: <Jeffrey_epstein> nomas no agarrarlos ni ponerlos
-[04:08:20] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56406] logged in with entity id 15000 at (258.53393383474787, 76.0, 630.3985976289524)
-[04:08:20] [Server thread/INFO]: Theplaiboy joined the game
-[04:11:13] [Server thread/INFO]: <Jeffrey_epstein> illo tormenta
-[04:11:39] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Time to Mine!]
-[04:11:39] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Getting an Upgrade]
-[04:13:16] [Server thread/INFO]: Jeffrey_epstein was slain by Zombie
-[04:13:22] [Server thread/INFO]: [Jeffrey_epstein: Teleported Jeffrey_epstein to 245.5,65.5,786.5]
-[04:14:20] [Server thread/INFO]: <Jeffrey_epstein> 2
-[04:15:10] [Server thread/INFO]: <Jeffrey_epstein> oe llegate
-[04:15:14] [Server thread/INFO]: <Jeffrey_epstein> tengo titanio
-[04:17:08] [Server thread/INFO]: <Jeffrey_epstein> tiene madera?
-[04:17:40] [Server Shutdown Thread/INFO]: Stopping server
+[04:18:07] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[04:18:15] [Server thread/INFO]: Loading properties
+[04:18:15] [Server thread/INFO]: Default game type: SURVIVAL
+[04:18:15] [Server thread/INFO]: Generating keypair
+[04:18:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:18:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:18:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:18:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:18:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:18:16] [Server thread/INFO]: Preparing level "world"
+[04:18:21] [Server thread/INFO]: Preparing start region for level 0
+[04:18:21] [Server thread/INFO]: Done (4.884s)! For help, type "help" or "?"
+[04:18:37] [Server thread/INFO]: Jeffrey_epstein[/100.73.215.2:53563] logged in with entity id 12360 at (256.60134823621354, 14.0, 799.9215491775032)
+[04:18:37] [Server thread/INFO]: Jeffrey_epstein joined the game
+[04:18:56] [Server thread/INFO]: JuanSBN[/100.118.149.18:61434] logged in with entity id 13057 at (259.6702002763292, 14.0, 801.4168471661974)
+[04:18:56] [Server thread/INFO]: JuanSBN joined the game
+[04:19:14] [Server thread/INFO]: Theplaiboy[/100.97.167.25:56520] logged in with entity id 13254 at (250.30000001192087, 11.0, 789.4359950488353)
+[04:19:14] [Server thread/INFO]: Theplaiboy joined the game
+[04:20:08] [Server thread/INFO]: <Jeffrey_epstein> oe tienen mas madera?
+[04:20:25] [Server thread/INFO]: <Jeffrey_epstein> listo
+[04:20:44] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Hot Topic]
+[04:20:49] [Server thread/INFO]: <JuanSBN> x 258.31 y 14 z 801.636
+[04:20:59] [Server thread/INFO]: <Jeffrey_epstein> que dice este man
+[04:21:16] [Server thread/INFO]: Jeffrey_epstein has just earned the achievement [Acquire Hardware]
+[04:23:19] [Server Shutdown Thread/INFO]: Stopping server
